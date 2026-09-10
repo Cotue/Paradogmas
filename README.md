@@ -1,8 +1,8 @@
 # Paradogmas
 
 Para compilar el proyecto ejecute en la terminal:
-->make
+->mingw32-make
 para limpiar la compilacion anterior
-->make clean
+->mingw32-make clean
 Para ejecutar el programa
 ->./cemestre.exe
