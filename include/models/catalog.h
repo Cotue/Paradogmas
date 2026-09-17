@@ -16,4 +16,7 @@ typedef struct {
 void catalog_init(Catalog *catalog);
 void catalog_free(Catalog *catalog);
 
+Course* find_course_by_code(Catalog *catalog, const char *code);
+Course* catalog_add_course(Catalog *catalog, const char *code, const char *name, int credits, int semester);
+
 #endif

@@ -13,3 +13,4 @@ typedef struct {
 void code_list_init(CodeList *list); // se inicia un codelist
 void code_list_free(CodeList *list); // se limpia un codelist
 #endif
+int code_list_add(CodeList *list, const char *code);

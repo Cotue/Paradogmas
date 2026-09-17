@@ -30,4 +30,7 @@ typedef struct {
 void course_init(Course *course);
 void course_free(Course *course);
 
+Group* find_group_by_number(Course *course, int number);
+Group* course_add_group(Course *course, int number);
+
 #endif

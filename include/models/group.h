@@ -15,3 +15,4 @@ typedef struct {
 void group_init(Group *group);
 void group_free(Group *group);
 #endif
+Schedule* group_add_schedule(Group *group, Day day, int start_minutes, int end_minutes);
