@@ -1,6 +1,7 @@
 #include "catalog_parser.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "validator.h"
 #include <string.h>
 
 static int parse_code_list(CodeList *list, const char *field) {
@@ -80,13 +81,52 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
         const char *grupo_str = columns[7];
         
         // [INTEGRACIÓN 7B]: Validaciones de formato aquí.
-        
+// [INTEGRACIÓN 7B]: Validaciones de formato
+        if (validate_course_identity(codigo, nombre) != SUCCESS) {
+            printf("Error: Código o nombre de curso inválido en línea %d.\n", line_number);
+            fclose(file);
+            catalog_free(catalog);
+            return ERROR_INVALID_FORMAT;
+        }
+
+        if (validate_day_format(columns[8]) != SUCCESS) {
+            printf("Error: Día inválido en línea %d.\n", line_number);
+            fclose(file);
+            catalog_free(catalog);
+            return ERROR_INVALID_FORMAT;
+        }
+
+        if (validate_time_format(columns[9], columns[10]) != SUCCESS) {
+            printf("Error: Horario inválido en línea %d.\n", line_number);
+            fclose(file);
+            catalog_free(catalog);
+            return ERROR_INVALID_FORMAT;
+        }
+
         int creditos = atoi(creditos_str);
         int semestre = atoi(columns[1]);
         int grupo_num = atoi(grupo_str);
-        Day dia_enum = DAY_INVALID; // [INTEGRACIÓN 7B]
-        int inicio_minutos = 0;     // [INTEGRACIÓN 7B]
-        int fin_minutos = 0;        // [INTEGRACIÓN 7B]
+        
+        // [INTEGRACIÓN 7B]: Mapeo de Día
+        // [INTEGRACIÓN 7B]: Mapeo de Día
+        Day dia_enum = DAY_INVALID;
+        if (strcmp(columns[8], "LUN") == 0) dia_enum = MONDAY;
+        else if (strcmp(columns[8], "MAR") == 0) dia_enum = TUESDAY;
+        else if (strcmp(columns[8], "MIE") == 0) dia_enum = WEDNESDAY;
+        else if (strcmp(columns[8], "JUE") == 0) dia_enum = THURSDAY;
+        else if (strcmp(columns[8], "VIE") == 0) dia_enum = FRIDAY;
+        else if (strcmp(columns[8], "SAB") == 0) dia_enum = SATURDAY;
+
+        // [INTEGRACIÓN 7B]: Conversión de horas a minutos desde medianoche
+        int h_ini, m_ini, h_fin, m_fin;
+        sscanf(columns[9], "%d:%d", &h_ini, &m_ini);
+        sscanf(columns[10], "%d:%d", &h_fin, &m_fin);
+        
+        int inicio_minutos = (h_ini * 60) + m_ini;
+        int fin_minutos = (h_fin * 60) + m_fin;
+
+        
+    
 
         Course *course = find_course_by_code(catalog, codigo);
         if (!course) {

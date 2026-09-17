@@ -9,8 +9,9 @@ SRC = src/main.c \
       src/models/course.c \
       src/models/group.c \
       src/models/schedule.c \
-      src/models/student_history.c
-
+      src/models/student_history.c \
+      src/validator.c \
+      src/catalog_parser.c
 #name del ejecutable
 EXEC = cemestre
 
