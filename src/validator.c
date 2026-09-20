@@ -14,7 +14,16 @@ Status validate_course_identity(const char *code, const char *name) {
     if (!code || code[0] == '\0' || strcmp(code, EMPTY_FIELD) == 0) {
         return ERROR_INVALID_FORMAT;
     }
+    // Límite de longitud agregado para seguridad
+    if (strlen(code) >= MAX_COURSE_CODE_LENGTH) {
+        return ERROR_INVALID_FORMAT;
+    }
+
     if (!name || name[0] == '\0' || strcmp(name, EMPTY_FIELD) == 0) {
+        return ERROR_INVALID_FORMAT;
+    }
+    // Límite de longitud agregado para seguridad
+    if (strlen(name) >= MAX_COURSE_NAME_LENGTH) {
         return ERROR_INVALID_FORMAT;
     }
     return SUCCESS;
@@ -86,4 +95,49 @@ Status validate_time_format(const char *start_time_str, const char *end_time_str
     }
 
     return SUCCESS;
+}
+
+// =================================================================
+// NUEVAS FUNCIONES AGREGADAS PARA INTEGRAR CON CATALOG_PARSER.C
+// =================================================================
+
+Status validate_semester_format(const char *sem_str) {
+    if (!sem_str || sem_str[0] == '\0') return ERROR_INVALID_FORMAT;
+    
+    for (int i = 0; sem_str[i] != '\0'; i++) {
+        if (!isdigit(sem_str[i])) return ERROR_INVALID_FORMAT;
+    }
+    
+    int sem = atoi(sem_str);
+    // La guía restringe a los primeros 4 semestres
+    if (sem < 1 || sem > 4) {
+        return ERROR_INVALID_FORMAT;
+    }
+    return SUCCESS;
+}
+
+Status validate_credits_format(const char *cred_str) {
+    if (!cred_str || cred_str[0] == '\0') return ERROR_INVALID_FORMAT;
+    
+    for (int i = 0; cred_str[i] != '\0'; i++) {
+        if (!isdigit(cred_str[i])) return ERROR_INVALID_FORMAT;
+    }
+    
+    int credits = atoi(cred_str);
+    if (credits < 0) { 
+        return ERROR_INVALID_FORMAT;
+    }
+    return SUCCESS;
+}
+
+// Corrección: Retorna directamente 'Day' sin usar la palabra 'enum'
+Day parse_day_string(const char* day_str) {
+    if (day_str == NULL) return DAY_INVALID;
+    if (strcmp(day_str, "LUN") == 0) return MONDAY;
+    if (strcmp(day_str, "MAR") == 0) return TUESDAY;
+    if (strcmp(day_str, "MIE") == 0) return WEDNESDAY;
+    if (strcmp(day_str, "JUE") == 0) return THURSDAY;
+    if (strcmp(day_str, "VIE") == 0) return FRIDAY;
+    if (strcmp(day_str, "SAB") == 0) return SATURDAY;
+    return DAY_INVALID;
 }
