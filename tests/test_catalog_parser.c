@@ -4,10 +4,6 @@
 
 #define TEMP_FILE "temp_test.tsv"
 
-static const char *HEADER =
-    "carrera\tsemestre\tcodigo\tnombre\tcreditos\t"
-    "requisitos\tcorrequisitos\tgrupo\tdia\tinicio\tfin\n";
-
 static int run_test(const char *name, const char *content, Status expected) {
     FILE *f = fopen(TEMP_FILE, "w");
 
