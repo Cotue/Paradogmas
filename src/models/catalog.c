@@ -38,6 +38,9 @@ void catalog_free(Catalog *catalog)
 #include <string.h>
 
 Course* find_course_by_code(Catalog *catalog, const char *code) {
+    if (catalog == NULL || code == NULL){
+        return NULL;
+    }
     for (size_t i = 0; i < catalog->course_count; i++) {
         if (strcmp(catalog->courses[i].code, code) == 0) {
             return &catalog->courses[i];
