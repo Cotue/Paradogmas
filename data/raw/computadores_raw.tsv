@@ -1,0 +1,300 @@
+semestre_plan	codigo	nombre_plan	sede	grupo	tipo	modalidad	periodo	creditos_guia	horas_guia	profesor	horario_original	archivo_fuente
+1	CE1101	introducción a la programación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	3	9	ARAYA MARTINEZ LEONARDO	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1101	introducción a la programación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	3	9	LEITON JIMENEZ JASON	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1101	introducción a la programación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	3	9	LEITON JIMENEZ JASON	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela CE.mhtml
+1	CE1101	introducción a la programación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	3	9	SCHMIDT PERALTA JEFF	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1101	introducción a la programación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	3	9	SCHMIDT PERALTA JEFF	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1104	fundamentos de sistemas computacionales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	3	9	BARBOZA ARTAVIA LUIS	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1104	fundamentos de sistemas computacionales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	3	9	BARBOZA ARTAVIA LUIS	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1104	fundamentos de sistemas computacionales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	3	9	CHAVARRIA ZAMORA LUIS	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela CE.mhtml
+1	CE1104	fundamentos de sistemas computacionales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	3	9	LEITON JIMENEZ JASON	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela CE.mhtml
+1	CE1104	fundamentos de sistemas computacionales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	3	9	VILLEGAS LEMUS MILTON	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela CE.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	4	4	AZOFEIFA CUBERO ROBERTO	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	4	4	AZOFEIFA CUBERO ROBERTO	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	4	4	AZOFEIFA CUBERO ROBERTO	MIE[16:00-17:50] VIE[16:00-17:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	4	4	CHAVARRIA MOLINA JEFFRY	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	4	4	FALLAS MONGE JUAN JOSE	MAR[16:00-17:50] JUE[16:00-17:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Semipresencial	SEMESTRE	1	4	4	GUTIERREZ RUIZ GRETTEL	MAR[18:00-19:50] JUE[18:00-19:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	4	4	SANABRIA BRENES GEOVANNI	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	4	4	SOLIS ARGUEDAS ADRIANA	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1403	matemática discreta	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	4	4	SOLIS ARGUEDAS ADRIANA	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	3	4	CALLEJA AMADOR CARLOS ENRIQUE	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	3	4	CALLEJA AMADOR CARLOS ENRIQUE	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	13	Regular	SEMESTRE	1	3	4	FLORES CANTILLO ADRIAN	MAR[17:00-18:50] JUE[17:00-18:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	3	4	PORRAS ACOSTA MARIA	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	14	Regular	SEMESTRE	1	3	4	PORRAS ACOSTA MARIA	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	17	Regular	SEMESTRE	1	3	4	PORRAS ACOSTA MARIA	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	3	4	QUIROS BUSTOS NOEMI	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	3	4	QUIROS BUSTOS NOEMI	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Virtual	SEMESTRE	1	3	4	SANCHEZ KOPPER ANDRES	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	3	4	SANDOVAL MORA JOSE ALBERTO	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	12	Regular	SEMESTRE	1	3	4	SANDOVAL MORA JOSE ALBERTO	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	20	Regular	SEMESTRE	1	3	4	SOTO CORDOBA SILVIA	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	22	Regular	SEMESTRE	1	3	4	SOTO CORDOBA SILVIA	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	3	4	STARBIRD PEREZ RICARDO	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	18	Regular	SEMESTRE	1	3	4	STARBIRD PEREZ RICARDO	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	23	Regular	SEMESTRE	1	3	4	STARBIRD PEREZ RICARDO	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	3	4	VARGAS CAMARENO MARICRUZ	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	3	4	VARGAS CAMARENO MARICRUZ	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	16	Regular	SEMESTRE	1	3	4	VARGAS CAMARENO MARICRUZ	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	19	Regular	SEMESTRE	1	3	4	VARGAS CAMARENO MARICRUZ	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1106	química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	21	Regular	SEMESTRE	1	3	4	VILLALTA ROMERO FABIAN	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	31	Regular	SEMESTRE	1	1	2	CABALLERO CHAVARRIA ANDREY	JUE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	36	Regular	SEMESTRE	1	1	2	CABALLERO CHAVARRIA ANDREY	JUE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	1	2	CALLEJA AMADOR CARLOS ENRIQUE	MAR[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	77	Regular	SEMESTRE	1	1	2	CALLEJA AMADOR CARLOS ENRIQUE	VIE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	19	Regular	SEMESTRE	1	1	2	GONZALEZ RODRIGUEZ JOSE RICARDO	MIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	1	2	HERNANDEZ ALPIZAR LAURA	MAR[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	13	Regular	SEMESTRE	1	1	2	HERNANDEZ ALPIZAR LAURA	MAR[17:00-18:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	40	Regular	SEMESTRE	1	1	2	HERNANDEZ ALPIZAR LAURA	JUE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	43	Regular	SEMESTRE	1	1	2	HERNANDEZ ALPIZAR LAURA	JUE[17:00-18:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	20	Regular	SEMESTRE	1	1	2	MASIS MELENDEZ FEDERICO	MIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	25	Regular	SEMESTRE	1	1	2	MASIS MELENDEZ FEDERICO	MIE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	1	2	MATA MATA ALEJANDRA	MAR[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	32	Regular	SEMESTRE	1	1	2	MATA MATA ALEJANDRA	JUE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	35	Regular	SEMESTRE	1	1	2	MATA MATA ALEJANDRA	JUE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MAR[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MAR[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MAR[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	12	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MAR[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	14	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MAR[17:00-18:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	16	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	28	Regular	SEMESTRE	1	1	2	MORA MOLINA JESUS	MIE[17:00-18:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	1	2	PORRAS ACOSTA MARIA	MAR[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	48	Regular	SEMESTRE	1	1	2	QUIROS BUSTOS NOEMI	VIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	71	Regular	SEMESTRE	1	1	2	QUIROS BUSTOS NOEMI	VIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	73	Regular	SEMESTRE	1	1	2	QUIROS BUSTOS NOEMI	VIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	76	Regular	SEMESTRE	1	1	2	QUIROS BUSTOS NOEMI	VIE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	38	Regular	SEMESTRE	1	1	2	ROMERO BLANCO ERIC	JUE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	41	Regular	SEMESTRE	1	1	2	ROMERO BLANCO ERIC	JUE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	22	Regular	SEMESTRE	1	1	2	ROMERO ESQUIVEL LUIS GUILLERMO	MIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	1	2	SALAS JIMENEZ JUAN CARLOS	MAR[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	1	2	SALAS JIMENEZ JUAN CARLOS	MAR[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	24	Regular	SEMESTRE	1	1	2	SALAS JIMENEZ JUAN CARLOS	MIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	27	Regular	SEMESTRE	1	1	2	SALAS JIMENEZ JUAN CARLOS	MIE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	1	2	SALAZAR ROJAS TERESA	MAR[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	1	2	SALAZAR ROJAS TERESA	MAR[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	18	Regular	SEMESTRE	1	1	2	SALAZAR ROJAS TERESA	MIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	21	Regular	SEMESTRE	1	1	2	SALAZAR ROJAS TERESA	MIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	17	Regular	SEMESTRE	1	1	2	SANDOVAL MORA JOSE ALBERTO	MIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	23	Regular	SEMESTRE	1	1	2	SANDOVAL MORA JOSE ALBERTO	MIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	75	Regular	SEMESTRE	1	1	2	SANDOVAL MORA JOSE ALBERTO	VIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	72	Regular	SEMESTRE	1	1	2	SOTO CORDOBA SILVIA	VIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	34	Regular	SEMESTRE	1	1	2	VARELA ROJAS IRENE	JUE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	39	Regular	SEMESTRE	1	1	2	VARELA ROJAS IRENE	JUE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	42	Regular	SEMESTRE	1	1	2	VARELA ROJAS IRENE	JUE[15:00-16:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	46	Regular	SEMESTRE	1	1	2	VARELA ROJAS IRENE	VIE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	49	Regular	SEMESTRE	1	1	2	VARELA ROJAS IRENE	VIE[09:30-11:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	74	Regular	SEMESTRE	1	1	2	VARGAS CAMARENO MARICRUZ	VIE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	33	Regular	SEMESTRE	1	1	2	VILLALTA ROMERO FABIAN	JUE[07:30-09:20]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	37	Regular	SEMESTRE	1	1	2	VILLALTA ROMERO FABIAN	JUE[13:00-14:50]	Guia de Horario de la Escuela QU.mhtml
+1	QU1102	laboratorio de química básica i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	45	Regular	SEMESTRE	1	1	2	VILLALTA ROMERO FABIAN	JUE[17:00-18:50]	Guia de Horario de la Escuela QU.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Asistida	SEMESTRE	1	4	5	ALVARADO SOLANO ANDY	MAR[09:30-12:20] JUE[10:30-12:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	20	Regular	SEMESTRE	1	4	5	AZOFEIFA CUBERO ROBERTO	SAB[07:30-12:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	4	5	BORBON ALPIZAR ALEXANDER	MAR[17:00-19:50] JUE[17:00-18:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	21	Regular	SEMESTRE	1	4	5	BORBON ALPIZAR ALEXANDER	MIE[17:00-19:50] VIE[17:00-18:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	4	5	BRENES GOMEZ  RANDALL	MIE[07:30-10:20] VIE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	4	5	CORDERO QUIROS MARCIAL	MIE[07:30-09:20] VIE[07:30-10:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	18	Grupo RN	SEMESTRE	1	4	5	CORDERO QUIROS MARCIAL	MIE[17:00-19:50] VIE[17:00-18:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	4	5	FIGUEROA FLORES NURIA VANESSA	MAR[13:00-15:50] JUE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	4	5	FIGUEROA MATA GEOVANNI	MAR[15:00-16:50] JUE[15:00-17:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Semipresencial	SEMESTRE	1	4	5	FIGUEROA MATA GEOVANNI	MAR[18:00-20:50] JUE[18:00-19:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	13	Regular	SEMESTRE	1	4	5	JIMENEZ MADRIGAL JORGE	MIE[09:30-12:20] VIE[10:30-12:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	16	Regular	SEMESTRE	1	4	5	MARIN SANCHEZ MARIO	MIE[15:00-17:50] VIE[15:00-16:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Grupo RN	SEMESTRE	1	4	5	MARRERO CALVO MARCELA	MAR[07:30-09:20] JUE[07:30-10:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	4	5	MASIS FLORES DAVID	MAR[09:30-11:20] JUE[09:30-12:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Grupo RN	SEMESTRE	1	4	5	MONGE FALLAS JORGE	MAR[16:00-18:50] JUE[16:00-17:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	15	Regular	SEMESTRE	1	4	5	QUESADA VILLALOBOS LOURDES	MIE[13:00-15:50] VIE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	4	5	RAMIREZ ARCE GREIVIN	MAR[07:30-10:20] JUE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	17	Semipresencial	SEMESTRE	1	4	5	RAMIREZ ARCE GREIVIN	MIE[16:00-18:50] VIE[16:00-17:50]	Guia de Horario de la Escuela MA.mhtml
+1	MA1102	cálculo diferencial e integral	CAMPUS TECNOLOGICO CENTRAL CARTAGO	14	Regular	SEMESTRE	1	4	5	VALVERDE SANCHEZ SAMUEL	MIE[13:00-15:50] VIE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+2	CE1103	algoritmos y estructuras de datos i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	4	12	RAMIREZ HERRERA JOSE ISAAC	MIE[17:00-18:50] VIE[17:00-18:50]	Guia de Horario de la Escuela CE.mhtml
+2	CE1105	principios de modelado en ingeniería	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Semipresencial	SEMESTRE	1	3	9	MORA ROJAS DIEGO	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela CE.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Virtual	SEMESTRE	1	3	4	CAMBRONERO CORDERO MICHAEL	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	13	Virtual	SEMESTRE	1	3	4	CAMBRONERO CORDERO MICHAEL	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	3	4	CORRALES QUESADA ESTEBAN	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	3	4	CORRALES QUESADA ESTEBAN	MAR[17:00-18:50] JUE[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	12	Regular	SEMESTRE	1	3	4	MONTERO ZELEDON ERNESTO	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	3	4	MURILLO SALAZAR DENNIS	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	3	4	PINEDA LIZANO JUAN JOSE	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	3	4	ROJAS PEREZ FRANCISCO	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	3	4	SEGURA CARVAJAL MARCOS	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	14	Grupo RN	SEMESTRE	1	3	4	SEGURA CARVAJAL MARCOS	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	3	4	SEGURA ZARATE ANA YANCY	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	3	4	SEGURA ZARATE ANA YANCY	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Virtual	SEMESTRE	1	3	4	VARGAS BLANCO IVAN	MAR[17:00-18:50] JUE[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1101	física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Virtual	SEMESTRE	1	3	4	VARGAS BLANCO IVAN	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	1	2	ELIZONDO ZUÑIGA JENNIFER	MIE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	1	2	GUTIERREZ CHAVES CARLOS ROBERTO	VIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	1	2	JIMENEZ CARBALLO CARLOS ADRIAN	MAR[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	1	2	JIMENEZ CARBALLO CARLOS ADRIAN	MIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	1	2	MAYORGA ESPINOZA CARLOS	MAR[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	1	2	MAYORGA ESPINOZA CARLOS	MAR[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	1	2	MAYORGA ESPINOZA CARLOS	JUE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	1	2	PEREZ HIDALGO JOSE ESTEBAN	JUE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	1	2	PINEDA LIZANO JUAN JOSE	MAR[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	1	2	PINEDA LIZANO JUAN JOSE	MIE[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	1	2	SEGURA ZARATE ANA YANCY	MAR[07:30-09:20]	Guia de Horario de la Escuela FI.mhtml
+2	FI1201	laboratorio física general i	CAMPUS TECNOLOGICO CENTRAL CARTAGO	12	Regular	SEMESTRE	1	1	2	SEVILLA QUESADA EVAR	MAR[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	1	2	BOJORGE MURILLO ALEXANDER	MIE[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	1	2	BOJORGE MURILLO ALEXANDER	LUN[18:00-19:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	1	2	BOJORGE MURILLO ALEXANDER	MIE[15:00-16:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	17	Regular	SEMESTRE	1	1	2	BOJORGE MURILLO ALEXANDER	MAR[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	20	Virtual	SEMESTRE	1	1	2	BOJORGE MURILLO ALEXANDER	MAR[15:00-16:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	1	2	EDUARTE RODRIGUEZ DAVID	LUN[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	1	2	EDUARTE RODRIGUEZ DAVID	MIE[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	18	Regular	SEMESTRE	1	1	2	EDUARTE RODRIGUEZ DAVID	JUE[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	1	2	GARRO REYES MAURICIO	LUN[07:30-09:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	1	2	GARRO REYES MAURICIO	VIE[15:00-16:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	12	Regular	SEMESTRE	1	1	2	GARRO REYES MAURICIO	MIE[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	14	Regular	SEMESTRE	1	1	2	MENESES MARIN GUILLERMO	MAR[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	16	Regular	SEMESTRE	1	1	2	MENESES MARIN GUILLERMO	VIE[13:00-14:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	19	Regular	SEMESTRE	1	1	2	MENESES MARIN GUILLERMO	MAR[16:00-17:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	21	Virtual	SEMESTRE	1	1	2	MESEN MONTENEGRO VLADIMIR	MIE[17:00-18:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	1	2	MORA SANCHEZ AMILKAR	VIE[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	1	2	MORA SANCHEZ AMILKAR	MAR[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	1	2	ORTIZ ACUÑA LEONARDO	JUE[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	1	2	ORTIZ ACUÑA LEONARDO	LUN[09:30-11:20]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	13	Regular	SEMESTRE	1	1	2	ORTIZ ACUÑA LEONARDO	JUE[13:00-14:50]	Guia de Horario de la Escuela CS.mhtml
+2	CS1502	introducción a la técnica ciencia y tecnología	CAMPUS TECNOLOGICO CENTRAL CARTAGO	15	Regular	SEMESTRE	1	1	2	VARGAS ELIZONDO CELSO	MIE[07:30-09:20]	Guia de Horario de la Escuela CS.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	16	Semipresencial	SEMESTRE	1	4	4	ACUÑA PRADO LUIS	SAB[07:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	4	4	ALPIZAR BRENES GEISEL	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	15	Semipresencial	SEMESTRE	1	4	4	ALPIZAR BRENES GEISEL	MIE[18:00-19:50] VIE[18:00-19:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Asistida	SEMESTRE	1	4	4	ALVARADO SOLANO ANDY	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	12	Regular	SEMESTRE	1	4	4	CALDERON SOLANO MANUEL	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	4	4	CHACON VARGAS ERICK	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Grupo RN	SEMESTRE	1	4	4	CHACON VARGAS ERICK	MAR[18:00-19:50] JUE[18:00-19:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	4	4	CHAVARRIA MOLINA JEFFRY	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	4	4	FALLAS MONGE JUAN JOSE	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	4	4	GUTIERREZ MONTENEGRO MARCO VINICIO	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	13	Regular	SEMESTRE	1	4	4	MARRERO CALVO MARCELA	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	4	4	MORA PICADO LUIS FERNANDO	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	4	4	NUÑEZ VANEGAS FELIX	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	14	Regular	SEMESTRE	1	4	4	NUÑEZ VANEGAS FELIX	MIE[18:00-19:50] VIE[18:00-19:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	4	4	RAMIREZ BOGANTES MELVIN	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+2	MA1103	cálculo y álgebra lineal	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	4	4	ROSALES ORTEGA JOSE	MAR[16:00-17:50] JUE[16:00-17:50]	Guia de Horario de la Escuela MA.mhtml
+2	CI1407	habilidades de comunicación en ingeniería	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Virtual	SEMESTRE	1	2	6	MORALES GARAY SARAY	MAR[17:00-19:50]	CI1407_usuario
+2	CI1407	habilidades de comunicación en ingeniería	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Virtual	SEMESTRE	1	2	6	MORALES GARAY SARAY	JUE[13:00-15:50]	CI1407_usuario
+3	CE2103	algoritmos y estructuras de datos ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Semipresencial	SEMESTRE	1	4	12	ARAYA MARTINEZ LEONARDO	MIE[17:00-18:50] VIE[17:00-18:50]	Guia de Horario de la Escuela CE.mhtml
+3	CE2103	algoritmos y estructuras de datos ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	4	12	RAMIREZ HERRERA JOSE ISAAC	MIE[19:00-20:50] VIE[19:00-20:50]	Guia de Horario de la Escuela CE.mhtml
+3	EL2113	circuitos eléctricos en corriente continua	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	4	4	HERNANDEZ RIVERA MIGUEL	LUN[07:30-09:20] MIE[07:30-09:20]	Guia de Horario de la Escuela.mhtml
+3	EL2113	circuitos eléctricos en corriente continua	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	4	4	PEREZ RODRIGUEZ JAVIER	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela.mhtml
+3	EL2113	circuitos eléctricos en corriente continua	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Semipresencial	SEMESTRE	1	4	4	PICADO GARCIA FABIAN ALBERTO	LUN[07:30-11:20]	Guia de Horario de la Escuela.mhtml
+3	EL2113	circuitos eléctricos en corriente continua	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	4	4	VEGA CASTILLO PAOLA	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Virtual	SEMESTRE	1	3	4	CASTILLO FALLAS JOSE CARLOS	MAR[17:00-18:50] JUE[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	3	4	CORRALES QUESADA ESTEBAN	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Virtual	SEMESTRE	1	3	4	CORRALES QUESADA ESTEBAN	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Semipresencial	SEMESTRE	1	3	4	ELIZONDO ZUÑIGA JENNIFER	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Semipresencial	SEMESTRE	1	3	4	ELIZONDO ZUÑIGA JENNIFER	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	3	4	LOBO ZAMORA JUAN CARLOS	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	3	4	MURILLO ZUMBADO GUSTAVO	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	3	4	PEREZ HIDALGO JOSE ESTEBAN	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	3	4	PINEDA LIZANO JUAN JOSE	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Grupo RN	SEMESTRE	1	3	4	SOTO CHINCHILLA YERRY	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1102	física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Virtual	SEMESTRE	1	3	4	VARGAS BLANCO IVAN	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	1	2	GUTIERREZ CHAVES CARLOS ROBERTO	MIE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	1	2	JIMENEZ CARBALLO CARLOS ADRIAN	JUE[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	1	2	JIMENEZ CARBALLO CARLOS ADRIAN	JUE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	1	2	MURILLO ZUMBADO GUSTAVO	MIE[07:30-09:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	1	2	MURILLO ZUMBADO GUSTAVO	VIE[07:30-09:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	1	2	OREAMUNO MADRIZ RAFAEL	MAR[09:30-11:20]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	1	2	ROJAS ROJAS LAURA	MAR[13:00-14:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	1	2	SEGURA CARVAJAL MARCOS	MIE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	1	2	SEGURA CARVAJAL MARCOS	MIE[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	1	2	SEVILLA QUESADA EVAR	MAR[17:00-18:50]	Guia de Horario de la Escuela FI.mhtml
+3	FI1202	laboratorio física general ii	CAMPUS TECNOLOGICO CENTRAL CARTAGO	11	Regular	SEMESTRE	1	1	2	SOTO CHINCHILLA YERRY	VIE[15:00-16:50]	Guia de Horario de la Escuela FI.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Semipresencial	SEMESTRE	1	4	4	FALLAS MONGE JUAN JOSE	MAR[18:00-19:50] JUE[18:00-19:50]	Guia de Horario de la Escuela MA.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	4	4	MONGE FALLAS JORGE	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela MA.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	4	4	MORA PICADO LUIS FERNANDO	MIE[13:00-14:50] VIE[13:00-14:50]	Guia de Horario de la Escuela MA.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	4	4	PARRA RODRIGUEZ EMMANUELLE	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	4	4	PARRA RODRIGUEZ EMMANUELLE	MAR[09:30-11:20] JUE[09:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Tutoría	SEMESTRE	1	4	4	PARRA RODRIGUEZ EMMANUELLE	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela MA.mhtml
+3	MA2104	cálculo superior	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Semipresencial	SEMESTRE	1	4	4	SOTO CASCANTE EMANUELLE	SAB[07:30-11:20]	Guia de Horario de la Escuela MA.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Virtual	SEMESTRE	1	2	6	FRANCESCHI SOJO KATTIA	MIE[09:30-12:20]	Guia de Horario de la Escuela CS.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Virtual	SEMESTRE	1	2	6	FRANCESCHI SOJO KATTIA	MIE[13:00-15:50]	Guia de Horario de la Escuela CS.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Virtual	SEMESTRE	1	2	6	ORTIZ ALVAREZ JORGE ISAAC	JUE[07:30-10:20]	Guia de Horario de la Escuela CS.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Virtual	SEMESTRE	1	2	6	ORTIZ ALVAREZ JORGE ISAAC	MIE[09:30-12:20]	Guia de Horario de la Escuela CS.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	2	6	RODRIGUEZ MORALES OSCAR	LUN[07:30-10:20]	Guia de Horario de la Escuela CS.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Virtual	SEMESTRE	1	2	6	RODRIGUEZ MORALES OSCAR	LUN[18:00-20:50]	Guia de Horario de la Escuela CS.mhtml
+3	CS2101	ambiente humano	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Semipresencial	SEMESTRE	1	2	6	ROJAS MOLINA BETSY	MAR[09:30-12:20]	Guia de Horario de la Escuela CS.mhtml
+4	CE1106	paradigmas de programación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	3	9	RIVERA MENESES MARCO	MAR[17:00-18:50] JUE[17:00-18:50]	Guia de Horario de la Escuela CE.mhtml
+4	EL2114	circuitos eléctricos en corriente alterna	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	4	4	CABRERA QUIROS LAURA CRISTINA	MIE[09:30-11:20] VIE[09:30-11:20]	Guia de Horario de la Escuela.mhtml
+4	EL2114	circuitos eléctricos en corriente alterna	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Semipresencial	SEMESTRE	1	4	4	QUIROS SOLANO WILLIAM	MAR[13:00-14:50] JUE[13:00-14:50]	Guia de Horario de la Escuela.mhtml
+4	EL2114	circuitos eléctricos en corriente alterna	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Semipresencial	SEMESTRE	1	4	4	QUIROS SOLANO WILLIAM	MIE[07:30-09:20] VIE[07:30-09:20]	Guia de Horario de la Escuela.mhtml
+4	EL2207	elementos activos	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Semipresencial	SEMESTRE	1	4	4	MONTERO RODRIGUEZ JUAN JOSE	MAR[07:30-09:20] JUE[07:30-09:20]	Guia de Horario de la Escuela.mhtml
+4	EL2207	elementos activos	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	4	4	SEGURA QUIROS CARLOS	MAR[15:00-16:50] JUE[15:00-16:50]	Guia de Horario de la Escuela.mhtml
+4	EL2207	elementos activos	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	4	4	VEGA CASTILLO PAOLA	MIE[15:00-16:50] VIE[15:00-16:50]	Guia de Horario de la Escuela.mhtml
+4	CE2201	laboratorio de circuitos eléctricos	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	1	3	LEITON JIMENEZ JASON	LUN[09:30-11:20]	Guia de Horario de la Escuela CE.mhtml
+4	PI2609	probabilidad y estadística	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	2	3	DANIELS CHAN ESTEBAN	VIE[17:00-19:50]	Guia de Horario de la Escuela PI.mhtml
+4	PI2609	probabilidad y estadística	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	2	3	HASBUM FERNANDEZ  IVANNIA	VIE[13:00-15:50]	Guia de Horario de la Escuela PI.mhtml
+4	PI2609	probabilidad y estadística	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	2	3	LOPEZ FALLAS BRYAN	MAR[17:00-19:50]	Guia de Horario de la Escuela PI.mhtml
+4	PI2609	probabilidad y estadística	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	2	3	SALAS CERDAS LISS	LUN[17:00-19:50]	Guia de Horario de la Escuela PI.mhtml
+4	SO4604	seguridad y salud ocupacional	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	3	3	MEDINA ESCOBAR MARIA LOURDES	JUE[13:00-15:50]	Guia de Horario de la Escuela SO.mhtml
+4	SO4604	seguridad y salud ocupacional	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	3	3	MONNEY BARRANTES MONICA	JUE[17:00-19:50]	Guia de Horario de la Escuela SO.mhtml
+4	SO4604	seguridad y salud ocupacional	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	3	3	MORALES MARTINEZ GABRIELA	LUN[07:30-10:20]	Guia de Horario de la Escuela SO.mhtml
+4	SO4604	seguridad y salud ocupacional	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	3	3	MORALES MARTINEZ GABRIELA	MIE[13:00-15:50]	Guia de Horario de la Escuela SO.mhtml
+1	SE1101	Artes dramáticas	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	DE SIMONE CASTELLON ALEXANDRA	LUN[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1101	Artes dramáticas	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	GOMEZ JIMENEZ ANDREA	MAR[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1101	Artes dramáticas	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	GOMEZ JIMENEZ ANDREA	MAR[18:00-19:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1101	Artes dramáticas	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	GOMEZ JIMENEZ ANDREA	MIE[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1102	Acción social	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	VALERIN ROJAS SOFIA	LUN[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1102	Acción social	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Virtual	SEMESTRE	1	0	2	VALERIN ROJAS SOFIA	MAR[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1103	Danza	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Semipresencial	SEMESTRE	1	0	2	SANCHO MARTINEZ LAURA KARINA	MIE[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1103	Danza	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Semipresencial	SEMESTRE	1	0	2	SANCHO MARTINEZ LAURA KARINA	JUE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1103	Danza	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	VALVERDE JARA ANA	MIE[18:00-19:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1103	Danza	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	VALVERDE JARA ANA	VIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1103	Danza	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	0	2	VALVERDE JARA ANA	VIE[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1104	Artes visuales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	DIAZ BRENES NELSON	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1104	Artes visuales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	DIAZ BRENES NELSON	MAR[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1104	Artes visuales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	DIAZ BRENES NELSON	MIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1104	Artes visuales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	DIAZ BRENES NELSON	MIE[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	0	2	CASTILLO ULATE ELENA	MAR[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	MEZA SOLANO VINICIO	MAR[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	MEZA SOLANO VINICIO	MAR[17:00-18:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	MEZA SOLANO VINICIO	JUE[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	MONGE PEREZ LUIS DIEGO	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	0	2	MONGE PEREZ LUIS DIEGO	JUE[18:00-19:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1105	Artes musicales	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	0	2	MONGE PEREZ LUIS DIEGO	MIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1106	Apreciación literaria	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	RAMOS VARGAS ARNOLDO	MAR[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1107	Apreciación de cine	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	0	2	COTO GUZMAN ALICIA	JUE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1107	Apreciación de cine	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	0	2	COTO GUZMAN ALICIA	JUE[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1107	Apreciación de cine	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	SOTO MUÑOZ MAX	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1107	Apreciación de cine	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	SOTO MUÑOZ MAX	MIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1107	Apreciación de cine	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Virtual	SEMESTRE	1	0	2	SOTO MUÑOZ MAX	JUE[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1107	Apreciación de cine	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	SOTO MUÑOZ MAX	VIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1201	Atletismo	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	LORIA SOLANO JOHNNY	MAR[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1201	Atletismo	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	LORIA SOLANO JOHNNY	MIE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1201	Atletismo	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	LORIA SOLANO JOHNNY	JUE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1201	Atletismo	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	QUIROS VALVERDE RODRIGO	MIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	0	2	BOGANTES GARCIA FERNANDO	MIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	10	Regular	SEMESTRE	1	0	2	BOGANTES GARCIA FERNANDO	MAR[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	LOAIZA SOTO BIERY	LUN[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	LOAIZA SOTO BIERY	LUN[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	LOAIZA SOTO BIERY	MIE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	SANCHEZ PEREZ LISBETH	MAR[17:00-18:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	0	2	SANCHEZ PEREZ LISBETH	MIE[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	7	Regular	SEMESTRE	1	0	2	SANCHEZ PEREZ LISBETH	MIE[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	8	Regular	SEMESTRE	1	0	2	SANCHEZ PEREZ LISBETH	JUE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1204	Natación	CAMPUS TECNOLOGICO CENTRAL CARTAGO	9	Regular	SEMESTRE	1	0	2	SANCHEZ PEREZ LISBETH	JUE[17:00-18:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1205	Juegos y deportes en conjunto	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	LOAIZA SOTO BIERY	MAR[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1205	Juegos y deportes en conjunto	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	ORTEGA ARTAVIA JHONNY	LUN[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1205	Juegos y deportes en conjunto	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	QUIROS VALVERDE RODRIGO	LUN[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1205	Juegos y deportes en conjunto	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	0	2	QUIROS VALVERDE RODRIGO	JUE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1205	Juegos y deportes en conjunto	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	VEGA AGUERO JORGE	MIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1206	Acondicionamiento físico	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	JIMENEZ JIMENEZ DANIEL	MAR[15:00-16:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1206	Acondicionamiento físico	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	LORIA SOLANO JOHNNY	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1206	Acondicionamiento físico	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	VEGA AGUERO JORGE	JUE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1206	Acondicionamiento físico	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	VEGA AGUERO JORGE	VIE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1209	Béisbol-softbol	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	MENDEZ SOLANO MIGUEL	LUN[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1209	Béisbol-softbol	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	MENDEZ SOLANO MIGUEL	MAR[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1209	Béisbol-softbol	CAMPUS TECNOLOGICO CENTRAL CARTAGO	4	Regular	SEMESTRE	1	0	2	MENDEZ SOLANO MIGUEL	MIE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1209	Béisbol-softbol	CAMPUS TECNOLOGICO CENTRAL CARTAGO	5	Regular	SEMESTRE	1	0	2	MENDEZ SOLANO MIGUEL	VIE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1209	Béisbol-softbol	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	VEGA AGUERO JORGE	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1209	Béisbol-softbol	CAMPUS TECNOLOGICO CENTRAL CARTAGO	6	Regular	SEMESTRE	1	0	2	VEGA AGUERO JORGE	VIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1218	Ajedrez	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Virtual	SEMESTRE	1	0	2	CORDERO MAROTO NELSON	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1219	Baloncesto recreativo	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	CABRERA ARAYA GUSTAVO ALCIDES	LUN[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1221	Futbol I	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	JIMENEZ JIMENEZ DANIEL	MAR[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1221	Futbol I	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	JIMENEZ JIMENEZ DANIEL	JUE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1221	Futbol I	CAMPUS TECNOLOGICO CENTRAL CARTAGO	3	Regular	SEMESTRE	1	0	2	JIMENEZ JIMENEZ DANIEL	JUE[13:00-14:50]	Guia de Horario de la Escuela CD.mhtml
+1	SE1222	Futbol sala	CAMPUS TECNOLOGICO CENTRAL CARTAGO	1	Regular	SEMESTRE	1	0	2	ORTEGA ARTAVIA JHONNY	MIE[07:30-09:20]	Guia de Horario de la Escuela CD.mhtml
+1	SE1222	Futbol sala	CAMPUS TECNOLOGICO CENTRAL CARTAGO	2	Regular	SEMESTRE	1	0	2	ORTEGA ARTAVIA JHONNY	VIE[09:30-11:20]	Guia de Horario de la Escuela CD.mhtml
