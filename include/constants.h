@@ -21,7 +21,8 @@ typedef enum {
     ERROR_ARGS = 1,
     ERROR_FILE_NOT_FOUND = 2,
     ERROR_INVALID_FORMAT = 3,
-    ERROR_MEMORY = 4
+    ERROR_MEMORY = 4,
+    ERROR_READ = 5
 } Status;
 
 #endif

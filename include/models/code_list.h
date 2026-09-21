@@ -13,4 +13,5 @@ typedef struct {
 void code_list_init(CodeList *list); // se inicia un codelist
 void code_list_free(CodeList *list); // se limpia un codelist
 int code_list_add(CodeList *list, const char *code);
+int code_list_contains(const CodeList *list, const char *code); // para detectar duplicados sin tener que recorrer el parser
 #endif
