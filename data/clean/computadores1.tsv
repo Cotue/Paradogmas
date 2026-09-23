@@ -1,0 +1,479 @@
+carrera	semestre	codigo	nombre	creditos	requisitos	correquisitos	grupo	dia	inicio	fin
+Computadores	1	CE1101	introducción a la programación	3	-	-	3	MIE	07:30	09:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	3	VIE	07:30	09:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	4	MIE	09:30	11:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	4	VIE	09:30	11:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	5	MAR	13:00	14:50
+Computadores	1	CE1101	introducción a la programación	3	-	-	5	JUE	13:00	14:50
+Computadores	1	CE1101	introducción a la programación	3	-	-	1	MAR	07:30	09:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	1	JUE	07:30	09:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	2	MAR	09:30	11:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	2	JUE	09:30	11:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	2	MAR	09:30	11:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	2	JUE	09:30	11:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	3	MIE	09:30	11:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	3	VIE	09:30	11:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	4	MIE	07:30	09:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	4	VIE	07:30	09:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	5	MAR	15:00	16:50
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	5	JUE	15:00	16:50
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	1	MAR	07:30	09:20
+Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	1	JUE	07:30	09:20
+Computadores	1	MA1403	matemática discreta	4	-	-	7	MIE	09:30	11:20
+Computadores	1	MA1403	matemática discreta	4	-	-	7	VIE	09:30	11:20
+Computadores	1	MA1403	matemática discreta	4	-	-	8	MIE	13:00	14:50
+Computadores	1	MA1403	matemática discreta	4	-	-	8	VIE	13:00	14:50
+Computadores	1	MA1403	matemática discreta	4	-	-	9	MIE	16:00	17:50
+Computadores	1	MA1403	matemática discreta	4	-	-	9	VIE	16:00	17:50
+Computadores	1	MA1403	matemática discreta	4	-	-	6	MIE	07:30	09:20
+Computadores	1	MA1403	matemática discreta	4	-	-	6	VIE	07:30	09:20
+Computadores	1	MA1403	matemática discreta	4	-	-	4	MAR	16:00	17:50
+Computadores	1	MA1403	matemática discreta	4	-	-	4	JUE	16:00	17:50
+Computadores	1	MA1403	matemática discreta	4	-	-	5	MAR	18:00	19:50
+Computadores	1	MA1403	matemática discreta	4	-	-	5	JUE	18:00	19:50
+Computadores	1	MA1403	matemática discreta	4	-	-	3	MAR	13:00	14:50
+Computadores	1	MA1403	matemática discreta	4	-	-	3	JUE	13:00	14:50
+Computadores	1	MA1403	matemática discreta	4	-	-	1	MAR	07:30	09:20
+Computadores	1	MA1403	matemática discreta	4	-	-	1	JUE	07:30	09:20
+Computadores	1	MA1403	matemática discreta	4	-	-	2	MAR	09:30	11:20
+Computadores	1	MA1403	matemática discreta	4	-	-	2	JUE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	7	MAR	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	7	JUE	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	10	MAR	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	10	JUE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	13	MAR	17:00	18:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	13	JUE	17:00	18:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	2	MAR	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	2	JUE	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	14	MIE	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	14	VIE	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	17	MIE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	17	VIE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	8	MAR	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	8	JUE	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	11	MAR	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	11	JUE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	6	MAR	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	6	JUE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	9	MAR	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	9	JUE	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	12	MAR	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	12	JUE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	20	MIE	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	20	VIE	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	22	MIE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	22	VIE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	4	MAR	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	4	JUE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	18	MIE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	18	VIE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	23	MIE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	23	VIE	15:00	16:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	1	MAR	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	1	JUE	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	5	MAR	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	5	JUE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	16	MIE	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	16	VIE	07:30	09:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	19	MIE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	19	VIE	09:30	11:20
+Computadores	1	QU1106	química básica i	3	-	QU1102	21	MIE	13:00	14:50
+Computadores	1	QU1106	química básica i	3	-	QU1102	21	VIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	31	JUE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	36	JUE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	1	MAR	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	77	VIE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	19	MIE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	11	MAR	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	13	MAR	17:00	18:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	40	JUE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	43	JUE	17:00	18:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	20	MIE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	25	MIE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	3	MAR	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	32	JUE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	35	JUE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	2	MAR	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	5	MAR	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	8	MAR	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	12	MAR	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	14	MAR	17:00	18:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	16	MIE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	28	MIE	17:00	18:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	6	MAR	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	48	VIE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	71	VIE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	73	VIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	76	VIE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	38	JUE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	41	JUE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	22	MIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	9	MAR	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	10	MAR	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	24	MIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	27	MIE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	4	MAR	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	7	MAR	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	18	MIE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	21	MIE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	17	MIE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	23	MIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	75	VIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	72	VIE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	34	JUE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	39	JUE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	42	JUE	15:00	16:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	46	VIE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	49	VIE	09:30	11:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	74	VIE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	33	JUE	07:30	09:20
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	37	JUE	13:00	14:50
+Computadores	1	QU1102	laboratorio de química básica i	1	-	QU1106	45	JUE	17:00	18:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	4	MAR	09:30	12:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	4	JUE	10:30	12:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	20	SAB	07:30	12:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	8	MAR	17:00	19:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	8	JUE	17:00	18:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	21	MIE	17:00	19:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	21	VIE	17:00	18:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	11	MIE	07:30	10:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	11	VIE	07:30	09:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	10	MIE	07:30	09:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	10	VIE	07:30	10:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	18	MIE	17:00	19:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	18	VIE	17:00	18:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	5	MAR	13:00	15:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	5	JUE	13:00	14:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	6	MAR	15:00	16:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	6	JUE	15:00	17:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	9	MAR	18:00	20:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	9	JUE	18:00	19:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	13	MIE	09:30	12:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	13	VIE	10:30	12:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	16	MIE	15:00	17:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	16	VIE	15:00	16:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	2	MAR	07:30	09:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	2	JUE	07:30	10:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	3	MAR	09:30	11:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	3	JUE	09:30	12:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	7	MAR	16:00	18:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	7	JUE	16:00	17:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	15	MIE	13:00	15:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	15	VIE	13:00	14:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	1	MAR	07:30	10:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	1	JUE	07:30	09:20
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	17	MIE	16:00	18:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	17	VIE	16:00	17:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	14	MIE	13:00	15:50
+Computadores	1	MA1102	cálculo diferencial e integral	4	MA0101	-	14	VIE	13:00	14:50
+Computadores	1	MA0101	matemática general	2	-	-	20	MAR	17:00	19:50
+Computadores	1	MA0101	matemática general	2	-	-	20	JUE	17:00	18:50
+Computadores	1	MA0101	matemática general	2	-	-	32	MIE	17:00	19:50
+Computadores	1	MA0101	matemática general	2	-	-	32	VIE	17:00	18:50
+Computadores	1	MA0101	matemática general	2	-	-	10	MAR	13:00	14:50
+Computadores	1	MA0101	matemática general	2	-	-	10	JUE	13:00	15:50
+Computadores	1	MA0101	matemática general	2	-	-	8	MAR	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	8	JUE	10:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	12	MAR	13:00	15:50
+Computadores	1	MA0101	matemática general	2	-	-	12	JUE	13:00	14:50
+Computadores	1	MA0101	matemática general	2	-	-	15	MAR	16:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	15	JUE	15:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	9	MAR	13:00	14:50
+Computadores	1	MA0101	matemática general	2	-	-	9	JUE	13:00	15:50
+Computadores	1	MA0101	matemática general	2	-	-	18	MAR	17:00	18:50
+Computadores	1	MA0101	matemática general	2	-	-	18	JUE	17:00	19:50
+Computadores	1	MA0101	matemática general	2	-	-	16	MAR	16:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	16	JUE	15:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	7	MAR	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	7	JUE	10:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	17	MAR	17:00	18:50
+Computadores	1	MA0101	matemática general	2	-	-	17	JUE	17:00	19:50
+Computadores	1	MA0101	matemática general	2	-	-	13	MAR	15:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	13	JUE	15:00	16:50
+Computadores	1	MA0101	matemática general	2	-	-	28	MIE	13:00	14:50
+Computadores	1	MA0101	matemática general	2	-	-	28	VIE	13:00	15:50
+Computadores	1	MA0101	matemática general	2	-	-	3	MAR	07:30	10:20
+Computadores	1	MA0101	matemática general	2	-	-	3	JUE	07:30	09:20
+Computadores	1	MA0101	matemática general	2	-	-	19	MAR	17:00	19:50
+Computadores	1	MA0101	matemática general	2	-	-	19	JUE	17:00	18:50
+Computadores	1	MA0101	matemática general	2	-	-	4	MAR	09:30	11:20
+Computadores	1	MA0101	matemática general	2	-	-	4	JUE	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	34	MIE	18:00	20:50
+Computadores	1	MA0101	matemática general	2	-	-	34	VIE	18:00	19:50
+Computadores	1	MA0101	matemática general	2	-	-	5	MAR	09:30	11:20
+Computadores	1	MA0101	matemática general	2	-	-	5	JUE	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	14	MAR	15:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	14	JUE	15:00	16:50
+Computadores	1	MA0101	matemática general	2	-	-	26	MIE	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	26	VIE	09:30	11:20
+Computadores	1	MA0101	matemática general	2	-	-	23	MIE	07:30	10:20
+Computadores	1	MA0101	matemática general	2	-	-	23	VIE	07:30	09:20
+Computadores	1	MA0101	matemática general	2	-	-	1	MAR	07:30	09:20
+Computadores	1	MA0101	matemática general	2	-	-	1	JUE	07:30	10:20
+Computadores	1	MA0101	matemática general	2	-	-	6	MAR	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	6	JUE	10:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	11	MAR	13:00	15:50
+Computadores	1	MA0101	matemática general	2	-	-	11	JUE	13:00	14:50
+Computadores	1	MA0101	matemática general	2	-	-	22	MIE	07:30	09:20
+Computadores	1	MA0101	matemática general	2	-	-	22	VIE	07:30	10:20
+Computadores	1	MA0101	matemática general	2	-	-	35	SAB	07:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	25	MIE	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	25	VIE	10:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	2	MAR	07:30	09:20
+Computadores	1	MA0101	matemática general	2	-	-	2	JUE	07:30	10:20
+Computadores	1	MA0101	matemática general	2	-	-	29	MIE	16:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	29	VIE	15:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	24	MIE	09:30	11:20
+Computadores	1	MA0101	matemática general	2	-	-	24	VIE	09:30	12:20
+Computadores	1	MA0101	matemática general	2	-	-	30	MIE	16:00	17:50
+Computadores	1	MA0101	matemática general	2	-	-	30	VIE	15:00	17:50
+Computadores	2	CE1103	algoritmos y estructuras de datos i	4	CE1101;CE1104;MA1403	-	1	MIE	17:00	18:50
+Computadores	2	CE1103	algoritmos y estructuras de datos i	4	CE1101;CE1104;MA1403	-	1	VIE	17:00	18:50
+Computadores	2	CE1105	principios de modelado en ingeniería	3	CE1104	-	2	MAR	09:30	11:20
+Computadores	2	CE1105	principios de modelado en ingeniería	3	CE1104	-	2	JUE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	11	MIE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	11	VIE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	13	MIE	15:00	16:50
+Computadores	2	FI1101	física general i	3	MA1102	-	13	VIE	15:00	16:50
+Computadores	2	FI1101	física general i	3	MA1102	-	7	MAR	15:00	16:50
+Computadores	2	FI1101	física general i	3	MA1102	-	7	JUE	15:00	16:50
+Computadores	2	FI1101	física general i	3	MA1102	-	8	MAR	17:00	18:50
+Computadores	2	FI1101	física general i	3	MA1102	-	8	JUE	17:00	18:50
+Computadores	2	FI1101	física general i	3	MA1102	-	12	MIE	13:00	14:50
+Computadores	2	FI1101	física general i	3	MA1102	-	12	VIE	13:00	14:50
+Computadores	2	FI1101	física general i	3	MA1102	-	1	MAR	07:30	09:20
+Computadores	2	FI1101	física general i	3	MA1102	-	1	JUE	07:30	09:20
+Computadores	2	FI1101	física general i	3	MA1102	-	4	MAR	13:00	14:50
+Computadores	2	FI1101	física general i	3	MA1102	-	4	JUE	13:00	14:50
+Computadores	2	FI1101	física general i	3	MA1102	-	6	MAR	15:00	16:50
+Computadores	2	FI1101	física general i	3	MA1102	-	6	JUE	15:00	16:50
+Computadores	2	FI1101	física general i	3	MA1102	-	9	MIE	07:30	09:20
+Computadores	2	FI1101	física general i	3	MA1102	-	9	VIE	07:30	09:20
+Computadores	2	FI1101	física general i	3	MA1102	-	14	MIE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	14	VIE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	2	MAR	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	2	JUE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	10	MIE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	10	VIE	09:30	11:20
+Computadores	2	FI1101	física general i	3	MA1102	-	3	MAR	17:00	18:50
+Computadores	2	FI1101	física general i	3	MA1102	-	3	JUE	17:00	18:50
+Computadores	2	FI1101	física general i	3	MA1102	-	5	MAR	13:00	14:50
+Computadores	2	FI1101	física general i	3	MA1102	-	5	JUE	13:00	14:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	8	MIE	15:00	16:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	11	VIE	09:30	11:20
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	2	MAR	09:30	11:20
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	6	MIE	09:30	11:20
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	3	MAR	13:00	14:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	4	MAR	15:00	16:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	10	JUE	15:00	16:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	9	JUE	09:30	11:20
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	5	MAR	17:00	18:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	7	MIE	17:00	18:50
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	1	MAR	07:30	09:20
+Computadores	2	FI1201	laboratorio física general i	1	-	FI1101	12	MAR	13:00	14:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	5	MIE	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	7	LUN	18:00	19:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	11	MIE	15:00	16:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	17	MAR	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	20	MAR	15:00	16:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	1	LUN	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	6	MIE	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	18	JUE	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	2	LUN	07:30	09:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	8	VIE	15:00	16:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	12	MIE	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	14	MAR	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	16	VIE	13:00	14:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	19	MAR	16:00	17:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	21	MIE	17:00	18:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	4	VIE	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	9	MAR	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	3	JUE	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	10	LUN	09:30	11:20
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	13	JUE	13:00	14:50
+Computadores	2	CS1502	introducción a la técnica ciencia y tecnología	1	-	-	15	MIE	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	16	SAB	07:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	1	MAR	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	1	JUE	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	15	MIE	18:00	19:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	15	VIE	18:00	19:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	2	MAR	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	2	JUE	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	12	MIE	15:00	16:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	12	VIE	15:00	16:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	4	MAR	13:00	14:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	4	JUE	13:00	14:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	7	MAR	18:00	19:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	7	JUE	18:00	19:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	10	MIE	09:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	10	VIE	09:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	3	MAR	09:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	3	JUE	09:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	11	MIE	13:00	14:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	11	VIE	13:00	14:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	13	MIE	09:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	13	VIE	09:30	11:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	9	MIE	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	9	VIE	07:30	09:20
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	5	MAR	15:00	16:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	5	JUE	15:00	16:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	14	MIE	18:00	19:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	14	VIE	18:00	19:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	8	MIE	13:00	14:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	8	VIE	13:00	14:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	6	MAR	16:00	17:50
+Computadores	2	MA1103	cálculo y álgebra lineal	4	MA1102	-	6	JUE	16:00	17:50
+Computadores	2	CI1407	habilidades de comunicación en ingeniería	2	-	-	2	MAR	17:00	19:50
+Computadores	2	CI1407	habilidades de comunicación en ingeniería	2	-	-	4	JUE	13:00	15:50
+Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	CE1103;CE1105	-	2	MIE	17:00	18:50
+Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	CE1103;CE1105	-	2	VIE	17:00	18:50
+Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	CE1103;CE1105	-	1	MIE	19:00	20:50
+Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	CE1103;CE1105	-	1	VIE	19:00	20:50
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	4	LUN	07:30	09:20
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	4	MIE	07:30	09:20
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	2	MAR	09:30	11:20
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	2	JUE	09:30	11:20
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	3	LUN	07:30	11:20
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	1	MIE	09:30	11:20
+Computadores	3	EL2113	circuitos eléctricos en corriente continua	4	FI1101;MA1102	-	1	VIE	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	6	MAR	17:00	18:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	6	JUE	17:00	18:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	9	MIE	15:00	16:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	9	VIE	15:00	16:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	11	MAR	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	11	JUE	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	4	MAR	13:00	14:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	4	JUE	13:00	14:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	8	MIE	13:00	14:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	8	VIE	13:00	14:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	3	MAR	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	3	JUE	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	7	MIE	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	7	VIE	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	1	MAR	07:30	09:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	1	JUE	07:30	09:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	5	MAR	15:00	16:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	5	JUE	15:00	16:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	10	MAR	15:00	16:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	10	JUE	15:00	16:50
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	2	MAR	09:30	11:20
+Computadores	3	FI1102	física general ii	3	FI1101	MA1102	2	JUE	09:30	11:20
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	5	MIE	09:30	11:20
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	8	JUE	09:30	11:20
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	9	JUE	15:00	16:50
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	4	MIE	07:30	09:20
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	10	VIE	07:30	09:20
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	1	MAR	09:30	11:20
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	2	MAR	13:00	14:50
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	6	MIE	15:00	16:50
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	7	MIE	17:00	18:50
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	3	MAR	17:00	18:50
+Computadores	3	FI1202	laboratorio física general ii	1	FI1201	FI1102	11	VIE	15:00	16:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	2	MAR	18:00	19:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	2	JUE	18:00	19:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	3	MIE	15:00	16:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	3	VIE	15:00	16:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	6	MIE	13:00	14:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	6	VIE	13:00	14:50
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	1	MIE	07:30	09:20
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	1	VIE	07:30	09:20
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	4	MAR	09:30	11:20
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	4	JUE	09:30	11:20
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	7	MAR	07:30	09:20
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	7	JUE	07:30	09:20
+Computadores	3	MA2104	cálculo superior	4	MA1103	-	5	SAB	07:30	11:20
+Computadores	3	CS2101	ambiente humano	2	-	-	1	MIE	09:30	12:20
+Computadores	3	CS2101	ambiente humano	2	-	-	2	MIE	13:00	15:50
+Computadores	3	CS2101	ambiente humano	2	-	-	4	JUE	07:30	10:20
+Computadores	3	CS2101	ambiente humano	2	-	-	5	MIE	09:30	12:20
+Computadores	3	CS2101	ambiente humano	2	-	-	6	LUN	07:30	10:20
+Computadores	3	CS2101	ambiente humano	2	-	-	7	LUN	18:00	20:50
+Computadores	3	CS2101	ambiente humano	2	-	-	3	MAR	09:30	12:20
+Computadores	4	CE1106	paradigmas de programación	3	CE2103	-	1	MAR	17:00	18:50
+Computadores	4	CE1106	paradigmas de programación	3	CE2103	-	1	JUE	17:00	18:50
+Computadores	4	EL2114	circuitos eléctricos en corriente alterna	4	EL2113	EL2207	1	MIE	09:30	11:20
+Computadores	4	EL2114	circuitos eléctricos en corriente alterna	4	EL2113	EL2207	1	VIE	09:30	11:20
+Computadores	4	EL2114	circuitos eléctricos en corriente alterna	4	EL2113	EL2207	2	MAR	13:00	14:50
+Computadores	4	EL2114	circuitos eléctricos en corriente alterna	4	EL2113	EL2207	2	JUE	13:00	14:50
+Computadores	4	EL2114	circuitos eléctricos en corriente alterna	4	EL2113	EL2207	3	MIE	07:30	09:20
+Computadores	4	EL2114	circuitos eléctricos en corriente alterna	4	EL2113	EL2207	3	VIE	07:30	09:20
+Computadores	4	EL2207	elementos activos	4	EL2113	-	2	MAR	07:30	09:20
+Computadores	4	EL2207	elementos activos	4	EL2113	-	2	JUE	07:30	09:20
+Computadores	4	EL2207	elementos activos	4	EL2113	-	1	MAR	15:00	16:50
+Computadores	4	EL2207	elementos activos	4	EL2113	-	1	JUE	15:00	16:50
+Computadores	4	EL2207	elementos activos	4	EL2113	-	3	MIE	15:00	16:50
+Computadores	4	EL2207	elementos activos	4	EL2113	-	3	VIE	15:00	16:50
+Computadores	4	CE2201	laboratorio de circuitos eléctricos	1	FI1202	-	1	LUN	09:30	11:20
+Computadores	4	PI2609	probabilidad y estadística	2	MA2104	-	3	VIE	17:00	19:50
+Computadores	4	PI2609	probabilidad y estadística	2	MA2104	-	2	VIE	13:00	15:50
+Computadores	4	PI2609	probabilidad y estadística	2	MA2104	-	1	MAR	17:00	19:50
+Computadores	4	PI2609	probabilidad y estadística	2	MA2104	-	4	LUN	17:00	19:50
+Computadores	4	SO4604	seguridad y salud ocupacional	3	FI1102	-	2	JUE	13:00	15:50
+Computadores	4	SO4604	seguridad y salud ocupacional	3	FI1102	-	3	JUE	17:00	19:50
+Computadores	4	SO4604	seguridad y salud ocupacional	3	FI1102	-	1	LUN	07:30	10:20
+Computadores	4	SO4604	seguridad y salud ocupacional	3	FI1102	-	4	MIE	13:00	15:50
+Computadores	1	SE1101	Artes dramáticas	0	-	-	1	LUN	09:30	11:20
+Computadores	1	SE1101	Artes dramáticas	0	-	-	2	MAR	15:00	16:50
+Computadores	1	SE1101	Artes dramáticas	0	-	-	3	MAR	18:00	19:50
+Computadores	1	SE1101	Artes dramáticas	0	-	-	4	MIE	15:00	16:50
+Computadores	1	SE1102	Acción social	0	-	-	1	LUN	09:30	11:20
+Computadores	1	SE1102	Acción social	0	-	-	2	MAR	07:30	09:20
+Computadores	1	SE1103	Danza	0	-	-	1	MIE	15:00	16:50
+Computadores	1	SE1103	Danza	0	-	-	3	JUE	09:30	11:20
+Computadores	1	SE1103	Danza	0	-	-	2	MIE	18:00	19:50
+Computadores	1	SE1103	Danza	0	-	-	4	VIE	09:30	11:20
+Computadores	1	SE1103	Danza	0	-	-	5	VIE	15:00	16:50
+Computadores	1	SE1104	Artes visuales	0	-	-	1	MAR	09:30	11:20
+Computadores	1	SE1104	Artes visuales	0	-	-	2	MAR	13:00	14:50
+Computadores	1	SE1104	Artes visuales	0	-	-	3	MIE	09:30	11:20
+Computadores	1	SE1104	Artes visuales	0	-	-	4	MIE	13:00	14:50
+Computadores	1	SE1105	Artes musicales	0	-	-	5	MAR	13:00	14:50
+Computadores	1	SE1105	Artes musicales	0	-	-	1	MAR	15:00	16:50
+Computadores	1	SE1105	Artes musicales	0	-	-	2	MAR	17:00	18:50
+Computadores	1	SE1105	Artes musicales	0	-	-	3	JUE	15:00	16:50
+Computadores	1	SE1105	Artes musicales	0	-	-	4	MAR	09:30	11:20
+Computadores	1	SE1105	Artes musicales	0	-	-	6	JUE	18:00	19:50
+Computadores	1	SE1105	Artes musicales	0	-	-	7	MIE	09:30	11:20
+Computadores	1	SE1106	Apreciación literaria	0	-	-	1	MAR	07:30	09:20
+Computadores	1	SE1107	Apreciación de cine	0	-	-	5	JUE	09:30	11:20
+Computadores	1	SE1107	Apreciación de cine	0	-	-	6	JUE	15:00	16:50
+Computadores	1	SE1107	Apreciación de cine	0	-	-	1	MAR	09:30	11:20
+Computadores	1	SE1107	Apreciación de cine	0	-	-	2	MIE	09:30	11:20
+Computadores	1	SE1107	Apreciación de cine	0	-	-	3	JUE	13:00	14:50
+Computadores	1	SE1107	Apreciación de cine	0	-	-	4	VIE	09:30	11:20
+Computadores	1	SE1201	Atletismo	0	-	-	1	MAR	07:30	09:20
+Computadores	1	SE1201	Atletismo	0	-	-	2	MIE	07:30	09:20
+Computadores	1	SE1201	Atletismo	0	-	-	4	JUE	07:30	09:20
+Computadores	1	SE1201	Atletismo	0	-	-	3	MIE	09:30	11:20
+Computadores	1	SE1204	Natación	0	-	-	5	MIE	09:30	11:20
+Computadores	1	SE1204	Natación	0	-	-	10	MAR	13:00	14:50
+Computadores	1	SE1204	Natación	0	-	-	1	LUN	07:30	09:20
+Computadores	1	SE1204	Natación	0	-	-	2	LUN	09:30	11:20
+Computadores	1	SE1204	Natación	0	-	-	4	MIE	07:30	09:20
+Computadores	1	SE1204	Natación	0	-	-	3	MAR	17:00	18:50
+Computadores	1	SE1204	Natación	0	-	-	6	MIE	13:00	14:50
+Computadores	1	SE1204	Natación	0	-	-	7	MIE	15:00	16:50
+Computadores	1	SE1204	Natación	0	-	-	8	JUE	09:30	11:20
+Computadores	1	SE1204	Natación	0	-	-	9	JUE	17:00	18:50
+Computadores	1	SE1205	Juegos y deportes en conjunto	0	-	-	3	MAR	07:30	09:20
+Computadores	1	SE1205	Juegos y deportes en conjunto	0	-	-	1	LUN	09:30	11:20
+Computadores	1	SE1205	Juegos y deportes en conjunto	0	-	-	2	LUN	09:30	11:20
+Computadores	1	SE1205	Juegos y deportes en conjunto	0	-	-	5	JUE	07:30	09:20
+Computadores	1	SE1205	Juegos y deportes en conjunto	0	-	-	4	MIE	09:30	11:20
+Computadores	1	SE1206	Acondicionamiento físico	0	-	-	2	MAR	15:00	16:50
+Computadores	1	SE1206	Acondicionamiento físico	0	-	-	1	MAR	09:30	11:20
+Computadores	1	SE1206	Acondicionamiento físico	0	-	-	3	JUE	09:30	11:20
+Computadores	1	SE1206	Acondicionamiento físico	0	-	-	4	VIE	07:30	09:20
+Computadores	1	SE1209	Béisbol-softbol	0	-	-	1	LUN	07:30	09:20
+Computadores	1	SE1209	Béisbol-softbol	0	-	-	2	MAR	07:30	09:20
+Computadores	1	SE1209	Béisbol-softbol	0	-	-	4	MIE	07:30	09:20
+Computadores	1	SE1209	Béisbol-softbol	0	-	-	5	VIE	07:30	09:20
+Computadores	1	SE1209	Béisbol-softbol	0	-	-	3	MAR	09:30	11:20
+Computadores	1	SE1209	Béisbol-softbol	0	-	-	6	VIE	09:30	11:20
+Computadores	1	SE1218	Ajedrez	0	-	-	1	MAR	09:30	11:20
+Computadores	1	SE1219	Baloncesto recreativo	0	-	-	1	LUN	07:30	09:20
+Computadores	1	SE1221	Futbol I	0	-	-	1	MAR	09:30	11:20
+Computadores	1	SE1221	Futbol I	0	-	-	2	JUE	09:30	11:20
+Computadores	1	SE1221	Futbol I	0	-	-	3	JUE	13:00	14:50
+Computadores	1	SE1222	Futbol sala	0	-	-	1	MIE	07:30	09:20
+Computadores	1	SE1222	Futbol sala	0	-	-	2	VIE	09:30	11:20

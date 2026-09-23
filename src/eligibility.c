@@ -7,7 +7,10 @@ void evaluate_course_eligibility(Course *course, const StudentHistory *history){
     
     }
 
-    course->can_enroll=true; //inicialmente lo ponemos en true
+    if(code_list_contains(&history->approved_courses,course->code)){
+        course->can_enroll=false;
+        return;
+    } //inicialmente lo ponemos en true
     for (int i=0; i< (int)course->requirements.count;i++){
         const char *req_code = course->requirements.items[i];
 

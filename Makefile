@@ -12,7 +12,10 @@ SRC = src/main.c \
       src/models/student_history.c \
       src/validator.c \
       src/catalog_parser.c \
-      src/eligibility.c
+      src/history_parser.c \
+      src/eligibility.c \
+      src/conflict_detector.c \
+      src/serializer.c
 #name del ejecutable
 EXEC = cemestre
 
