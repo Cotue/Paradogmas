@@ -104,7 +104,7 @@ Status parse_student_history(
         fclose(file);
         student_history_free(history);
 
-        return ERROR_READ;
+        return ERROR_INVALID_FORMAT;
     }
 
     fclose(file);

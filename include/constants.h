@@ -1,28 +1,28 @@
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
+    #ifndef CONSTANTS_H
+    #define CONSTANTS_H
 
-#define OUTPUT_SCHEMA_VERSION "1.0"
-#define MAX_COURSE_CODE_LENGTH 16
-#define MAX_COURSE_NAME_LENGTH 128
-#define MAX_CAREER_CODE_LENGTH 16
-#define MAX_CAREER_NAME_LENGTH 128
-#define MAX_DAY_LENGTH 8
-#define MAX_TIME_LENGTH 8
-#define MAX_LINE_LENGTH 1024
+    #define OUTPUT_SCHEMA_VERSION "1.0"
+    #define MAX_COURSE_CODE_LENGTH 16
+    #define MAX_COURSE_NAME_LENGTH 128
+    #define MAX_CAREER_CODE_LENGTH 16
+    #define MAX_CAREER_NAME_LENGTH 128
+    #define MAX_DAY_LENGTH 8
+    #define MAX_TIME_LENGTH 8
+    #define MAX_LINE_LENGTH 1024
 
-#define INITIAL_CAPACITY 8
+    #define INITIAL_CAPACITY 8
 
-#define TSV_DELIMITER "\t"
-#define LIST_DELIMITER ";"
-#define EMPTY_FIELD "-"
+    #define TSV_DELIMITER "\t"
+    #define LIST_DELIMITER ";"
+    #define EMPTY_FIELD "-"
 
-typedef enum {
-    SUCCESS = 0,
-    ERROR_ARGS = 1,
-    ERROR_FILE_NOT_FOUND = 2,
-    ERROR_INVALID_FORMAT = 3,
+    typedef enum {
+        SUCCESS = 0,
+        ERROR_ARGS = 1,
+        ERROR_FILE_NOT_FOUND = 2,
+        ERROR_INVALID_FORMAT = 3,
     ERROR_MEMORY = 4,
     ERROR_READ = 5
-} Status;
+    } Status;
 
-#endif
+    #endif
