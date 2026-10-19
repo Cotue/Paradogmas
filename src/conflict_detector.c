@@ -66,18 +66,18 @@ Status detect_catalog_conflicts(Catalog *catalog)
     }
 
     /*
-     * Los conflictos son información calculada.
-     * Se limpian antes de volver a realizar el análisis.
+     Los conflictos son información calculada.
+     Se limpian antes de volver a realizar el análisis.
      */
     clear_catalog_conflicts(catalog);
 
     /*
-     * Se comparan únicamente cursos diferentes.
-     *
-     * j comienza en i + 1 para:
-     *
-     * 1. evitar comparar un curso consigo mismo;
-     * 2. evitar comparar dos veces el mismo par.
+     Se comparan únicamente cursos diferentes.
+     
+     j comienza en i + 1 para:
+     
+      evitar comparar un curso consigo mismo;
+       evitar comparar dos veces el mismo par.
      */
     for (size_t i = 0; i < catalog->course_count; i++) {
         Course *course_a = &catalog->courses[i];
@@ -86,8 +86,8 @@ Status detect_catalog_conflicts(Catalog *catalog)
             Course *course_b = &catalog->courses[j];
 
             /*
-             * Ahora se comparan todos los grupos
-             * disponibles de ambos cursos.
+              Ahora se comparan todos los grupos
+              disponibles de ambos cursos.
              */
             for (size_t group_a_index = 0;
                  group_a_index < course_a->group_count;
@@ -104,17 +104,17 @@ Status detect_catalog_conflicts(Catalog *catalog)
                         &course_b->groups[group_b_index];
 
                     /*
-                     * Si ninguno de sus bloques horarios
-                     * se superpone, no hay nada que registrar.
+                      Si ninguno de sus bloques horarios
+                     se superpone, no hay nada que registrar.
                      */
                     if (!groups_conflict(group_a, group_b)) {
                         continue;
                     }
 
                     /*
-                     * El conflicto se almacena en ambos sentidos.
-                     *
-                     * A -> B
+                     El conflicto se almacena en ambos sentidos.
+                     
+                      A -> B
                      */
                     if (!group_add_conflict(
                             group_a,
@@ -127,7 +127,7 @@ Status detect_catalog_conflicts(Catalog *catalog)
                     }
 
                     /*
-                     * B -> A
+                     B -> A
                      */
                     if (!group_add_conflict(
                             group_b,
@@ -140,10 +140,10 @@ Status detect_catalog_conflicts(Catalog *catalog)
                     }
 
                     /*
-                     * group_add_conflict() ya establece
-                     * Group.has_conflict = true.
-                     *
-                     * Aquí marcamos también los cursos.
+                      group_add_conflict() ya establece
+                     Group.has_conflict = true.
+                     
+                      Aquí marcamos también los cursos.
                      */
                     course_a->has_conflict = true;
                     course_b->has_conflict = true;

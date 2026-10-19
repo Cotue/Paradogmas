@@ -2,7 +2,6 @@
 #include "constants.h"
 #include "catalog_parser.h"
 #include "history_parser.h"
-// Cabeceras añadidas para KAN-14
 #include "eligibility.h"
 #include "conflict_detector.h" 
 #include "serializer.h"
@@ -25,7 +24,7 @@ int main(int argc, char *argv[]) {
         result = parse_student_history(argv[2], &catalog, &history);
         if (result == SUCCESS) {
             
-            // 1. Calcular choques de horario (CORREGIDO EL NOMBRE AQUÍ)
+            // 1. Calcular choques de horario 
             detect_catalog_conflicts(&catalog);
             
             // 2. Evaluar requisitos con el historial

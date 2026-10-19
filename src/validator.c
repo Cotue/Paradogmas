@@ -97,9 +97,6 @@ Status validate_time_format(const char *start_time_str, const char *end_time_str
     return SUCCESS;
 }
 
-// =================================================================
-// NUEVAS FUNCIONES AGREGADAS PARA INTEGRAR CON CATALOG_PARSER.C
-// =================================================================
 
 Status validate_semester_format(const char *sem_str) {
     if (!sem_str || sem_str[0] == '\0') return ERROR_INVALID_FORMAT;

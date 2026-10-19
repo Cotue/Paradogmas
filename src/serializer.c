@@ -48,9 +48,9 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
         return ERROR_FILE_NOT_FOUND;
     }
 
-    // Encabezado principal del archivo JSON
+    // Encabezado principal del archivo JSON (Schema Version 2.0)
     fprintf(file, "{\n");
-    fprintf(file, "  \"schemaVersion\": \"%s\",\n", OUTPUT_SCHEMA_VERSION);
+    fprintf(file, "  \"schemaVersion\": \"%s\",\n", OUTPUT_SCHEMA_VERSION); // Debe evaluar a "2.0"
     fprintf(file, "  \"carrera\": {\n");
     fprintf(file, "    \"codigo\": \"%s\",\n", catalog->career_code ? catalog->career_code : "IC");
     fprintf(file, "    \"nombre\": \"%s\"\n", catalog->career_name ? catalog->career_name : "Ingeniería en Computadores");
@@ -63,10 +63,14 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
         fprintf(file, "    {\n");
         fprintf(file, "      \"codigo\": \"%s\",\n", c->code);
         fprintf(file, "      \"nombre\": \"%s\",\n", c->name);
+        
+        // NUEVO: Requisito indispensable de la Etapa 2 (Versión 2.0)
+        fprintf(file, "      \"carrera\": \"%s\",\n", catalog->career_code ? catalog->career_code : "IC");
+        
         fprintf(file, "      \"creditos\": %d,\n", c->credits);
         fprintf(file, "      \"semestre\": %d,\n\n", c->semester);
 
-        // 1. Requisitos, Correquisitos y Correquisitos Pendientes (al inicio del objeto Curso)
+        // 1. Requisitos, Correquisitos y Correquisitos Pendientes
         fprintf(file, "      \"requisitos\": ");
         print_code_list_json(file, &c->requirements);
         fprintf(file, ",\n");
@@ -79,7 +83,7 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
         print_code_list_json(file, &c->pending_corequisites);
         fprintf(file, ",\n\n");
 
-        // 2. Grupos y Horarios
+        // 2. Grupos y Horarios (mantiene la lógica de choques y grupos intacta)
         fprintf(file, "      \"grupos\": [\n");
         for (size_t j = 0; j < c->group_count; j++) {
             Group *g = &c->groups[j];
@@ -125,7 +129,7 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
         }
         fprintf(file, "      ],\n\n");
 
-        // 3. Banderas finales a nivel de Curso (exactamente según el contrato)
+        // 3. Banderas finales a nivel de Curso
         fprintf(file, "      \"tieneChoque\": %s,\n", c->has_conflict ? "true" : "false");
         fprintf(file, "      \"puedeMatricular\": %s\n", c->can_enroll ? "true" : "false");
 

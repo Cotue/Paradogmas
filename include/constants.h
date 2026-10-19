@@ -1,7 +1,7 @@
     #ifndef CONSTANTS_H
     #define CONSTANTS_H
 
-    #define OUTPUT_SCHEMA_VERSION "1.0"
+    #define OUTPUT_SCHEMA_VERSION "2.0"
     #define MAX_COURSE_CODE_LENGTH 16
     #define MAX_COURSE_NAME_LENGTH 128
     #define MAX_CAREER_CODE_LENGTH 16

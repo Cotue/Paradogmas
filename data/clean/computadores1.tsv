@@ -1,8 +1,8 @@
 carrera	semestre	codigo	nombre	creditos	requisitos	correquisitos	grupo	dia	inicio	fin
-Computadores	1	CE1101	introducción a la programación	3	-	-	3	MIE	07:30	09:20
-Computadores	1	CE1101	introducción a la programación	3	-	-	3	VIE	07:30	09:20
-Computadores	1	CE1101	introducción a la programación	3	-	-	4	MIE	09:30	11:20
-Computadores	1	CE1101	introducción a la programación	3	-	-	4	VIE	09:30	11:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	3	MIE	00:30	03:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	3	VIE	00:30	03:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	4	MIE	01:30	04:20
+Computadores	1	CE1101	introducción a la programación	3	-	-	4	VIE	01:30	04:20
 Computadores	1	CE1101	introducción a la programación	3	-	-	5	MAR	13:00	14:50
 Computadores	1	CE1101	introducción a la programación	3	-	-	5	JUE	13:00	14:50
 Computadores	1	CE1101	introducción a la programación	3	-	-	1	MAR	07:30	09:20
@@ -19,8 +19,8 @@ Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	5	MAR	1
 Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	5	JUE	15:00	16:50
 Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	1	MAR	07:30	09:20
 Computadores	1	CE1104	fundamentos de sistemas computacionales	3	-	CE1101	1	JUE	07:30	09:20
-Computadores	1	MA1403	matemática discreta	4	-	-	7	MIE	09:30	11:20
-Computadores	1	MA1403	matemática discreta	4	-	-	7	VIE	09:30	11:20
+Computadores	1	MA1403	matemática discreta	4	-	-	7	MIE	00:30	03:20
+Computadores	1	MA1403	matemática discreta	4	-	-	7	VIE	00:30	03:20
 Computadores	1	MA1403	matemática discreta	4	-	-	8	MIE	13:00	14:50
 Computadores	1	MA1403	matemática discreta	4	-	-	8	VIE	13:00	14:50
 Computadores	1	MA1403	matemática discreta	4	-	-	9	MIE	16:00	17:50
