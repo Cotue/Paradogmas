@@ -38,8 +38,9 @@ static int test_semester(void) {
     int fails = 0;
 
     fails += validate_semester_format("1") != SUCCESS;
-    fails += validate_semester_format("4") != SUCCESS;
-    fails += validate_semester_format("5") != ERROR_INVALID_FORMAT;
+    fails += validate_semester_format("6") != SUCCESS;
+    fails += validate_semester_format("0") != ERROR_INVALID_FORMAT;
+    fails += validate_semester_format("7") != ERROR_INVALID_FORMAT;
     fails += validate_semester_format("A") != ERROR_INVALID_FORMAT;
 
     return fails;

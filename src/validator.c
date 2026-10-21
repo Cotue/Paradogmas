@@ -107,7 +107,7 @@ Status validate_semester_format(const char *sem_str) {
     
     int sem = atoi(sem_str);
     // La guía restringe a los primeros 4 semestres
-    if (sem < 1 || sem > 4) {
+    if (sem < 1 || sem > 6) {
         return ERROR_INVALID_FORMAT;
     }
     return SUCCESS;
