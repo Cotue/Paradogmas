@@ -10,10 +10,12 @@
 typedef struct {
     char *code;
     char *name;
+    char *career;
+    char *area;
 
     int credits;
     int semester;
-
+    
     CodeList requirements;
     CodeList corequisites;
     CodeList pending_corequisites;

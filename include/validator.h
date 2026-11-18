@@ -12,6 +12,7 @@ Status validate_day_format(const char *day_str);
 Status validate_time_format(const char *start_time_str, const char *end_time_str);
 Status validate_semester_format(const char *sem_str);
 Status validate_credits_format(const char *cred_str);
+Status validate_area_format(const char *area);
 Day parse_day_string(const char *day_str);
 
 #endif

@@ -49,32 +49,58 @@ Course* find_course_by_code(Catalog *catalog, const char *code) {
     return NULL;
 }
 
-Course* catalog_add_course(Catalog *catalog, const char *code, const char *name, int credits, int semester) {
+Course* catalog_add_course(
+    Catalog *catalog,
+    const char *code,
+    const char *name,
+    const char *career,
+    const char *area,
+    int credits,
+    int semester
+) {
+    if (!catalog || !code || !name || !career || !area) {
+        return NULL;
+    }
+
     if (catalog->course_count == catalog->course_capacity) {
-        size_t new_cap = (catalog->course_capacity == 0) ? INITIAL_CAPACITY : catalog->course_capacity * 2;
-        Course *temp = realloc(catalog->courses, new_cap * sizeof(Course));
+        size_t new_cap = (catalog->course_capacity == 0)
+            ? INITIAL_CAPACITY
+            : catalog->course_capacity * 2;
+
+        Course *temp = realloc(
+            catalog->courses,
+            new_cap * sizeof(Course)
+        );
+
         if (!temp) return NULL;
+
         catalog->courses = temp;
         catalog->course_capacity = new_cap;
     }
-    
+
     Course *new_course = &catalog->courses[catalog->course_count];
     course_init(new_course);
-    
+
     new_course->code = malloc(strlen(code) + 1);
     new_course->name = malloc(strlen(name) + 1);
-    
-    if (!new_course->code || !new_course->name) {
-        free(new_course->code); // Safe due to free(NULL) behavior
-        free(new_course->name);
+    new_course->career = malloc(strlen(career) + 1);
+    new_course->area = malloc(strlen(area) + 1);
+
+    if (!new_course->code || !new_course->name ||
+        !new_course->career || !new_course->area) {
+        course_free(new_course);
         return NULL;
     }
-    
+
     strcpy(new_course->code, code);
     strcpy(new_course->name, name);
+    strcpy(new_course->career, career);
+    strcpy(new_course->area, area);
+
     new_course->credits = credits;
     new_course->semester = semester;
-    
+
     catalog->course_count++;
+
     return new_course;
 }

@@ -11,6 +11,7 @@ SRC = src/main.c \
       src/models/schedule.c \
       src/models/student_history.c \
       src/validator.c \
+      src/career_mapping.c \
       src/catalog_parser.c \
       src/history_parser.c \
       src/eligibility.c \
