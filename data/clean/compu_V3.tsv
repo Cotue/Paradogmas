@@ -1,24 +1,24 @@
 carrera	semestre	codigo	nombre	creditos	area	requisitos	correquisitos	grupo	dia	inicio	fin
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	1	JUE	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	1	MAR	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	2	JUE	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	2	MAR	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	3	MIE	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	3	VIE	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	4	MIE	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	4	VIE	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	5	JUE	13:00	14:50
-Escuela de Ingeniería en Computación	1	CE1101	introducción a la programación	3	computadores	-	-	5	MAR	13:00	14:50
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	1	JUE	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	1	MAR	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	2	JUE	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	2	MAR	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	3	MIE	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	3	VIE	09:30	11:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	4	MIE	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	4	VIE	07:30	09:20
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	5	JUE	15:00	16:50
-Escuela de Ingeniería en Computación	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	5	MAR	15:00	16:50
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	1	JUE	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	1	MAR	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	2	JUE	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	2	MAR	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	3	MIE	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	3	VIE	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	4	MIE	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	4	VIE	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	5	JUE	13:00	14:50
+Escuela de Ingeniería en Computadores	1	CE1101	introducción a la programación	3	computadores	-	-	5	MAR	13:00	14:50
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	1	JUE	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	1	MAR	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	2	JUE	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	2	MAR	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	3	MIE	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	3	VIE	09:30	11:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	4	MIE	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	4	VIE	07:30	09:20
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	5	JUE	15:00	16:50
+Escuela de Ingeniería en Computadores	1	CE1104	fundamentos de sistemas computacionales	3	computadores	-	CE1101	5	MAR	15:00	16:50
 Escuela de Matemática	1	MA0101	matemática general	2	matematicas	-	-	1	JUE	07:30	10:20
 Escuela de Matemática	1	MA0101	matemática general	2	matematicas	-	-	1	MAR	07:30	09:20
 Escuela de Matemática	1	MA0101	matemática general	2	matematicas	-	-	2	JUE	07:30	10:20
@@ -292,10 +292,10 @@ Escuela de Cultura y Deporte	1	SE1221	Futbol I	0	optativas	-	-	2	JUE	09:30	11:20
 Escuela de Cultura y Deporte	1	SE1221	Futbol I	0	optativas	-	-	3	JUE	13:00	14:50
 Escuela de Cultura y Deporte	1	SE1222	Futbol sala	0	optativas	-	-	1	MIE	07:30	09:20
 Escuela de Cultura y Deporte	1	SE1222	Futbol sala	0	optativas	-	-	2	VIE	09:30	11:20
-Escuela de Ingeniería en Computación	2	CE1103	algoritmos y estructuras de datos i	4	computadores	CE1101;CE1104;MA1403	-	1	MIE	17:00	18:50
-Escuela de Ingeniería en Computación	2	CE1103	algoritmos y estructuras de datos i	4	computadores	CE1101;CE1104;MA1403	-	1	VIE	17:00	18:50
-Escuela de Ingeniería en Computación	2	CE1105	principios de modelado en ingeniería	3	computadores	CE1104	-	2	JUE	09:30	11:20
-Escuela de Ingeniería en Computación	2	CE1105	principios de modelado en ingeniería	3	computadores	CE1104	-	2	MAR	09:30	11:20
+Escuela de Ingeniería en Computadores	2	CE1103	algoritmos y estructuras de datos i	4	computadores	CE1101;CE1104;MA1403	-	1	MIE	17:00	18:50
+Escuela de Ingeniería en Computadores	2	CE1103	algoritmos y estructuras de datos i	4	computadores	CE1101;CE1104;MA1403	-	1	VIE	17:00	18:50
+Escuela de Ingeniería en Computadores	2	CE1105	principios de modelado en ingeniería	3	computadores	CE1104	-	2	JUE	09:30	11:20
+Escuela de Ingeniería en Computadores	2	CE1105	principios de modelado en ingeniería	3	computadores	CE1104	-	2	MAR	09:30	11:20
 Escuela de Ciencias del Lenguaje	2	CI1407	habilidades de comunicación en ingeniería	2	comunicacion	-	-	2	MAR	17:00	19:50
 Escuela de Ciencias del Lenguaje	2	CI1407	habilidades de comunicación en ingeniería	2	comunicacion	-	-	4	JUE	13:00	15:50
 Escuela de Ciencias Sociales	2	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	1	LUN	09:30	11:20
@@ -390,10 +390,10 @@ Escuela de Matemática	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	
 Escuela de Matemática	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	15	MIE	18:00	19:50
 Escuela de Matemática	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	15	VIE	18:00	19:50
 Escuela de Matemática	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	16	SAB	07:30	11:20
-Escuela de Ingeniería en Computación	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	1	MIE	19:00	20:50
-Escuela de Ingeniería en Computación	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	1	VIE	19:00	20:50
-Escuela de Ingeniería en Computación	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	2	MIE	17:00	18:50
-Escuela de Ingeniería en Computación	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	2	VIE	17:00	18:50
+Escuela de Ingeniería en Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	1	MIE	19:00	20:50
+Escuela de Ingeniería en Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	1	VIE	19:00	20:50
+Escuela de Ingeniería en Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	2	MIE	17:00	18:50
+Escuela de Ingeniería en Computadores	3	CE2103	algoritmos y estructuras de datos ii	4	computadores	CE1103;CE1105	-	2	VIE	17:00	18:50
 Escuela de Ciencias Sociales	3	CS2101	ambiente humano	2	optativas	-	-	1	MIE	09:30	12:20
 Escuela de Ciencias Sociales	3	CS2101	ambiente humano	2	optativas	-	-	2	MIE	13:00	15:50
 Escuela de Ciencias Sociales	3	CS2101	ambiente humano	2	optativas	-	-	3	MAR	09:30	12:20
@@ -454,9 +454,9 @@ Escuela de Matemática	3	MA2104	cálculo superior	4	matematicas	MA1103	-	6	MIE	1
 Escuela de Matemática	3	MA2104	cálculo superior	4	matematicas	MA1103	-	6	VIE	13:00	14:50
 Escuela de Matemática	3	MA2104	cálculo superior	4	matematicas	MA1103	-	7	JUE	07:30	09:20
 Escuela de Matemática	3	MA2104	cálculo superior	4	matematicas	MA1103	-	7	MAR	07:30	09:20
-Escuela de Ingeniería en Computación	4	CE1106	paradigmas de programación	3	computadores	CE2103	-	1	JUE	17:00	18:50
-Escuela de Ingeniería en Computación	4	CE1106	paradigmas de programación	3	computadores	CE2103	-	1	MAR	17:00	18:50
-Escuela de Ingeniería en Computación	4	CE2201	laboratorio de circuitos eléctricos	1	electronica	FI1202	-	1	LUN	09:30	11:20
+Escuela de Ingeniería en Computadores	4	CE1106	paradigmas de programación	3	computadores	CE2103	-	1	JUE	17:00	18:50
+Escuela de Ingeniería en Computadores	4	CE1106	paradigmas de programación	3	computadores	CE2103	-	1	MAR	17:00	18:50
+Escuela de Ingeniería en Computadores	4	CE2201	laboratorio de circuitos eléctricos	1	electronica	FI1202	-	1	LUN	09:30	11:20
 Escuela de Ingeniería Electrónica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113	EL2207	1	MIE	09:30	11:20
 Escuela de Ingeniería Electrónica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113	EL2207	1	VIE	09:30	11:20
 Escuela de Ingeniería Electrónica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113	EL2207	2	JUE	13:00	14:50
@@ -477,14 +477,14 @@ Escuela de Ingeniería en Seguridad Laboral e Higiene Ambiental	4	SO4604	segurid
 Escuela de Ingeniería en Seguridad Laboral e Higiene Ambiental	4	SO4604	seguridad y salud ocupacional	3	optativas	FI1102	-	2	JUE	13:00	15:50
 Escuela de Ingeniería en Seguridad Laboral e Higiene Ambiental	4	SO4604	seguridad y salud ocupacional	3	optativas	FI1102	-	3	JUE	17:00	19:50
 Escuela de Ingeniería en Seguridad Laboral e Higiene Ambiental	4	SO4604	seguridad y salud ocupacional	3	optativas	FI1102	-	4	MIE	13:00	15:50
-Escuela de Ingeniería en Computación	5	CE1107	fundamentos de arquitectura de computadores	4	computadores	EL2207	-	1	JUE	13:00	14:50
-Escuela de Ingeniería en Computación	5	CE1107	fundamentos de arquitectura de computadores	4	computadores	EL2207	-	1	MAR	13:00	14:50
-Escuela de Ingeniería en Computación	5	CE3101	bases de datos	4	computadores	CE1106	-	1	JUE	19:00	20:50
-Escuela de Ingeniería en Computación	5	CE3101	bases de datos	4	computadores	CE1106	-	1	MAR	19:00	20:50
-Escuela de Ingeniería en Computación	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	1	MIE	13:00	14:50
-Escuela de Ingeniería en Computación	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	1	VIE	13:00	14:50
-Escuela de Ingeniería en Computación	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	2	MIE	09:30	11:20
-Escuela de Ingeniería en Computación	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	2	VIE	09:30	11:20
+Escuela de Ingeniería en Computadores	5	CE1107	fundamentos de arquitectura de computadores	4	computadores	EL2207	-	1	JUE	13:00	14:50
+Escuela de Ingeniería en Computadores	5	CE1107	fundamentos de arquitectura de computadores	4	computadores	EL2207	-	1	MAR	13:00	14:50
+Escuela de Ingeniería en Computadores	5	CE3101	bases de datos	4	computadores	CE1106	-	1	JUE	19:00	20:50
+Escuela de Ingeniería en Computadores	5	CE3101	bases de datos	4	computadores	CE1106	-	1	MAR	19:00	20:50
+Escuela de Ingeniería en Computadores	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	1	MIE	13:00	14:50
+Escuela de Ingeniería en Computadores	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	1	VIE	13:00	14:50
+Escuela de Ingeniería en Computadores	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	2	MIE	09:30	11:20
+Escuela de Ingeniería en Computadores	5	CE3201	taller de diseño digital	2	computadores	CE2201	CE1107	2	VIE	09:30	11:20
 Escuela de Matemática	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	1	JUE	07:30	09:20
 Escuela de Matemática	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	1	MAR	07:30	09:20
 Escuela de Matemática	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	2	MIE	13:00	14:50
@@ -500,33 +500,33 @@ Escuela de Matemática	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	
 Escuela de Matemática	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	7	VIE	07:30	09:20
 Escuela de Ingeniería en Producción Industrial	5	PI5516	ingeniería económica	3	optativas	PI2609	-	1	MIE	17:00	20:50
 Escuela de Ingeniería en Producción Industrial	5	PI5516	ingeniería económica	3	optativas	PI2609	-	2	VIE	17:00	20:50
-Escuela de Ingeniería en Computación	6	CE1108	compiladores e intérpretes	4	computadores	CE1107	CE4301	1	JUE	19:00	20:50
-Escuela de Ingeniería en Computación	6	CE1108	compiladores e intérpretes	4	computadores	CE1107	CE4301	1	MAR	19:00	20:50
-Escuela de Ingeniería en Computación	6	CE1109	circuitos analógicos	4	electronica	EL2207;SO4604	-	1	MIE	13:00	14:50
-Escuela de Ingeniería en Computación	6	CE1109	circuitos analógicos	4	electronica	EL2207;SO4604	-	1	VIE	13:00	14:50
-Escuela de Ingeniería en Computación	6	CE1110	análisis de señales mixtas	4	electronica	EL2114;MA2105	-	1	JUE	09:30	11:20
-Escuela de Ingeniería en Computación	6	CE1110	análisis de señales mixtas	4	electronica	EL2114;MA2105	-	1	MAR	09:30	11:20
-Escuela de Ingeniería en Computación	6	CE4301	arquitectura de computadores i	4	computadores	CE1107;CE3201	-	2	MIE	15:00	16:50
-Escuela de Ingeniería en Computación	6	CE4301	arquitectura de computadores i	4	computadores	CE1107;CE3201	-	2	VIE	15:00	16:50
-Escuela de Ingeniería en Computación	7	CE1111	análisis numérico para la ingeniería	3	computadores	MA2105	-	1	JUE	13:00	14:50
-Escuela de Ingeniería en Computación	7	CE1111	análisis numérico para la ingeniería	3	computadores	MA2105	-	1	MAR	13:00	14:50
-Escuela de Ingeniería en Computación	7	CE1112	taller de señales mixtas	3	computadores	CE1109, CE1110	-	1	MIE	15:00	16:50
-Escuela de Ingeniería en Computación	7	CE1112	taller de señales mixtas	3	computadores	CE1109, CE1110	-	1	VIE	15:00	16:50
-Escuela de Ingeniería en Computación	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101, CE4301, PI5516	-	1	JUE	19:00	20:50
-Escuela de Ingeniería en Computación	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101, CE4301, PI5516	-	1	MAR	19:00	20:50
-Escuela de Ingeniería en Computación	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	1	MIE	13:00	14:50
-Escuela de Ingeniería en Computación	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	1	VIE	13:00	14:50
-Escuela de Ingeniería en Computación	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	2	JUE	13:00	14:50
-Escuela de Ingeniería en Computación	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	2	MAR	13:00	14:50
-Escuela de Ingeniería en Computación	7	CE4303	principios de sistemas operativos	4	computadores	CE1108	-	1	MIE	19:00	20:50
-Escuela de Ingeniería en Computación	7	CE4303	principios de sistemas operativos	4	computadores	CE1108	-	1	VIE	19:00	20:50
+Escuela de Ingeniería en Computadores	6	CE1108	compiladores e intérpretes	4	computadores	CE1107	CE4301	1	JUE	19:00	20:50
+Escuela de Ingeniería en Computadores	6	CE1108	compiladores e intérpretes	4	computadores	CE1107	CE4301	1	MAR	19:00	20:50
+Escuela de Ingeniería en Computadores	6	CE1109	circuitos analógicos	4	electronica	EL2207;SO4604	-	1	MIE	13:00	14:50
+Escuela de Ingeniería en Computadores	6	CE1109	circuitos analógicos	4	electronica	EL2207;SO4604	-	1	VIE	13:00	14:50
+Escuela de Ingeniería en Computadores	6	CE1110	análisis de señales mixtas	4	electronica	EL2114;MA2105	-	1	JUE	09:30	11:20
+Escuela de Ingeniería en Computadores	6	CE1110	análisis de señales mixtas	4	electronica	EL2114;MA2105	-	1	MAR	09:30	11:20
+Escuela de Ingeniería en Computadores	6	CE4301	arquitectura de computadores i	4	computadores	CE1107;CE3201	-	2	MIE	15:00	16:50
+Escuela de Ingeniería en Computadores	6	CE4301	arquitectura de computadores i	4	computadores	CE1107;CE3201	-	2	VIE	15:00	16:50
+Escuela de Ingeniería en Computadores	7	CE1111	análisis numérico para la ingeniería	3	computadores	MA2105	-	1	JUE	13:00	14:50
+Escuela de Ingeniería en Computadores	7	CE1111	análisis numérico para la ingeniería	3	computadores	MA2105	-	1	MAR	13:00	14:50
+Escuela de Ingeniería en Computadores	7	CE1112	taller de señales mixtas	3	computadores	CE1109, CE1110	-	1	MIE	15:00	16:50
+Escuela de Ingeniería en Computadores	7	CE1112	taller de señales mixtas	3	computadores	CE1109, CE1110	-	1	VIE	15:00	16:50
+Escuela de Ingeniería en Computadores	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101, CE4301, PI5516	-	1	JUE	19:00	20:50
+Escuela de Ingeniería en Computadores	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101, CE4301, PI5516	-	1	MAR	19:00	20:50
+Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	1	MIE	13:00	14:50
+Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	1	VIE	13:00	14:50
+Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	2	JUE	13:00	14:50
+Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	2	MAR	13:00	14:50
+Escuela de Ingeniería en Computadores	7	CE4303	principios de sistemas operativos	4	computadores	CE1108	-	1	MIE	19:00	20:50
+Escuela de Ingeniería en Computadores	7	CE4303	principios de sistemas operativos	4	computadores	CE1108	-	1	VIE	19:00	20:50
 Escuela de Administración de Empresas	8	AE4208	desarrollo de emprendedores	4	optativas	CS2101	-	1	LUN	18:00	21:50
 Escuela de Administración de Empresas	8	AE4208	desarrollo de emprendedores	4	optativas	CS2101	-	6	SAB	07:30	11:20
-Escuela de Ingeniería en Computación	8	CE1113	sistemas empotrados	3	computadores	CE4303	-	1	JUE	15:00	16:50
-Escuela de Ingeniería en Computación	8	CE1113	sistemas empotrados	3	computadores	CE4303	-	1	MAR	15:00	16:50
-Escuela de Ingeniería en Computación	8	CE5301	redes de computadores	4	computadores	CE1116, CE4303	-	1	JUE	19:00	20:50
-Escuela de Ingeniería en Computación	8	CE5301	redes de computadores	4	computadores	CE1116, CE4303	-	1	MAR	19:00	20:50
-Escuela de Ingeniería en Computación	8	CE5701	electiva i	3	optativas	CE4302, CI3203	-	-	-	-	-
+Escuela de Ingeniería en Computadores	8	CE1113	sistemas empotrados	3	computadores	CE4303	-	1	JUE	15:00	16:50
+Escuela de Ingeniería en Computadores	8	CE1113	sistemas empotrados	3	computadores	CE4303	-	1	MAR	15:00	16:50
+Escuela de Ingeniería en Computadores	8	CE5301	redes de computadores	4	computadores	CE1116, CE4303	-	1	JUE	19:00	20:50
+Escuela de Ingeniería en Computadores	8	CE5301	redes de computadores	4	computadores	CE1116, CE4303	-	1	MAR	19:00	20:50
+Escuela de Ingeniería en Computadores	8	CE5701	electiva i	3	optativas	CE4302, CI3203	-	-	-	-	-
 Escuela de Ciencias Sociales	8	CS3404	seminario de ética para la ingeniería	2	optativas	CS2101	-	1	LUN	09:30	12:20
 Escuela de Ciencias Sociales	8	CS3404	seminario de ética para la ingeniería	2	optativas	CS2101	-	2	JUE	09:30	12:20
 Escuela de Ciencias Sociales	8	CS3404	seminario de ética para la ingeniería	2	optativas	CS2101	-	3	VIE	09:30	12:20
