@@ -7,8 +7,8 @@
 #define HEADER_12 "carrera\tsemestre\tcodigo\tnombre\tcreditos\tarea\trequisitos\tcorrequisitos\tgrupo\tdia\tinicio\tfin\n"
 #define HEADER_11 "carrera\tsemestre\tcodigo\tnombre\tcreditos\trequisitos\tcorrequisitos\tgrupo\tdia\tinicio\tfin\n"
 
-#define CARRERA_CE "Escuela de Ingeniería en Computadores"
-#define CARRERA_MA "Escuela de Matemática"
+#define CARRERA_CE "computadores"
+#define CARRERA_MA "matematica"
 
 static int run_test(const char *name, const char *plan_code, const char *content, Status expected) {
     FILE *f = fopen(TEMP_FILE, "w");
@@ -90,7 +90,7 @@ int main(void) {
     fails += missing != ERROR_FILE_NOT_FOUND;
 
     fails += run_test(
-        "Encabezado válido",
+        "Encabezado valido",
         "IC",
         HEADER_12,
         SUCCESS
@@ -104,14 +104,14 @@ int main(void) {
     );
 
     fails += run_test(
-        "Encabezado inválido",
+        "Encabezado invalido",
         "IC",
         "carrera\tcodigo\tsemestre\tnombre\tcreditos\tarea\trequisitos\tcorrequisitos\tgrupo\tdia\tinicio\tfin\n",
         ERROR_INVALID_FORMAT
     );
 
     fails += run_test(
-        "Plan inválido XX",
+        "Plan invalido XX",
         "XX",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -119,7 +119,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Plan válido IE",
+        "Plan valido IE",
         "IE",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -127,7 +127,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Línea vacía antes de encabezado",
+        "Linea vacia antes de encabezado",
         "IC",
         "\n\n"
         HEADER_12
@@ -136,7 +136,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Carrera vacía",
+        "Carrera vacia",
         "IC",
         HEADER_12
         "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -168,7 +168,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Área vacía",
+        "Area vacia",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\t\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -176,7 +176,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Área '-'",
+        "Area '-'",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\t-\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -184,7 +184,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Área 'otros'",
+        "Area 'otros'",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\totros\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -192,7 +192,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Área con mayúscula 'Matematicas'",
+        "Area con mayuscula 'Matematicas'",
         "IC",
         HEADER_12
         CARRERA_MA "\t1\tMA1102\tCalculo\t4\tMatematicas\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -200,7 +200,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Área contradictoria en mismo curso",
+        "Area contradictoria en mismo curso",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n"
@@ -209,7 +209,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Curso CE con área optativas válido",
+        "Curso CE con area optativas valido",
         "IC",
         HEADER_12
         CARRERA_CE "\t6\tCE4101\tTopicos\t3\toptativas\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -217,7 +217,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Requisitos vacíos",
+        "Requisitos vacios",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t\t-\t1\tLUN\t07:30\t09:20\n",
@@ -225,7 +225,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Correquisitos vacíos",
+        "Correquisitos vacios",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t\t1\tLUN\t07:30\t09:20\n",
@@ -257,7 +257,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Créditos contradictorios",
+        "Creditos contradictorios",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n"
@@ -284,7 +284,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Múltiples horarios",
+        "Multiples horarios",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n"
@@ -302,7 +302,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Créditos inválidos",
+        "Creditos invalidos",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\tX\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -310,7 +310,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Horario inválido",
+        "Horario invalido",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t25:00\t26:00\n",
@@ -334,7 +334,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Más de 12 columnas",
+        "Mas de 12 columnas",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\tEXTRA\n",
@@ -342,7 +342,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Día inválido",
+        "Dia invalido",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tDOM\t07:30\t09:20\n",
@@ -350,7 +350,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Semestre 7 válido",
+        "Semestre 7 valido",
         "IC",
         HEADER_12
         CARRERA_CE "\t7\tCE4101\tRedes\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -358,7 +358,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Semestre 8 válido",
+        "Semestre 8 valido",
         "IC",
         HEADER_12
         CARRERA_CE "\t8\tCE5101\tProyecto\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -366,7 +366,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Semestre inválido",
+        "Semestre invalido",
         "IC",
         HEADER_12
         CARRERA_CE "\t9\tCE1101\tIntro\t4\tcomputadores\t-\t-\t1\tLUN\t07:30\t09:20\n",
@@ -374,7 +374,7 @@ int main(void) {
     );
 
     fails += run_test(
-        "Grupo inválido",
+        "Grupo invalido",
         "IC",
         HEADER_12
         CARRERA_CE "\t1\tCE1101\tIntro\t4\tcomputadores\t-\t-\t0\tLUN\t07:30\t09:20\n",

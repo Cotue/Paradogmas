@@ -5,7 +5,7 @@
 
 Este documento define la especificación técnica de la lógica de negocio académica para KAN-13 en el sistema **CEmestre**.
 
-El objetivo de este módulo es cruzar la información de un `Catalog` previamente cargado y validado contra la información del `StudentHistory` del alumno para determinar la elegibilidad académica de cada curso (`can_enroll`) y construir la lista de correquisitos pendientes (`pending_corequisites`)[cite: 2, 3, 5, 6].
+El objetivo de este módulo es cruzar la Informacion de un `Catalog` previamente cargado y validado contra la Informacion del `StudentHistory` del alumno para determinar la elegibilidad académica de cada curso (`can_enroll`) y construir la lista de correquisitos pendientes (`pending_corequisites`)[cite: 2, 3, 5, 6].
 
 El flujo de procesamiento en memoria se ubica de la siguiente manera[cite: 3, 6]:
 

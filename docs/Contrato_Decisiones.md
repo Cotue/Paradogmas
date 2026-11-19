@@ -2,7 +2,7 @@
 
 ### 1.1 Separar fuente original y catálogo normalizado
 
-La información recolectada desde la Guía de Horarios o TEC Digital no será
+La Informacion recolectada desde la Guía de Horarios o TEC Digital no será
 consumida directamente por la lógica principal.
 
 Primero se transformará al formato TSV definido por el proyecto.
@@ -50,7 +50,7 @@ Curso
 ```
 
 JSON permite representar esta estructura de forma natural y sin duplicar
-innecesariamente información.
+innecesariamente Informacion.
 
 Además, permite mantener la comunicación entre C y las siguientes etapas
 independiente del lenguaje utilizado internamente.
@@ -165,6 +165,6 @@ Curso B
 Esto significa que el estudiante posee los requisitos académicos previos
 necesarios para Curso A, pero deberá matricular Curso B simultáneamente.
 
-Esta información se conserva en el archivo de salida para que las etapas
+Esta Informacion se conserva en el archivo de salida para que las etapas
 posteriores puedan mantener la relación de correquisito al generar
 combinaciones de matrícula.

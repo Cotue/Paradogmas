@@ -6,9 +6,9 @@ Claro. A continuación te dejo una versión de la documentación pensada para co
 
 CEmestre es un sistema desarrollado de manera incremental durante el curso de Paradigmas de Programación. Su objetivo general es apoyar a un estudiante en la construcción de un horario de matrícula válido, utilizando diferentes paradigmas de programación en cada etapa del proyecto. La primera etapa corresponde al paradigma imperativo y se desarrolla utilizando el lenguaje C. 
 
-La responsabilidad específica de esta etapa consiste en cargar y procesar el catálogo de cursos de una carrera junto con el historial académico de un estudiante. A partir de esta información, el programa determina los conflictos de horario entre grupos, evalúa los requisitos y correquisitos de cada curso y genera un catálogo procesado que será utilizado posteriormente por la etapa desarrollada en Racket. 
+La responsabilidad específica de esta etapa consiste en cargar y procesar el catálogo de cursos de una carrera junto con el historial académico de un estudiante. A partir de esta Informacion, el programa determina los conflictos de horario entre grupos, evalúa los requisitos y correquisitos de cada curso y genera un catálogo procesado que será utilizado posteriormente por la etapa desarrollada en Racket. 
 
-El módulo desarrollado en C no construye el horario final ni recomienda combinaciones de cursos. Su resultado consiste únicamente en un archivo con la información necesaria para que las siguientes etapas puedan continuar el procesamiento. 
+El módulo desarrollado en C no construye el horario final ni recomienda combinaciones de cursos. Su resultado consiste únicamente en un archivo con la Informacion necesaria para que las siguientes etapas puedan continuar el procesamiento. 
 
 ---
 
@@ -69,7 +69,7 @@ Guía de Horarios / TEC Digital
 
 El catálogo se obtiene primero de fuentes institucionales y posteriormente se transforma a un archivo normalizado. El programa en C nunca procesa directamente la fuente HTML o la Guía de Horarios, sino que trabaja únicamente con los datos previamente limpiados. 
 
-Dentro del programa, el catálogo y el historial se convierten a estructuras internas en memoria. Después se ejecutan de forma independiente la evaluación académica y la detección de conflictos. Finalmente, toda la información calculada se serializa a JSON.  
+Dentro del programa, el catálogo y el historial se convierten a estructuras internas en memoria. Después se ejecutan de forma independiente la evaluación académica y la detección de conflictos. Finalmente, toda la Informacion calculada se serializa a JSON.  
 
 Esta separación evita que la representación del archivo de entrada o del archivo de salida determine directamente la estructura interna utilizada por el programa.
 
@@ -196,7 +196,7 @@ para trazabilidad de los datos recolectados, y:
 data/clean/
 ```
 
-para la información normalizada que realmente consume el programa. 
+para la Informacion normalizada que realmente consume el programa. 
 
 ---
 
@@ -400,7 +400,7 @@ VERANO:
 excluido
 ```
 
-Los números de grupo y horarios se mantienen según la información recolectada; no se inventan grupos ni horarios para completar información ausente. 
+Los números de grupo y horarios se mantienen según la Informacion recolectada; no se inventan grupos ni horarios para completar Informacion ausente. 
 
 Los datos académicos y los datos de oferta también se trataron como fuentes conceptualmente diferentes:
 
@@ -701,7 +701,7 @@ StudentHistory.approved_courses
 
 
 
-Esto evita implementar estructuras distintas para conjuntos de información conceptualmente equivalentes.
+Esto evita implementar estructuras distintas para conjuntos de Informacion conceptualmente equivalentes.
 
 ---
 
@@ -730,7 +730,7 @@ Los conflictos detallados agregados durante KAN-12 permiten identificar no solo 
 
 ## 8.5 `Course`
 
-`Course` representa la información de un curso:
+`Course` representa la Informacion de un curso:
 
 ```text
 code
@@ -803,7 +803,7 @@ typedef struct {
 } StudentHistory;
 ```
 
-No duplica la información de los cursos.
+No duplica la Informacion de los cursos.
 
 Solo conserva códigos:
 
@@ -813,7 +813,7 @@ MA1102
 FI1101
 ```
 
-Toda la información adicional se consulta posteriormente desde el catálogo utilizando esos códigos. 
+Toda la Informacion adicional se consulta posteriormente desde el catálogo utilizando esos códigos. 
 
 ---
 
@@ -919,7 +919,7 @@ Curso
     └── choques
 ```
 
-JSON permite representar directamente esta relación sin duplicar información y sin obligar a la siguiente etapa a reconstruir nuevamente la estructura a partir de filas planas. 
+JSON permite representar directamente esta relación sin duplicar Informacion y sin obligar a la siguiente etapa a reconstruir nuevamente la estructura a partir de filas planas. 
 
 También proporciona una separación entre implementaciones:
 
@@ -943,7 +943,7 @@ correquisitosPendientes
 schemaVersion
 ```
 
-Estos campos conservan información que será útil para las siguientes etapas. Por ejemplo, `choques` permite identificar exactamente cuáles grupos son incompatibles, mientras que `correquisitosPendientes` permite conocer cuáles cursos deberán aparecer simultáneamente sin tener que reevaluar el historial en Racket.  
+Estos campos conservan Informacion que será útil para las siguientes etapas. Por ejemplo, `choques` permite identificar exactamente cuáles grupos son incompatibles, mientras que `correquisitosPendientes` permite conocer cuáles cursos deberán aparecer simultáneamente sin tener que reevaluar el historial en Racket.  
 
 ---
 

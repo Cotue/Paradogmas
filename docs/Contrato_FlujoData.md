@@ -6,7 +6,7 @@ entenderse de la siguiente manera.
 
 ### 1.1 Preparación del catálogo
 
-La información se obtiene inicialmente desde una fuente institucional:
+La Informacion se obtiene inicialmente desde una fuente institucional:
 
 ```text
 Guía de Horarios / TEC Digital / HTML
@@ -119,7 +119,7 @@ matricularse simultáneamente.
 
 #### Detección de choques
 
-La detección de conflictos utiliza únicamente la información del catálogo:
+La detección de conflictos utiliza únicamente la Informacion del catálogo:
 
 ```text
 Catálogo
@@ -222,7 +222,7 @@ Por lo tanto, el flujo general de esta etapa es:
              ┌──────────┴──────────┐
              │                     │
              ↓                     ↓
-     Información académica      Horarios
+     Informacion académica      Horarios
              │                     │
       ┌──────┴──────┐              ↓
       ↓             ↓          Comparación

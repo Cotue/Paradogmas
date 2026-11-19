@@ -1,7 +1,7 @@
 v1.0
 ## 1. Propósito
 
-Este documento define la información que recibe y produce la primera etapa
+Este documento define la Informacion que recibe y produce la primera etapa
 del proyecto. Su objetivo es establecer una representación de datos
 de la implementación en C y clara para ser utilizada por las siguientes etapas del proyecto.
 
@@ -15,7 +15,7 @@ El contrato de datos busca mantener separadas:
 - la fuente original de los datos;
 - la representación normalizada utilizada por C;
 - la representación interna utilizada por el programa;
-- la información exportada para las siguientes etapas.
+- la Informacion exportada para las siguientes etapas.
 
 Las estructuras internas implementadas en C no forman parte del contrato.
 
@@ -63,10 +63,10 @@ Catálogo
 ```
 
 Para incorporar una nueva carrera no será necesario modificar la lógica
-principal del programa, siempre que la información de dicha carrera sea
+principal del programa, siempre que la Informacion de dicha carrera sea
 transformada previamente al formato de catálogo definido en este contrato.
 
-La información oficial puede provenir, por ejemplo, de la Guía de Horarios
+La Informacion oficial puede provenir, por ejemplo, de la Guía de Horarios
 del TEC o de TEC Digital.
 
 La fuente original podrá encontrarse en HTML u otro formato.
@@ -77,7 +77,7 @@ Sin embargo:
 HTML ≠ catálogo utilizado directamente por C
 ```
 
-La información deberá ser recolectada y normalizada previamente:
+La Informacion deberá ser recolectada y normalizada previamente:
 
 ```text
 Fuente oficial
@@ -120,7 +120,7 @@ Por ejemplo:
 CE2201
 ```
 
-permite identificar un curso sin necesidad de duplicar toda su información
+permite identificar un curso sin necesidad de duplicar toda su Informacion
 cada vez que aparece como requisito o correquisito.
 
 Por lo tanto:
@@ -274,7 +274,7 @@ No es necesario almacenar dentro del historial:
 - horarios;
 - requisitos.
 
-Toda esa información ya se encuentra disponible dentro del catálogo.
+Toda esa Informacion ya se encuentra disponible dentro del catálogo.
 
 La relación entre catálogo e historial se realiza utilizando el código del
 curso.
@@ -418,7 +418,7 @@ En este caso, Curso B será registrado como:
 correquisito pendiente
 ```
 
-dentro de la información procesada de Curso A.
+dentro de la Informacion procesada de Curso A.
 
 
 #### Diferencia entre requisito y correquisito
@@ -696,7 +696,7 @@ Por ejemplo:
 ```text
 Guía de Horarios / TEC Digital
               ↓
-       información original
+       Informacion original
               ↓
       revisión y limpieza
               ↓

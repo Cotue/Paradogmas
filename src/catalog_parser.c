@@ -117,7 +117,7 @@ static int valid_header(char **columns, int count) {
 
 /*
  * Asigna la identidad del plan de estudios al catálogo.
- * Esta información ya no se obtiene del TSV.
+ * Esta Informacion ya no se obtiene del TSV.
  */
 static Status set_catalog_plan(Catalog *catalog, const char *plan_code) {
     const char *plan_name;
@@ -277,8 +277,8 @@ Status parse_catalog(
             strcmp(career, expected_career) != 0) {
 
             printf(
-                "Error: Procedencia académica inválida "
-                "para el curso %s en línea %d.\n",
+                "Error: Procedencia acadamica invalida "
+                "para el curso %s en linea %d.\n",
                 code ? code : "desconocido",
                 line_number
             );
@@ -293,7 +293,7 @@ Status parse_catalog(
          */
         if (validate_area_format(area) != SUCCESS) {
             printf(
-                "Error: Área inválida para el curso %s "
+                "Error: Area invalida para el curso %s "
                 "en línea %d.\n",
                 code,
                 line_number
@@ -425,7 +425,7 @@ Status parse_catalog(
 
             if (contradiction) {
                 printf(
-                    "Error: Información inconsistente "
+                    "Error: Informacion inconsistente "
                     "para el curso %s en línea %d.\n",
                     code,
                     line_number

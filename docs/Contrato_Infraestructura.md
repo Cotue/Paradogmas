@@ -132,7 +132,7 @@ Las constantes actualmente definidas son:
 | `INITIAL_CAPACITY` | `8` | Capacidad inicial definida para estructuras que puedan crecer dinámicamente |
 | `TSV_DELIMITER` | `"\t"` | Delimitador definido para campos de archivos TSV |
 | `LIST_DELIMITER` | `";"` | Delimitador definido para representar elementos de una lista |
-| `EMPTY_FIELD` | `"-"` | Representación definida para un campo sin información |
+| `EMPTY_FIELD` | `"-"` | Representación definida para un campo sin Informacion |
 
 # 4. Códigos de estado
 
@@ -151,7 +151,7 @@ Los estados definidos son:
 | `SUCCESS` | `0` | La operación finalizó correctamente |
 | `ERROR_ARGS` | `1` | Se produjo un error relacionado con los argumentos recibidos |
 | `ERROR_FILE_NOT_FOUND` | `2` | No se encontró un archivo requerido |
-| `ERROR_INVALID_FORMAT` | `3` | La información recibida posee un formato inválido |
+| `ERROR_INVALID_FORMAT` | `3` | La Informacion recibida posee un formato inválido |
 | `ERROR_MEMORY` | `4` | Se produjo un error relacionado con la gestión o reserva de memoria |
 
 La existencia de estos códigos permite utilizar una representación común de errores entre los diferentes módulos del programa.

@@ -9,20 +9,20 @@ typedef struct {
 } CareerMapping;
 
 static const CareerMapping career_mappings[] = {
-    {"CE", "Escuela de Ingeniería en Computadores"},
-    {"CA", "Escuela de Ingeniería en Computación"},
-    {"EL", "Escuela de Ingeniería Electrónica"},
-    {"AE", "Escuela de Administración de Empresas"},
-    {"CI", "Escuela de Ciencias del Lenguaje"},
-    {"CS", "Escuela de Ciencias Sociales"},
-    {"FI", "Escuela de Física"},
-    {"MA", "Escuela de Matemática"},
-    {"MI", "Escuela de Ingeniería Electromecánica"},
-    {"PI", "Escuela de Ingeniería en Producción Industrial"},
-    {"QU", "Escuela de Química"},
-    {"SE", "Escuela de Cultura y Deporte"},
-    {"SO", "Escuela de Ingeniería en Seguridad Laboral e Higiene Ambiental"},
-    {"CM", "Escuela de Ciencia e Ingeniería de los Materiales"}
+    {"CE", "computadores"},
+    {"CA", "computacion"},
+    {"EL", "electronica"},
+    {"AE", "administracion"},
+    {"CI", "lenguaje"},
+    {"CS", "sociales"},
+    {"FI", "fisica"},
+    {"MA", "matematica"},
+    {"MI", "electromecanica"},
+    {"PI", "produccion_industrial"},
+    {"QU", "quimica"},
+    {"SE", "cultura_deporte"},
+    {"SO", "seguridad_laboral"},
+    {"CM", "materiales"}
 };
 
 const char *get_career_from_course_code(const char *course_code)

@@ -14,7 +14,7 @@ Nombre conceptual:
 catalogo_procesado.json
 ```
 
-La información se organizará jerárquicamente:
+La Informacion se organizará jerárquicamente:
 
 ```text
 Catálogo
@@ -77,7 +77,7 @@ El proceso conceptual será:
 ```text
 TSV
  ↓
-cargar información
+cargar Informacion
  ↓
 construir catálogo en memoria
  ↓
@@ -113,7 +113,7 @@ serialización
 ```
 
 y evita que la estructura del archivo JSON determine directamente cómo debe
-almacenarse la información dentro del programa en C.
+almacenarse la Informacion dentro del programa en C.
 
 ### 1.5 Ejemplo completo
 
@@ -404,7 +404,7 @@ oficiales actuales del TEC.
 ## 2. Campos adicionales
 
 Además de los campos mínimos solicitados para la salida, se incluyen campos
-adicionales con el objetivo de conservar información útil para las etapas
+adicionales con el objetivo de conservar Informacion útil para las etapas
 posteriores.
 
 
@@ -474,7 +474,7 @@ conflicto.
 ### 2.5 schemaVersion
 
 Permite identificar la versión de la estructura utilizada para intercambiar
-información con las siguientes etapas.
+Informacion con las siguientes etapas.
 ### 2.6 correquisitosPendientes
 
 El campo:

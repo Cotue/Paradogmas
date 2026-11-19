@@ -8,7 +8,7 @@
 /*
  * Comprueba de forma independiente si dos horarios se superponen.
  *
- * Esta función pertenece solamente al test.
+ * Esta funcion pertenece solamente al test.
  */
 static int schedules_overlap(
     const Schedule *schedule_a,
@@ -52,10 +52,10 @@ static int groups_overlap(
 
 
 /*
- * Busca un curso por código.
+ * Busca un curso por codigo.
  *
- * Lo implementamos aquí para trabajar con const
- * sin modificar el catálogo.
+ * Lo implementamos aqui para trabajar con const
+ * sin modificar el catalogo.
  */
 static const Course *find_course(
     const Catalog *catalog,
@@ -73,7 +73,7 @@ static const Course *find_course(
 
 
 /*
- * Busca un grupo por número dentro de un curso.
+ * Busca un grupo por numero dentro de un curso.
  */
 static const Group *find_group(
     const Course *course,
@@ -92,7 +92,7 @@ static const Group *find_group(
 
 /*
  * Comprueba si un grupo contiene una referencia
- * específica dentro de su lista de conflictos.
+ * especifica dentro de su lista de conflictos.
  */
 static int has_conflict_reference(
     const Group *group,
@@ -118,7 +118,7 @@ static int has_conflict_reference(
 
 
 /*
- * Calcula cuántos grupos de otros cursos deberían
+ * Calcula cuantos grupos de otros cursos deberian
  * presentar conflicto contra este grupo.
  *
  * Esto permite comparar el resultado esperado
@@ -165,9 +165,9 @@ static size_t expected_conflict_count(
 
 
 /*
- * Valida toda la información producida por KAN-12.
+ * Valida toda la Informacion producida por KAN-12.
  *
- * Retorna 1 si todo está correcto.
+ * Retorna 1 si todo esta correcto.
  * Retorna 0 si encuentra una inconsistencia.
  */
 static int validate_conflict_results(
@@ -330,10 +330,10 @@ static int validate_conflict_results(
                 }
 
                 /*
-                 * La relación debe ser simétrica.
+                 * La relacion debe ser simetrica.
                  *
                  * Si A dice que choca con B,
-                 * B también debe decir que choca con A.
+                 * B tambien debe decir que choca con A.
                  */
                 if (!has_conflict_reference(
                         target_group,
@@ -380,7 +380,7 @@ static int validate_conflict_results(
 
 
 /*
- * Cuenta información únicamente para mostrar
+ * Cuenta Informacion unicamente para mostrar
  * un resumen del dataset probado.
  */
 static void print_catalog_summary(
@@ -461,7 +461,7 @@ static int test_dataset(
 
     /*
      * PASO 1:
-     * cargar el catálogo real mediante KAN-7.
+     * cargar el catalogo real mediante KAN-7.
      */
     Status parse_status =
         parse_catalog(file_path, &catalog, plan_code);
@@ -476,8 +476,8 @@ static int test_dataset(
     }
 
     /*
-     * Un dataset real no debería producir
-     * un catálogo vacío.
+     * Un dataset real no deberia producir
+     * un catalogo vacio.
      */
     if (catalog.course_count == 0) {
         printf(
@@ -491,7 +491,7 @@ static int test_dataset(
 
     /*
      * PASO 2:
-     * ejecutar KAN-12 sobre el catálogo cargado.
+     * ejecutar KAN-12 sobre el catalogo cargado.
      */
     Status conflict_status =
         detect_catalog_conflicts(&catalog);
@@ -510,7 +510,7 @@ static int test_dataset(
 
     /*
      * PASO 3:
-     * comprobar matemáticamente todos los
+     * comprobar matematicamente todos los
      * resultados obtenidos.
      */
     if (!validate_conflict_results(&catalog)) {
@@ -528,7 +528,7 @@ static int test_dataset(
      * PASO 4:
      * ejecutar el detector nuevamente.
      *
-     * Esto verifica también con datos reales
+     * Esto verifica tambien con datos reales
      * que limpiar + recalcular funciona.
      */
     conflict_status =

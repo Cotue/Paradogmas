@@ -1,6 +1,6 @@
 /*
  * ============================================================
- * TESTS KAN-12 - Detección de conflictos de horario
+ * TESTS KAN-12 - Deteccion de conflictos de horario
  * ============================================================
  *
  * Este test prueba conflict_detector.c de forma aislada.
@@ -9,7 +9,7 @@
  * NO usa datos inventados en formato TSV.
  *
  * Los Catalog/Course/Group/Schedule se construyen directamente
- * en memoria para controlar exactamente los casos límite.
+ * en memoria para controlar exactamente los casos limite.
  *
  * ============================================================
  * ARCHIVOS NECESARIOS PARA COMPILAR:
@@ -23,7 +23,7 @@
  * src/models/schedule.c
  *
  * ------------------------------------------------------------
- * COMPILAR EN POWERSHELL DESDE LA RAÍZ:
+ * COMPILAR EN POWERSHELL DESDE LA RAIZ:
  *
  * gcc tests/test_conflict_detector.c `
  * src/conflict_detector.c `
@@ -67,7 +67,7 @@ static int report_result(const char *name, int passed)
 
 
 /*
- * Crea un curso dentro del catálogo.
+ * Crea un curso dentro del catalogo.
  */
 static Course *create_course(
     Catalog *catalog,
@@ -78,7 +78,7 @@ static Course *create_course(
         catalog,
         code,
         code,
-        "Escuela de Ingeniería en Computadores",
+        "Escuela de Ingenieria en Computadores",
         "computadores",
         4,
         1
@@ -117,7 +117,7 @@ static int add_schedule(
 
 /*
  * ============================================================
- * MISMO DÍA, PERO HORARIOS SEPARADOS
+ * MISMO DIA, PERO HORARIOS SEPARADOS
  *
  * CE1101:
  * 07:30 - 09:20
@@ -177,7 +177,7 @@ static int test_separated_schedules_same_day(void)
  * MA1102 y FI1101 son consecutivos y no chocan.
  *
  * Esto comprueba que Group.conflicts puede almacenar
- * múltiples conflictos.
+ * multiples conflictos.
  * ============================================================
  */
 static int test_multiple_conflicts_for_one_group(void)
@@ -244,13 +244,13 @@ static int test_multiple_conflicts_for_one_group(void)
 
         group_a->conflicts[1].group_number == 1 &&
 
-        /* Simetría MA1102 -> CE1101 */
+        /* Simetria MA1102 -> CE1101 */
         strcmp(
             group_b->conflicts[0].course_code,
             "CE1101"
         ) == 0 &&
 
-        /* Simetría FI1101 -> CE1101 */
+        /* Simetria FI1101 -> CE1101 */
         strcmp(
             group_c->conflicts[0].course_code,
             "CE1101"
@@ -265,7 +265,7 @@ static int test_multiple_conflicts_for_one_group(void)
 }
 /*
  * ============================================================
- * MISMO DÍA + SUPERPOSICIÓN PARCIAL
+ * MISMO DIA + SUPERPOSICION PARCIAL
  *
  * CE1101:
  * 07:30 - 09:20
@@ -320,7 +320,7 @@ static int test_partial_overlap(void)
     printf("DEBUG 8: catalog liberado\n");
 
     return report_result(
-        "Mismo día con superposición parcial",
+        "Mismo dia con superposicion parcial",
         passed
     );
 }
@@ -328,7 +328,7 @@ static int test_partial_overlap(void)
 
 /*
  * ============================================================
- * HORARIOS IDÉNTICOS
+ * HORARIOS IDENTICOS
  * ============================================================
  */
 static int test_identical_schedules(void)
@@ -355,7 +355,7 @@ static int test_identical_schedules(void)
     catalog_free(&catalog);
 
     return report_result(
-        "Horarios idénticos producen choque",
+        "Horarios identicos producen choque",
         passed
     );
 }
@@ -403,7 +403,7 @@ static int test_contained_schedule(void)
  * 07:30 - 09:20
  * 09:20 - 11:10
  *
- * No existe superposición.
+ * No existe superposicion.
  * ============================================================
  */
 static int test_consecutive_schedules(void)
@@ -442,7 +442,7 @@ static int test_consecutive_schedules(void)
 
 /*
  * ============================================================
- * MISMAS HORAS PERO DÍAS DIFERENTES
+ * MISMAS HORAS PERO DIAS DIFERENTES
  * ============================================================
  */
 static int test_different_days(void)
@@ -469,7 +469,7 @@ static int test_different_days(void)
     catalog_free(&catalog);
 
     return report_result(
-        "Mismas horas en días diferentes no chocan",
+        "Mismas horas en dias diferentes no chocan",
         passed
     );
 }
@@ -517,7 +517,7 @@ static int test_same_course_groups(void)
 
 /*
  * ============================================================
- * GRUPO CON MÚLTIPLES BLOQUES
+ * GRUPO CON MULTIPLES BLOQUES
  *
  * Solo uno de los bloques necesita chocar para considerar
  * que los grupos presentan conflicto.
@@ -562,7 +562,7 @@ static int test_multiple_schedule_blocks(void)
     catalog_free(&catalog);
 
     return report_result(
-        "Grupo con múltiples bloques detecta un choque",
+        "Grupo con multiples bloques detecta un choque",
         passed
     );
 }
@@ -703,7 +703,7 @@ static int test_repeated_detection(void)
 
 /*
  * ============================================================
- * CATÁLOGO CON UN SOLO CURSO
+ * CATALOGO CON UN SOLO CURSO
  * ============================================================
  */
 static int test_single_course(void)
@@ -727,7 +727,7 @@ static int test_single_course(void)
     catalog_free(&catalog);
 
     return report_result(
-        "Catálogo con un solo curso no genera conflictos",
+        "Catalogo con un solo curso no genera conflictos",
         passed
     );
 }
@@ -735,7 +735,7 @@ static int test_single_course(void)
 
 /*
  * ============================================================
- * ARGUMENTO INVÁLIDO
+ * ARGUMENTO INVALIDO
  * ============================================================
  */
 static int test_null_catalog(void)

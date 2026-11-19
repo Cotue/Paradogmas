@@ -66,7 +66,7 @@ Status detect_catalog_conflicts(Catalog *catalog)
     }
 
     /*
-     Los conflictos son información calculada.
+     Los conflictos son Informacion calculada.
      Se limpian antes de volver a realizar el análisis.
      */
     clear_catalog_conflicts(catalog);

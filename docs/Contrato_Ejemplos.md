@@ -190,5 +190,5 @@ Curso A + Curso B
 deberán matricularse simultáneamente.
 
 La selección específica de grupos compatibles entre ambos cursos será
-realizada por etapas posteriores utilizando también la información de
+realizada por etapas posteriores utilizando también la Informacion de
 choques producida por C.
