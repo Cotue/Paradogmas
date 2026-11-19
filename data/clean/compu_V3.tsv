@@ -510,10 +510,10 @@ Escuela de Ingeniería en Computadores	6	CE4301	arquitectura de computadores i	4
 Escuela de Ingeniería en Computadores	6	CE4301	arquitectura de computadores i	4	computadores	CE1107;CE3201	-	2	VIE	15:00	16:50
 Escuela de Ingeniería en Computadores	7	CE1111	análisis numérico para la ingeniería	3	computadores	MA2105	-	1	JUE	13:00	14:50
 Escuela de Ingeniería en Computadores	7	CE1111	análisis numérico para la ingeniería	3	computadores	MA2105	-	1	MAR	13:00	14:50
-Escuela de Ingeniería en Computadores	7	CE1112	taller de señales mixtas	3	computadores	CE1109, CE1110	-	1	MIE	15:00	16:50
-Escuela de Ingeniería en Computadores	7	CE1112	taller de señales mixtas	3	computadores	CE1109, CE1110	-	1	VIE	15:00	16:50
-Escuela de Ingeniería en Computadores	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101, CE4301, PI5516	-	1	JUE	19:00	20:50
-Escuela de Ingeniería en Computadores	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101, CE4301, PI5516	-	1	MAR	19:00	20:50
+Escuela de Ingeniería en Computadores	7	CE1112	taller de señales mixtas	3	computadores	CE1109;CE1110	-	1	MIE	15:00	16:50
+Escuela de Ingeniería en Computadores	7	CE1112	taller de señales mixtas	3	computadores	CE1109;CE1110	-	1	VIE	15:00	16:50
+Escuela de Ingeniería en Computadores	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101;CE4301;PI5516	-	1	JUE	19:00	20:50
+Escuela de Ingeniería en Computadores	7	CE1116	diseño y calidad en productos tecnológicos	4	computadores	CE3101;CE4301;PI5516	-	1	MAR	19:00	20:50
 Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	1	MIE	13:00	14:50
 Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	1	VIE	13:00	14:50
 Escuela de Ingeniería en Computadores	7	CE4302	arquitectura de computadores II	4	computadores	CE4301	CE4303	2	JUE	13:00	14:50
@@ -524,9 +524,10 @@ Escuela de Administración de Empresas	8	AE4208	desarrollo de emprendedores	4	op
 Escuela de Administración de Empresas	8	AE4208	desarrollo de emprendedores	4	optativas	CS2101	-	6	SAB	07:30	11:20
 Escuela de Ingeniería en Computadores	8	CE1113	sistemas empotrados	3	computadores	CE4303	-	1	JUE	15:00	16:50
 Escuela de Ingeniería en Computadores	8	CE1113	sistemas empotrados	3	computadores	CE4303	-	1	MAR	15:00	16:50
-Escuela de Ingeniería en Computadores	8	CE5301	redes de computadores	4	computadores	CE1116, CE4303	-	1	JUE	19:00	20:50
-Escuela de Ingeniería en Computadores	8	CE5301	redes de computadores	4	computadores	CE1116, CE4303	-	1	MAR	19:00	20:50
-Escuela de Ingeniería en Computadores	8	CE5701	electiva i	3	optativas	CE4302, CI3203	-	-	-	-	-
+Escuela de Ingeniería en Computadores	8	CE5301	redes de computadores	4	computadores	CE1116;CE4303	-	1	JUE	19:00	20:50
+Escuela de Ingeniería en Computadores	8	CE5301	redes de computadores	4	computadores	CE1116;CE4303	-	1	MAR	19:00	20:50
+Escuela de Ingeniería en Computadores	8	CE5701	electiva i	3	optativas	CE4302;CI3203	-	1	MAR	15:00	16:50
+Escuela de Ingeniería en Computadores	8	CE5701	electiva i	3	optativas	CE4302;CI3203	-	1	JUE	15:00	16:50
 Escuela de Ciencias Sociales	8	CS3404	seminario de ética para la ingeniería	2	optativas	CS2101	-	1	LUN	09:30	12:20
 Escuela de Ciencias Sociales	8	CS3404	seminario de ética para la ingeniería	2	optativas	CS2101	-	2	JUE	09:30	12:20
 Escuela de Ciencias Sociales	8	CS3404	seminario de ética para la ingeniería	2	optativas	CS2101	-	3	VIE	09:30	12:20

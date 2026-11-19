@@ -582,25 +582,25 @@ Escuela de Ingeniería Electrónica	6	EL4703	señales y sistemas	4	electronica	E
 Escuela de Ingeniería Electrónica	6	EL4703	señales y sistemas	4	electronica	EL2114;MA2105	EL4513	2	MAR	09:30	11:20
 Escuela de Ingeniería en Producción Industrial	6	PI5516	ingeniería económica	3	optativas	EL4702	-	1	MIE	17:00	20:50
 Escuela de Ingeniería en Producción Industrial	6	PI5516	ingeniería económica	3	optativas	EL4702	-	2	VIE	17:00	20:50
-Escuela de Ingeniería Electrónica	7	EL3217	taller de diseño analógico	2	electronica	EL3215, EL3216	-	1	MIE	13:00	16:50
-Escuela de Ingeniería Electrónica	7	EL3313	taller de diseño digital	3	electronica	EL3215, EL3310	-	1	JUE	13:00	14:50
-Escuela de Ingeniería Electrónica	7	EL3313	taller de diseño digital	3	electronica	EL3215, EL3310	-	1	MAR	13:00	14:50
-Escuela de Ingeniería Electrónica	7	EL4201	procesamiento electrónico de potencia	3	electronica	EL3216, EL4513	EL3217	1	JUE	09:30	11:20
-Escuela de Ingeniería Electrónica	7	EL4201	procesamiento electrónico de potencia	3	electronica	EL3216, EL4513	EL3217	1	MAR	09:30	11:20
+Escuela de Ingeniería Electrónica	7	EL3217	taller de diseño analógico	2	electronica	EL3215;EL3216	-	1	MIE	13:00	16:50
+Escuela de Ingeniería Electrónica	7	EL3313	taller de diseño digital	3	electronica	EL3215;EL3310	-	1	JUE	13:00	14:50
+Escuela de Ingeniería Electrónica	7	EL3313	taller de diseño digital	3	electronica	EL3215;EL3310	-	1	MAR	13:00	14:50
+Escuela de Ingeniería Electrónica	7	EL4201	procesamiento electrónico de potencia	3	electronica	EL3216;EL4513	EL3217	1	JUE	09:30	11:20
+Escuela de Ingeniería Electrónica	7	EL4201	procesamiento electrónico de potencia	3	electronica	EL3216;EL4513	EL3217	1	MAR	09:30	11:20
 Escuela de Ingeniería Electrónica	7	EL4419	análisis y control de sistemas lineales	3	electronica	EL4703	-	1	LUN	09:30	11:20
 Escuela de Ingeniería Electrónica	7	EL4419	análisis y control de sistemas lineales	3	electronica	EL4703	-	1	MIE	09:30	11:20
-Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513, EL4702	-	1	JUE	15:00	16:50
-Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513, EL4702	-	1	MAR	15:00	16:50
-Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513, EL4702	-	2	JUE	07:30	09:20
-Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513, EL4702	-	2	MAR	07:30	09:20
-Escuela de Ingeniería en Producción Industrial	7	PI3512	dirección de personal	3	comunicacion	CS2303, PI3308	-	1	MIE	07:30	11:20
+Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	1	JUE	15:00	16:50
+Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	1	MAR	15:00	16:50
+Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	2	JUE	07:30	09:20
+Escuela de Ingeniería Electrónica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	2	MAR	07:30	09:20
+Escuela de Ingeniería en Producción Industrial	7	PI3512	dirección de personal	3	comunicacion	CS2303;PI3308	-	1	MIE	07:30	11:20
 Escuela de Ingeniería Electrónica	8	EL4314	arquitectura de computadores I	4	computadores	EL3313	-	1	JUE	15:00	16:50
 Escuela de Ingeniería Electrónica	8	EL4314	arquitectura de computadores I	4	computadores	EL3313	-	1	MAR	15:00	16:50
-Escuela de Ingeniería Electrónica	8	EL4607	normalización técnica (estándares industriales)	3	electronica	PI5516, SO4604	-	1	MIE	13:00	14:50
-Escuela de Ingeniería Electrónica	8	EL4607	normalización técnica (estándares industriales)	3	electronica	PI5516, SO4604	-	1	VIE	13:00	14:50
+Escuela de Ingeniería Electrónica	8	EL4607	normalización técnica (estándares industriales)	3	electronica	PI5516;SO4604	-	1	MIE	13:00	14:50
+Escuela de Ingeniería Electrónica	8	EL4607	normalización técnica (estándares industriales)	3	electronica	PI5516;SO4604	-	1	VIE	13:00	14:50
 Escuela de Ingeniería Electrónica	8	EL5408	control automático	4	electronica	EL4419	-	1	JUE	07:30	11:20
 Escuela de Ingeniería Electrónica	8	EL5409	laboratorio de control automático	2	electronica	EL3217	EL5408	1	MAR	07:30	11:20
 Escuela de Ingeniería Electrónica	8	EL5409	laboratorio de control automático	2	electronica	EL3217	EL5408	2	LUN	07:30	11:20
 Escuela de Ingeniería Electrónica	8	EL5409	laboratorio de control automático	2	electronica	EL3217	EL5408	3	MIE	07:30	11:20
-Escuela de Ingeniería Electrónica	8	EL5513	comunicaciones eléctricas I	4	electronica	EL4514, EL4703	-	1	JUE	13:00	14:50
-Escuela de Ingeniería Electrónica	8	EL5513	comunicaciones eléctricas I	4	electronica	EL4514, EL4703	-	1	MAR	13:00	14:50
+Escuela de Ingeniería Electrónica	8	EL5513	comunicaciones eléctricas I	4	electronica	EL4514;EL4703	-	1	JUE	13:00	14:50
+Escuela de Ingeniería Electrónica	8	EL5513	comunicaciones eléctricas I	4	electronica	EL4514;EL4703	-	1	MAR	13:00	14:50

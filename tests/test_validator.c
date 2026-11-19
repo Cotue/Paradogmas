@@ -5,9 +5,9 @@
 static int test_column_count(void) {
     int fails = 0;
 
-    fails += validate_column_count(11) != SUCCESS;
-    fails += validate_column_count(10) != ERROR_INVALID_FORMAT;
-    fails += validate_column_count(12) != ERROR_INVALID_FORMAT;
+    fails += validate_column_count(12) != SUCCESS;
+    fails += validate_column_count(11) != ERROR_INVALID_FORMAT;
+    fails += validate_column_count(13) != ERROR_INVALID_FORMAT;
 
     return fails;
 }
@@ -39,9 +39,30 @@ static int test_semester(void) {
 
     fails += validate_semester_format("1") != SUCCESS;
     fails += validate_semester_format("6") != SUCCESS;
+    fails += validate_semester_format("7") != SUCCESS;
+    fails += validate_semester_format("8") != SUCCESS;
     fails += validate_semester_format("0") != ERROR_INVALID_FORMAT;
-    fails += validate_semester_format("7") != ERROR_INVALID_FORMAT;
+    fails += validate_semester_format("9") != ERROR_INVALID_FORMAT;
     fails += validate_semester_format("A") != ERROR_INVALID_FORMAT;
+
+    return fails;
+}
+
+static int test_area(void) {
+    int fails = 0;
+
+    fails += validate_area_format("ciencias_naturales") != SUCCESS;
+    fails += validate_area_format("matematicas") != SUCCESS;
+    fails += validate_area_format("comunicacion") != SUCCESS;
+    fails += validate_area_format("computadores") != SUCCESS;
+    fails += validate_area_format("optativas") != SUCCESS;
+    fails += validate_area_format("electronica") != SUCCESS;
+
+    fails += validate_area_format("") != ERROR_INVALID_FORMAT;
+    fails += validate_area_format("-") != ERROR_INVALID_FORMAT;
+    fails += validate_area_format("otros") != ERROR_INVALID_FORMAT;
+    fails += validate_area_format("Matematicas") != ERROR_INVALID_FORMAT;
+    fails += validate_area_format("calculo") != ERROR_INVALID_FORMAT;
 
     return fails;
 }
@@ -95,6 +116,7 @@ int main(void) {
     fails += test_column_count();
     fails += test_course_identity();
     fails += test_semester();
+    fails += test_area();
     fails += test_credits();
     fails += test_group();
     fails += test_day();

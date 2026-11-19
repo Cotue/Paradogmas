@@ -41,6 +41,11 @@ static Status parse_code_list(CodeList *list, const char *field) {
         if (delim)
             *delim = '\0';
 
+        if (strpbrk(start, ", ")) {
+            free(copy);
+            return ERROR_INVALID_FORMAT;
+        }
+
         if (!code_list_add(list, start)) {
             free(copy);
             return ERROR_MEMORY;
