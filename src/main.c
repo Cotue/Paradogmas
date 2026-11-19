@@ -7,9 +7,9 @@
 #include "serializer.h"
 
 int main(int argc, char *argv[]) {
-    // Se cambia de 3 a 4 argumentos para incluir salida.json
-    if (argc != 4) {
-        printf("Uso: %s <catalogo.tsv> <historial.txt> <salida.json>\n", argv[0]);
+    // Se esperan 4 argumentos: catalogo, historial, salida y codigo del plan
+    if (argc != 5) {
+        printf("Uso: %s <catalogo.tsv> <historial.txt> <salida.json> <plan>\n", argv[0]);
         return ERROR_ARGS;
     }
 
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     StudentHistory history;
     student_history_init(&history);
 
-    Status result = parse_catalog(argv[1], &catalog);
+    Status result = parse_catalog(argv[1], &catalog, argv[4]);
     if (result == SUCCESS) {
         result = parse_student_history(argv[2], &catalog, &history);
         if (result == SUCCESS) {

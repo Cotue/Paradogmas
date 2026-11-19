@@ -78,11 +78,12 @@ static Course *create_course(
         catalog,
         code,
         code,
+        "Escuela de Ingeniería en Computadores",
+        "computadores",
         4,
         1
     );
 }
-
 
 /*
  * Crea un grupo dentro de un curso.

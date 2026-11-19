@@ -578,27 +578,18 @@ int main(void)
     catalog_init(&catalog);
 
     Course *course1 = catalog_add_course(
-        &catalog,
-        "CE1101",
-        "Introduccion",
-        4,
-        1
+    &catalog, "CE1101", "Introduccion",
+    "Escuela de Ingeniería en Computadores", "computadores", 4, 1
     );
-
+    
     Course *course2 = catalog_add_course(
-        &catalog,
-        "MA1102",
-        "Matematica",
-        4,
-        1
+        &catalog, "MA1102", "Matematica",
+        "Escuela de Matemática", "matematicas", 4, 1
     );
-
+    
     Course *course3 = catalog_add_course(
-        &catalog,
-        "FI1101",
-        "Fisica",
-        3,
-        1
+        &catalog, "FI1101", "Fisica",
+        "Escuela de Física", "ciencias_naturales", 3, 1
     );
 
     /*

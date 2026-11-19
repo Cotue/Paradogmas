@@ -449,7 +449,8 @@ static void print_catalog_summary(
  */
 static int test_dataset(
     const char *name,
-    const char *file_path
+    const char *file_path,
+    const char *plan_code
 )
 {
     Catalog catalog;
@@ -463,7 +464,7 @@ static int test_dataset(
      * cargar el catálogo real mediante KAN-7.
      */
     Status parse_status =
-        parse_catalog(file_path, &catalog);
+        parse_catalog(file_path, &catalog, plan_code);
 
     if (parse_status != SUCCESS) {
         printf(
@@ -575,14 +576,15 @@ int main(void)
 
     fails += test_dataset(
         "Ingenieria en Computadores",
-        "data/clean/computadores.tsv"
+        "data/clean/compu_V3.tsv",
+        "IC"
     );
-
+    
     fails += test_dataset(
         "Ingenieria Electronica",
-        "data/clean/electronica.tsv"
+        "data/clean/electro_V3.tsv",
+        "IE"
     );
-
     printf(
         "\nFallos totales: %d\n",
         fails
