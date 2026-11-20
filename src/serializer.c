@@ -43,15 +43,22 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
         return ERROR_ARGS;
     }
 
+    // Validar que todos los cursos tengan carrera y area antes de crear el archivo
+    for (size_t i = 0; i < catalog->course_count; i++) {
+        if (!catalog->courses[i].career || !catalog->courses[i].area) {
+            return ERROR_INVALID_FORMAT;
+        }
+    }
+
     FILE *file = fopen(filepath, "w");
     if (!file) {
         return ERROR_FILE_NOT_FOUND;
     }
 
-    // Encabezado principal del archivo JSON (Schema Version 2.0)
+    // Encabezado principal del archivo JSON (Schema Version 3.0)
     fprintf(file, "{\n");
-    fprintf(file, "  \"schemaVersion\": \"%s\",\n", OUTPUT_SCHEMA_VERSION); // Debe evaluar a "2.0"
-    fprintf(file, "  \"carrera\": {\n");
+    fprintf(file, "  \"schemaVersion\": \"%s\",\n", OUTPUT_SCHEMA_VERSION); // Debe evaluar a "3.0"
+    fprintf(file, "  \"plan\": {\n");
     fprintf(file, "    \"codigo\": \"%s\",\n", catalog->career_code ? catalog->career_code : "IC");
     fprintf(file, "    \"nombre\": \"%s\"\n", catalog->career_name ? catalog->career_name : "Ingeniería en Computadores");
     fprintf(file, "  },\n");
@@ -63,10 +70,8 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
         fprintf(file, "    {\n");
         fprintf(file, "      \"codigo\": \"%s\",\n", c->code);
         fprintf(file, "      \"nombre\": \"%s\",\n", c->name);
-        
-        // NUEVO: Requisito indispensable de la Etapa 2 (Versión 2.0)
-        fprintf(file, "      \"carrera\": \"%s\",\n", catalog->career_code ? catalog->career_code : "IC");
-        
+        fprintf(file, "      \"carrera\": \"%s\",\n", c->career);
+        fprintf(file, "      \"area\": \"%s\",\n", c->area);
         fprintf(file, "      \"creditos\": %d,\n", c->credits);
         fprintf(file, "      \"semestre\": %d,\n\n", c->semester);
 

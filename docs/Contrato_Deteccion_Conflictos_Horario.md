@@ -182,7 +182,7 @@ typedef struct {
 } GroupConflict;
 ```
 
-## 9. Información almacenada en Group
+## 9. Informacion almacenada en Group
 
 Cada `Group` mantiene:
 
@@ -213,7 +213,7 @@ B -> A
 
 No se considera válido dejar una relación parcialmente almacenada.
 
-## 11. Información almacenada en Course
+## 11. Informacion almacenada en Course
 
 `Course.has_conflict` representa si al menos uno de sus grupos posee un
 conflicto.
@@ -237,7 +237,7 @@ Course.pending_corequisites
 
 ## 13. Recálculo de conflictos
 
-Los conflictos son información derivada.
+Los conflictos son Informacion derivada.
 
 Antes de realizar cada detección, KAN-12 elimina los resultados calculados en
 una ejecución anterior.
@@ -265,7 +265,7 @@ Cada `Group` es propietario de:
 - su arreglo dinámico de `GroupConflict`;
 - cada copia dinámica de `course_code` almacenada dentro de sus conflictos.
 
-`group_clear_conflicts()` libera únicamente la información de conflictos.
+`group_clear_conflicts()` libera únicamente la Informacion de conflictos.
 
 `group_free()` libera tanto los horarios como los conflictos antes de reiniciar
 la estructura completa.
@@ -401,7 +401,7 @@ KAN-12 se encarga de:
 - mantener las relaciones de conflicto de forma simétrica;
 - marcar `Course.has_conflict`;
 - permitir recalcular los conflictos sin duplicar resultados;
-- liberar correctamente la información derivada de conflictos;
+- liberar correctamente la Informacion derivada de conflictos;
 - probar la lógica de forma aislada;
 - validar la integración con los datasets reales.
 

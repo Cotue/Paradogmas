@@ -276,7 +276,7 @@ Se encarga de:
 - verificar que cada código exista en el catálogo;
 - almacenar los códigos aprobados;
 - manejar errores durante la carga;
-- limpiar información parcial cuando ocurre un error.
+- limpiar Informacion parcial cuando ocurre un error.
 
 ### Catalog
 

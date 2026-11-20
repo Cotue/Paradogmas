@@ -1,6 +1,6 @@
 /*
  * ============================================================
- * TESTS KAN-9 - Carga del historial académico
+ * TESTS KAN-9 - Carga del historial academico
  * ============================================================
  *
  * Este test prueba directamente history_parser.c.
@@ -21,11 +21,11 @@
  * src/catalog_parser.c
  * src/validator.c
  *
- * porque este test crea manualmente un Catalog válido en memoria.
+ * porque este test crea manualmente un Catalog valido en memoria.
  * De esta forma se prueba KAN-9 de manera aislada.
  *
  * ------------------------------------------------------------
- * COMPILAR DESDE LA RAÍZ DEL PROYECTO EN POWERSHELL:
+ * COMPILAR DESDE LA RAIZ DEL PROYECTO EN POWERSHELL:
  *
  * gcc tests/test_history_parser.c `
  * src/history_parser.c `
@@ -108,8 +108,8 @@ static int report_result(const char *name, int passed)
  * CRITERIO:
  * El historial se carga desde archivo.
  *
- * También verifica:
- * La información se almacena en StudentHistory.
+ * Tambien verifica:
+ * La Informacion se almacena en StudentHistory.
  * ============================================================
  */
 static int test_valid_history(Catalog *catalog)
@@ -119,7 +119,7 @@ static int test_valid_history(Catalog *catalog)
             "MA1102\n"
             "FI1101\n")) {
         return report_result(
-            "Historial válido",
+            "Historial valido",
             0
         );
     }
@@ -153,7 +153,7 @@ static int test_valid_history(Catalog *catalog)
     remove(TEMP_HISTORY_FILE);
 
     return report_result(
-        "Historial válido y almacenado",
+        "Historial valido y almacenado",
         passed
     );
 }
@@ -162,9 +162,9 @@ static int test_valid_history(Catalog *catalog)
 /*
  * ============================================================
  * CRITERIO:
- * Se eliminan espacios accidentales antes y después.
+ * Se eliminan espacios accidentales antes y despues.
  *
- * El programa NO corrige el código.
+ * El programa NO corrige el codigo.
  * Solamente elimina whitespace externo.
  *
  * "   CE1101   " -> "CE1101"
@@ -217,7 +217,7 @@ static int test_external_whitespace(Catalog *catalog)
  * CRITERIO:
  * Los duplicados producen error.
  *
- * También comprueba que los espacios externos se eliminan
+ * Tambien comprueba que los espacios externos se eliminan
  * antes de comprobar duplicados.
  *
  * CE1101
@@ -248,7 +248,7 @@ static int test_duplicate_course(Catalog *catalog)
 
     /*
      * Ante un error, history_parser debe liberar
-     * cualquier información cargada parcialmente.
+     * cualquier Informacion cargada parcialmente.
      */
     int passed =
         status == ERROR_INVALID_FORMAT &&
@@ -269,7 +269,7 @@ static int test_duplicate_course(Catalog *catalog)
 /*
  * ============================================================
  * CRITERIO:
- * Los códigos inexistentes producen error.
+ * Los codigos inexistentes producen error.
  * ============================================================
  */
 static int test_nonexistent_course(Catalog *catalog)
@@ -278,7 +278,7 @@ static int test_nonexistent_course(Catalog *catalog)
             "CE1101\n"
             "XX9999\n")) {
         return report_result(
-            "Código inexistente",
+            "Codigo inexistente",
             0
         );
     }
@@ -307,7 +307,7 @@ static int test_nonexistent_course(Catalog *catalog)
     remove(TEMP_HISTORY_FILE);
 
     return report_result(
-        "Código inexistente produce error",
+        "Codigo inexistente produce error",
         passed
     );
 }
@@ -316,11 +316,11 @@ static int test_nonexistent_course(Catalog *catalog)
 /*
  * ============================================================
  * CRITERIO:
- * Un archivo vacío se maneja explícitamente.
+ * Un archivo vacio se maneja explicitamente.
  *
- * Decisión del proyecto:
+ * Decision del proyecto:
  *
- * archivo vacío
+ * archivo vacio
  * -> estudiante sin cursos aprobados
  * -> SUCCESS
  * ============================================================
@@ -329,7 +329,7 @@ static int test_empty_history(Catalog *catalog)
 {
     if (!create_temp_history("")) {
         return report_result(
-            "Archivo vacío",
+            "Archivo vacio",
             0
         );
     }
@@ -353,7 +353,7 @@ static int test_empty_history(Catalog *catalog)
     remove(TEMP_HISTORY_FILE);
 
     return report_result(
-        "Archivo vacío manejado explícitamente",
+        "Archivo vacio manejado explicitamente",
         passed
     );
 }
@@ -363,8 +363,8 @@ static int test_empty_history(Catalog *catalog)
  * ============================================================
  * Caso adicional:
  *
- * Un archivo que solo contiene espacios o líneas vacías
- * también representa un historial sin cursos aprobados.
+ * Un archivo que solo contiene espacios o lineas vacias
+ * tambien representa un historial sin cursos aprobados.
  * ============================================================
  */
 static int test_whitespace_only_history(Catalog *catalog)
@@ -407,9 +407,9 @@ static int test_whitespace_only_history(Catalog *catalog)
  * ============================================================
  * REGLA DE CONSISTENCIA:
  *
- * El programa NO corrige mayúsculas/minúsculas.
+ * El programa NO corrige mayusculas/minusculas.
  *
- * Si el catálogo contiene:
+ * Si el catalogo contiene:
  *
  * CE1101
  *
@@ -417,7 +417,7 @@ static int test_whitespace_only_history(Catalog *catalog)
  *
  * ce1101
  *
- * no se convierte automáticamente a CE1101.
+ * no se convierte automaticamente a CE1101.
  * Debe producir inconsistencia.
  * ============================================================
  */
@@ -425,7 +425,7 @@ static int test_code_not_corrected(Catalog *catalog)
 {
     if (!create_temp_history("ce1101\n")) {
         return report_result(
-            "Código no normalizado",
+            "Codigo no normalizado",
             0
         );
     }
@@ -447,7 +447,7 @@ static int test_code_not_corrected(Catalog *catalog)
     remove(TEMP_HISTORY_FILE);
 
     return report_result(
-        "Código inconsistente no se corrige",
+        "Codigo inconsistente no se corrige",
         passed
     );
 }
@@ -458,9 +458,9 @@ static int test_code_not_corrected(Catalog *catalog)
  * CRITERIO:
  * Toda memoria reservada puede liberarse.
  *
- * Primero se carga información válida.
+ * Primero se carga Informacion valida.
  *
- * Después se llama:
+ * Despues se llama:
  *
  * student_history_free()
  *
@@ -473,7 +473,7 @@ static int test_memory_release(Catalog *catalog)
             "CE1101\n"
             "MA1102\n")) {
         return report_result(
-            "Liberación de memoria",
+            "Liberacion de memoria",
             0
         );
     }
@@ -492,7 +492,7 @@ static int test_memory_release(Catalog *catalog)
         remove(TEMP_HISTORY_FILE);
 
         return report_result(
-            "Liberación de memoria",
+            "Liberacion de memoria",
             0
         );
     }
@@ -507,7 +507,7 @@ static int test_memory_release(Catalog *catalog)
     student_history_free(&history);
 
     /*
-     * Después del free:
+     * Despues del free:
      *
      * items = NULL
      * count = 0
@@ -565,12 +565,12 @@ int main(void)
 
     /*
      * ========================================================
-     * CATÁLOGO DE PRUEBA
+     * CATALOGO DE PRUEBA
      * ========================================================
      *
-     * No usamos catalog_parser aquí.
+     * No usamos catalog_parser aqui.
      *
-     * Construimos directamente un Catalog válido para aislar
+     * Construimos directamente un Catalog valido para aislar
      * las pruebas de KAN-9.
      */
 
@@ -578,31 +578,22 @@ int main(void)
     catalog_init(&catalog);
 
     Course *course1 = catalog_add_course(
-        &catalog,
-        "CE1101",
-        "Introduccion",
-        4,
-        1
+    &catalog, "CE1101", "Introduccion",
+    "computadores", "computadores", 4, 1
     );
-
+    
     Course *course2 = catalog_add_course(
-        &catalog,
-        "MA1102",
-        "Matematica",
-        4,
-        1
+        &catalog, "MA1102", "Matematica",
+        "matematica", "matematicas", 4, 1
     );
-
+    
     Course *course3 = catalog_add_course(
-        &catalog,
-        "FI1101",
-        "Fisica",
-        3,
-        1
+        &catalog, "FI1101", "Fisica",
+        "fisica", "ciencias_naturales", 3, 1
     );
 
     /*
-     * Si no se pudo construir el catálogo base,
+     * Si no se pudo construir el catalogo base,
      * no tiene sentido continuar las pruebas.
      */
     if (
@@ -611,7 +602,7 @@ int main(void)
         course3 == NULL
     ) {
         printf(
-            "ERROR: No se pudo construir el catálogo de prueba.\n"
+            "ERROR: No se pudo construir el catalogo de prueba.\n"
         );
 
         catalog_free(&catalog);

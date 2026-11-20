@@ -10,6 +10,8 @@ void course_init(Course *course)
 
     course->code = NULL;
     course->name = NULL;
+    course->career = NULL;
+    course->area = NULL;
 
     course->credits = 0;
     course->semester = 0;
@@ -34,6 +36,8 @@ void course_free(Course *course)
 
     free(course->code);
     free(course->name);
+    free(course->career);
+    free(course->area);
 
     code_list_free(&course->requirements);
     code_list_free(&course->corequisites);

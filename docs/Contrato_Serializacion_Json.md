@@ -52,7 +52,7 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *file_path);
 
 ## 3. Especificación del Esquema JSON (v1.0)
 
-El JSON producido debe cumplir estrictamente con la versión `1.0` del esquema. La información se organiza jerárquicamente en cuatro niveles:
+El JSON producido debe cumplir estrictamente con la versión `1.0` del esquema. La Informacion se organiza jerárquicamente en cuatro niveles:
 
 ```text
 Catálogo

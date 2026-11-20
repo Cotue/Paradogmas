@@ -66,10 +66,10 @@ data/
     └── electronica.tsv
 ```
 
-Los archivos dentro de `data/raw/` conservan información de trazabilidad
+Los archivos dentro de `data/raw/` conservan Informacion de trazabilidad
 proveniente de las guías de horarios.
 
-Los archivos dentro de `data/clean/` contienen únicamente la información
+Los archivos dentro de `data/clean/` contienen únicamente la Informacion
 normalizada que será consumida por el parser del catálogo.
 
 
@@ -133,7 +133,7 @@ Para seleccionar la oferta de horarios se aplican las siguientes reglas:
   oferta válida en periodo 1;
 - las ofertas de `VERANO` se excluyen;
 - se conservan los números de grupo reales de la guía;
-- no se inventan horarios, grupos ni códigos para cubrir información ausente.
+- no se inventan horarios, grupos ni códigos para cubrir Informacion ausente.
 
 Los datos académicos del curso y los datos de oferta se mantienen separados
 conceptualmente:
@@ -321,7 +321,7 @@ KAN-8 se encarga de:
 - documentar las fuentes utilizadas;
 - definir la segunda carrera del dataset;
 - conservar datos raw separados de los datos clean;
-- recolectar la información necesaria;
+- recolectar la Informacion necesaria;
 - normalizar códigos, días y horarios;
 - representar explícitamente la ausencia de requisitos y correquisitos;
 - mantener trazabilidad hacia las fuentes;

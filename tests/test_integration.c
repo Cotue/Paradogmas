@@ -15,7 +15,7 @@ static int run_integration_test(const char *name, const char *cat_file,
     StudentHistory history;
     student_history_init(&history);
 
-    Status result = parse_catalog(cat_file, &catalog);
+    Status result = parse_catalog(cat_file, &catalog, "IC");
     if (result == SUCCESS) {
         result = parse_student_history(hist_file, &catalog, &history);
     }

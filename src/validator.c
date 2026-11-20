@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 Status validate_column_count(int count) {
-    if (count != 11) {
+    if (count != 12) {
         return ERROR_INVALID_FORMAT;
     }
     return SUCCESS;
@@ -106,8 +106,8 @@ Status validate_semester_format(const char *sem_str) {
     }
     
     int sem = atoi(sem_str);
-    // La guía restringe a los primeros 4 semestres
-    if (sem < 1 || sem > 6) {
+    // La guía restringe a los primeros 8 semestres
+    if (sem < 1 || sem > 8) {
         return ERROR_INVALID_FORMAT;
     }
     return SUCCESS;
@@ -137,4 +137,30 @@ Day parse_day_string(const char* day_str) {
     if (strcmp(day_str, "VIE") == 0) return FRIDAY;
     if (strcmp(day_str, "SAB") == 0) return SATURDAY;
     return DAY_INVALID;
+}
+
+Status validate_area_format(const char *area) {
+    if (!area || area[0] == '\0' ||
+        strcmp(area, EMPTY_FIELD) == 0) {
+        return ERROR_INVALID_FORMAT;
+    }
+
+    const char *valid_areas[] = {
+        "ciencias_naturales",
+        "matematicas",
+        "comunicacion",
+        "computadores",
+        "optativas",
+        "electronica"
+    };
+
+    size_t count = sizeof(valid_areas) / sizeof(valid_areas[0]);
+
+    for (size_t i = 0; i < count; i++) {
+        if (strcmp(area, valid_areas[i]) == 0) {
+            return SUCCESS;
+        }
+    }
+
+    return ERROR_INVALID_FORMAT;
 }

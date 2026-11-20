@@ -1,0 +1,606 @@
+carrera	semestre	codigo	nombre	creditos	area	requisitos	correquisitos	grupo	dia	inicio	fin
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	1	JUE	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	1	MAR	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	2	MIE	17:00	18:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	2	VIE	17:00	18:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	3	JUE	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	3	MAR	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	4	JUE	13:00	14:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	4	MAR	13:00	14:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	5	JUE	09:30	11:20
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	5	MAR	09:30	11:20
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	6	JUE	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	6	MAR	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	7	MIE	09:30	11:20
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	7	VIE	09:30	11:20
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	8	MIE	13:00	14:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	8	VIE	13:00	14:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	9	LUN	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	9	MIE	19:00	20:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	10	JUE	13:00	14:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	10	MAR	13:00	14:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	11	JUE	07:30	11:20
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	12	MIE	15:00	16:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	12	VIE	15:00	16:50
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	13	JUE	07:30	09:20
+computacion	1	CA2125	elementos de computación	3	computadores	-	-	13	MAR	07:30	09:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	1	LUN	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	2	LUN	07:30	09:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	3	JUE	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	4	VIE	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	5	MIE	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	6	MIE	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	7	LUN	18:00	19:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	8	VIE	15:00	16:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	9	MAR	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	10	LUN	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	11	MIE	15:00	16:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	12	MIE	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	13	JUE	13:00	14:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	14	MAR	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	15	MIE	07:30	09:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	16	VIE	13:00	14:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	17	MAR	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	18	JUE	09:30	11:20
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	19	MAR	16:00	17:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	20	MAR	15:00	16:50
+sociales	1	CS1502	introducción a la técnica ciencia y tecnología	1	optativas	-	-	21	MIE	17:00	18:50
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	1	LUN	17:00	18:50
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	2	JUE	13:00	14:50
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	3	MAR	15:00	16:50
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	4	MIE	13:00	14:50
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	5	MIE	09:30	11:20
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	6	VIE	09:30	11:20
+electronica	1	EL1100	introducción a la ingeniería	0	electronica	-	-	7	MAR	13:00	14:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	1	JUE	07:30	10:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	1	MAR	07:30	09:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	2	JUE	07:30	10:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	2	MAR	07:30	09:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	3	JUE	07:30	09:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	3	MAR	07:30	10:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	4	JUE	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	4	MAR	09:30	11:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	5	JUE	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	5	MAR	09:30	11:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	6	JUE	10:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	6	MAR	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	7	JUE	10:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	7	MAR	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	8	JUE	10:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	8	MAR	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	9	JUE	13:00	15:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	9	MAR	13:00	14:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	10	JUE	13:00	15:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	10	MAR	13:00	14:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	11	JUE	13:00	14:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	11	MAR	13:00	15:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	12	JUE	13:00	14:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	12	MAR	13:00	15:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	13	JUE	15:00	16:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	13	MAR	15:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	14	JUE	15:00	16:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	14	MAR	15:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	15	JUE	15:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	15	MAR	16:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	16	JUE	15:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	16	MAR	16:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	17	JUE	17:00	19:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	17	MAR	17:00	18:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	18	JUE	17:00	19:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	18	MAR	17:00	18:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	19	JUE	17:00	18:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	19	MAR	17:00	19:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	20	JUE	17:00	18:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	20	MAR	17:00	19:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	22	MIE	07:30	09:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	22	VIE	07:30	10:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	23	MIE	07:30	10:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	23	VIE	07:30	09:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	24	MIE	09:30	11:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	24	VIE	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	25	MIE	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	25	VIE	10:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	26	MIE	09:30	12:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	26	VIE	09:30	11:20
+matematica	1	MA0101	matemática general	2	matematicas	-	-	28	MIE	13:00	14:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	28	VIE	13:00	15:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	29	MIE	16:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	29	VIE	15:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	30	MIE	16:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	30	VIE	15:00	17:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	32	MIE	17:00	19:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	32	VIE	17:00	18:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	34	MIE	18:00	20:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	34	VIE	18:00	19:50
+matematica	1	MA0101	matemática general	2	matematicas	-	-	35	SAB	07:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	1	JUE	07:30	09:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	1	MAR	07:30	10:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	2	JUE	07:30	10:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	2	MAR	07:30	09:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	3	JUE	09:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	3	MAR	09:30	11:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	4	JUE	10:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	4	MAR	09:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	5	JUE	13:00	14:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	5	MAR	13:00	15:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	6	JUE	15:00	17:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	6	MAR	15:00	16:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	7	JUE	16:00	17:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	7	MAR	16:00	18:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	8	JUE	17:00	18:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	8	MAR	17:00	19:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	9	JUE	18:00	19:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	9	MAR	18:00	20:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	10	MIE	07:30	09:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	10	VIE	07:30	10:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	11	MIE	07:30	10:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	11	VIE	07:30	09:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	13	MIE	09:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	13	VIE	10:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	14	MIE	13:00	15:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	14	VIE	13:00	14:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	15	MIE	13:00	15:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	15	VIE	13:00	14:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	16	MIE	15:00	17:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	16	VIE	15:00	16:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	17	MIE	16:00	18:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	17	VIE	16:00	17:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	18	MIE	17:00	19:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	18	VIE	17:00	18:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	20	SAB	07:30	12:20
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	21	MIE	17:00	19:50
+matematica	1	MA1102	cálculo diferencial e integral	4	matematicas	MA0101	-	21	VIE	17:00	18:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	1	LUN	07:30	11:20
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	2	LUN	17:00	20:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	3	MAR	07:30	11:20
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	4	MAR	13:00	16:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	5	MAR	17:00	20:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	6	MIE	07:30	11:20
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	7	MIE	07:30	11:20
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	8	MIE	13:00	16:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	9	MIE	17:00	20:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	10	JUE	13:00	16:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	11	MIE	13:00	16:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	12	MAR	13:00	16:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	13	VIE	17:00	20:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	14	VIE	13:00	16:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	15	MAR	17:00	20:50
+electromecanica	1	MI2101	dibujo técnico	3	electronica	-	-	16	LUN	07:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	1	MAR	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	2	MAR	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	3	MAR	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	4	MAR	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	5	MAR	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	6	MAR	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	7	MAR	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	8	MAR	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	9	MAR	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	10	MAR	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	11	MAR	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	12	MAR	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	13	MAR	17:00	18:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	14	MAR	17:00	18:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	16	MIE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	17	MIE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	18	MIE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	19	MIE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	20	MIE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	21	MIE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	22	MIE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	23	MIE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	24	MIE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	25	MIE	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	27	MIE	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	28	MIE	17:00	18:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	31	JUE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	32	JUE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	33	JUE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	34	JUE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	35	JUE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	36	JUE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	37	JUE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	38	JUE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	39	JUE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	40	JUE	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	41	JUE	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	42	JUE	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	43	JUE	17:00	18:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	45	JUE	17:00	18:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	46	VIE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	48	VIE	07:30	09:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	49	VIE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	71	VIE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	72	VIE	09:30	11:20
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	73	VIE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	74	VIE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	75	VIE	13:00	14:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	76	VIE	15:00	16:50
+quimica	1	QU1102	laboratorio de química básica i	1	ciencias_naturales	-	QU1106	77	VIE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	1	JUE	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	1	MAR	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	2	JUE	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	2	MAR	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	4	JUE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	4	MAR	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	5	JUE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	5	MAR	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	6	JUE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	6	MAR	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	7	JUE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	7	MAR	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	8	JUE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	8	MAR	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	9	JUE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	9	MAR	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	10	JUE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	10	MAR	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	11	JUE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	11	MAR	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	12	JUE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	12	MAR	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	13	JUE	17:00	18:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	13	MAR	17:00	18:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	14	MIE	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	14	VIE	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	16	MIE	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	16	VIE	07:30	09:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	17	MIE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	17	VIE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	18	MIE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	18	VIE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	19	MIE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	19	VIE	09:30	11:20
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	20	MIE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	20	VIE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	21	MIE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	21	VIE	13:00	14:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	22	MIE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	22	VIE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	23	MIE	15:00	16:50
+quimica	1	QU1106	química básica i	3	ciencias_naturales	-	QU1102	23	VIE	15:00	16:50
+cultura_deporte	1	SE1101	Artes dramáticas	0	optativas	-	-	1	LUN	09:30	11:20
+cultura_deporte	1	SE1101	Artes dramáticas	0	optativas	-	-	2	MAR	15:00	16:50
+cultura_deporte	1	SE1101	Artes dramáticas	0	optativas	-	-	3	MAR	18:00	19:50
+cultura_deporte	1	SE1101	Artes dramáticas	0	optativas	-	-	4	MIE	15:00	16:50
+cultura_deporte	1	SE1102	Acción social	0	optativas	-	-	1	LUN	09:30	11:20
+cultura_deporte	1	SE1102	Acción social	0	optativas	-	-	2	MAR	07:30	09:20
+cultura_deporte	1	SE1103	Danza	0	optativas	-	-	1	MIE	15:00	16:50
+cultura_deporte	1	SE1103	Danza	0	optativas	-	-	2	MIE	18:00	19:50
+cultura_deporte	1	SE1103	Danza	0	optativas	-	-	3	JUE	09:30	11:20
+cultura_deporte	1	SE1103	Danza	0	optativas	-	-	4	VIE	09:30	11:20
+cultura_deporte	1	SE1103	Danza	0	optativas	-	-	5	VIE	15:00	16:50
+cultura_deporte	1	SE1104	Artes visuales	0	optativas	-	-	1	MAR	09:30	11:20
+cultura_deporte	1	SE1104	Artes visuales	0	optativas	-	-	2	MAR	13:00	14:50
+cultura_deporte	1	SE1104	Artes visuales	0	optativas	-	-	3	MIE	09:30	11:20
+cultura_deporte	1	SE1104	Artes visuales	0	optativas	-	-	4	MIE	13:00	14:50
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	1	MAR	15:00	16:50
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	2	MAR	17:00	18:50
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	3	JUE	15:00	16:50
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	4	MAR	09:30	11:20
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	5	MAR	13:00	14:50
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	6	JUE	18:00	19:50
+cultura_deporte	1	SE1105	Artes musicales	0	optativas	-	-	7	MIE	09:30	11:20
+cultura_deporte	1	SE1106	Apreciación literaria	0	optativas	-	-	1	MAR	07:30	09:20
+cultura_deporte	1	SE1107	Apreciación de cine	0	optativas	-	-	1	MAR	09:30	11:20
+cultura_deporte	1	SE1107	Apreciación de cine	0	optativas	-	-	2	MIE	09:30	11:20
+cultura_deporte	1	SE1107	Apreciación de cine	0	optativas	-	-	3	JUE	13:00	14:50
+cultura_deporte	1	SE1107	Apreciación de cine	0	optativas	-	-	4	VIE	09:30	11:20
+cultura_deporte	1	SE1107	Apreciación de cine	0	optativas	-	-	5	JUE	09:30	11:20
+cultura_deporte	1	SE1107	Apreciación de cine	0	optativas	-	-	6	JUE	15:00	16:50
+cultura_deporte	1	SE1201	Atletismo	0	optativas	-	-	1	MAR	07:30	09:20
+cultura_deporte	1	SE1201	Atletismo	0	optativas	-	-	2	MIE	07:30	09:20
+cultura_deporte	1	SE1201	Atletismo	0	optativas	-	-	3	MIE	09:30	11:20
+cultura_deporte	1	SE1201	Atletismo	0	optativas	-	-	4	JUE	07:30	09:20
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	1	LUN	07:30	09:20
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	2	LUN	09:30	11:20
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	3	MAR	17:00	18:50
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	4	MIE	07:30	09:20
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	5	MIE	09:30	11:20
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	6	MIE	13:00	14:50
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	7	MIE	15:00	16:50
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	8	JUE	09:30	11:20
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	9	JUE	17:00	18:50
+cultura_deporte	1	SE1204	Natación	0	optativas	-	-	10	MAR	13:00	14:50
+cultura_deporte	1	SE1205	Juegos y deportes en conjunto	0	optativas	-	-	1	LUN	09:30	11:20
+cultura_deporte	1	SE1205	Juegos y deportes en conjunto	0	optativas	-	-	2	LUN	09:30	11:20
+cultura_deporte	1	SE1205	Juegos y deportes en conjunto	0	optativas	-	-	3	MAR	07:30	09:20
+cultura_deporte	1	SE1205	Juegos y deportes en conjunto	0	optativas	-	-	4	MIE	09:30	11:20
+cultura_deporte	1	SE1205	Juegos y deportes en conjunto	0	optativas	-	-	5	JUE	07:30	09:20
+cultura_deporte	1	SE1206	Acondicionamiento físico	0	optativas	-	-	1	MAR	09:30	11:20
+cultura_deporte	1	SE1206	Acondicionamiento físico	0	optativas	-	-	2	MAR	15:00	16:50
+cultura_deporte	1	SE1206	Acondicionamiento físico	0	optativas	-	-	3	JUE	09:30	11:20
+cultura_deporte	1	SE1206	Acondicionamiento físico	0	optativas	-	-	4	VIE	07:30	09:20
+cultura_deporte	1	SE1209	Béisbol-softbol	0	optativas	-	-	1	LUN	07:30	09:20
+cultura_deporte	1	SE1209	Béisbol-softbol	0	optativas	-	-	2	MAR	07:30	09:20
+cultura_deporte	1	SE1209	Béisbol-softbol	0	optativas	-	-	3	MAR	09:30	11:20
+cultura_deporte	1	SE1209	Béisbol-softbol	0	optativas	-	-	4	MIE	07:30	09:20
+cultura_deporte	1	SE1209	Béisbol-softbol	0	optativas	-	-	5	VIE	07:30	09:20
+cultura_deporte	1	SE1209	Béisbol-softbol	0	optativas	-	-	6	VIE	09:30	11:20
+cultura_deporte	1	SE1218	Ajedrez	0	optativas	-	-	1	MAR	09:30	11:20
+cultura_deporte	1	SE1219	Baloncesto recreativo	0	optativas	-	-	1	LUN	07:30	09:20
+cultura_deporte	1	SE1221	Futbol I	0	optativas	-	-	1	MAR	09:30	11:20
+cultura_deporte	1	SE1221	Futbol I	0	optativas	-	-	2	JUE	09:30	11:20
+cultura_deporte	1	SE1221	Futbol I	0	optativas	-	-	3	JUE	13:00	14:50
+cultura_deporte	1	SE1222	Futbol sala	0	optativas	-	-	1	MIE	07:30	09:20
+cultura_deporte	1	SE1222	Futbol sala	0	optativas	-	-	2	VIE	09:30	11:20
+seguridad_laboral	1	SO4604	seguridad y salud ocupacional	3	optativas	-	-	1	LUN	07:30	10:20
+seguridad_laboral	1	SO4604	seguridad y salud ocupacional	3	optativas	-	-	2	JUE	13:00	15:50
+seguridad_laboral	1	SO4604	seguridad y salud ocupacional	3	optativas	-	-	3	JUE	17:00	19:50
+seguridad_laboral	1	SO4604	seguridad y salud ocupacional	3	optativas	-	-	4	MIE	13:00	15:50
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	1	JUE	07:30	09:20
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	1	LUN	07:30	09:20
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	2	JUE	09:30	11:20
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	2	LUN	09:30	11:20
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	3	JUE	17:00	18:50
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	3	MAR	17:00	18:50
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	4	MIE	13:00	14:50
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	4	VIE	13:00	14:50
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	5	MIE	17:00	18:50
+computacion	2	CA3125	análisis y diseño de algoritmos	3	computadores	CA2125	-	5	VIE	17:00	18:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	1	LUN	07:30	10:20
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	2	MAR	07:30	10:20
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	3	MAR	09:30	12:20
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	4	VIE	07:30	10:20
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	5	MAR	13:00	15:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	6	MAR	16:00	18:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	7	MIE	13:00	15:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	8	MIE	18:00	20:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	9	JUE	13:00	15:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	10	MIE	18:00	20:50
+lenguaje	2	CI1230	inglés i	2	comunicacion	CI0200;CI0202	-	11	MIE	07:30	10:20
+lenguaje	2	CI1407	habilidades de comunicación en ingeniería	2	comunicacion	-	-	2	MAR	17:00	19:50
+lenguaje	2	CI1407	habilidades de comunicación en ingeniería	2	comunicacion	-	-	4	JUE	13:00	15:50
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	1	LUN	17:00	18:50
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	2	MIE	15:00	16:50
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	3	JUE	13:00	14:50
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	4	MIE	13:00	14:50
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	5	MIE	09:30	11:20
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	6	VIE	09:30	11:20
+electronica	2	EL1200	introducción a la electrónica	0	electronica	EL1100	-	7	MAR	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	1	JUE	07:30	09:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	1	MAR	07:30	09:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	2	JUE	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	2	MAR	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	3	JUE	17:00	18:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	3	MAR	17:00	18:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	4	JUE	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	4	MAR	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	5	JUE	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	5	MAR	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	6	JUE	15:00	16:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	6	MAR	15:00	16:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	7	JUE	15:00	16:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	7	MAR	15:00	16:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	8	JUE	17:00	18:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	8	MAR	17:00	18:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	9	MIE	07:30	09:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	9	VIE	07:30	09:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	10	MIE	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	10	VIE	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	11	MIE	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	11	VIE	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	12	MIE	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	12	VIE	13:00	14:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	13	MIE	15:00	16:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	13	VIE	15:00	16:50
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	14	MIE	09:30	11:20
+fisica	2	FI1101	física general i	3	ciencias_naturales	-	MA1102	14	VIE	09:30	11:20
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	1	MAR	07:30	09:20
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	2	MAR	09:30	11:20
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	3	MAR	13:00	14:50
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	4	MAR	15:00	16:50
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	5	MAR	17:00	18:50
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	6	MIE	09:30	11:20
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	7	MIE	17:00	18:50
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	8	MIE	15:00	16:50
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	9	JUE	09:30	11:20
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	10	JUE	15:00	16:50
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	11	VIE	09:30	11:20
+fisica	2	FI1201	laboratorio física general i	1	ciencias_naturales	-	FI1101	12	MAR	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	1	JUE	07:30	09:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	1	MAR	07:30	09:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	2	JUE	07:30	09:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	2	MAR	07:30	09:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	3	JUE	09:30	11:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	3	MAR	09:30	11:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	4	JUE	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	4	MAR	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	5	JUE	15:00	16:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	5	MAR	15:00	16:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	6	JUE	16:00	17:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	6	MAR	16:00	17:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	7	JUE	18:00	19:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	7	MAR	18:00	19:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	8	MIE	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	8	VIE	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	9	MIE	07:30	09:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	9	VIE	07:30	09:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	10	MIE	09:30	11:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	10	VIE	09:30	11:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	11	MIE	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	11	VIE	13:00	14:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	12	MIE	15:00	16:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	12	VIE	15:00	16:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	13	MIE	09:30	11:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	13	VIE	09:30	11:20
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	14	MIE	18:00	19:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	14	VIE	18:00	19:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	15	MIE	18:00	19:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	15	VIE	18:00	19:50
+matematica	2	MA1103	cálculo y álgebra lineal	4	matematicas	MA1102	-	16	SAB	07:30	11:20
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	1	LUN	09:30	12:20
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	2	MAR	07:30	10:20
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	3	MIE	16:00	18:50
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	4	MAR	18:00	20:50
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	5	MIE	09:30	12:20
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	6	JUE	09:30	12:20
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	7	VIE	09:30	12:20
+lenguaje	3	CI1231	inglés ii	2	comunicacion	CI1230	-	8	JUE	16:00	18:50
+electronica	3	EL2110	laboratorio de mediciones eléctricas	1	electronica	FI1201	EL2113	1	MIE	15:00	16:50
+electronica	3	EL2110	laboratorio de mediciones eléctricas	1	electronica	FI1201	EL2113	2	MAR	07:30	09:20
+electronica	3	EL2110	laboratorio de mediciones eléctricas	1	electronica	FI1201	EL2113	3	VIE	07:30	09:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	1	MIE	09:30	11:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	1	VIE	09:30	11:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	2	JUE	09:30	11:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	2	MAR	09:30	11:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	3	LUN	07:30	11:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	4	LUN	07:30	09:20
+electronica	3	EL2113	circuitos eléctricos en corriente continua	4	electronica	EL1200;MA1102	FI1102	4	MIE	07:30	09:20
+electronica	3	EL4702	probabilidad y estadística	3	matematicas	-	MA2104	1	JUE	17:00	18:50
+electronica	3	EL4702	probabilidad y estadística	3	matematicas	-	MA2104	1	MAR	17:00	18:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	1	JUE	07:30	09:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	1	MAR	07:30	09:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	2	JUE	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	2	MAR	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	3	JUE	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	3	MAR	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	4	JUE	13:00	14:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	4	MAR	13:00	14:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	5	JUE	15:00	16:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	5	MAR	15:00	16:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	6	JUE	17:00	18:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	6	MAR	17:00	18:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	7	MIE	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	7	VIE	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	8	MIE	13:00	14:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	8	VIE	13:00	14:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	9	MIE	15:00	16:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	9	VIE	15:00	16:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	10	JUE	15:00	16:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	10	MAR	15:00	16:50
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	11	JUE	09:30	11:20
+fisica	3	FI1102	física general ii	3	ciencias_naturales	FI1101	-	11	MAR	09:30	11:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	1	MIE	07:30	09:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	1	VIE	07:30	09:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	2	JUE	18:00	19:50
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	2	MAR	18:00	19:50
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	3	MIE	15:00	16:50
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	3	VIE	15:00	16:50
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	4	JUE	09:30	11:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	4	MAR	09:30	11:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	5	SAB	07:30	11:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	6	MIE	13:00	14:50
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	6	VIE	13:00	14:50
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	7	JUE	07:30	09:20
+matematica	3	MA2104	cálculo superior	4	matematicas	MA1103	-	7	MAR	07:30	09:20
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	1	MAR	09:30	12:20
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	2	LUN	18:00	20:50
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	3	MAR	18:00	20:50
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	4	JUE	09:30	12:20
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	5	MIE	17:00	19:50
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	6	JUE	17:00	19:50
+sociales	4	CS2303	relaciones laborales	2	optativas	-	-	7	MIE	09:30	12:20
+electronica	4	EL2111	laboratorio de circuitos eléctricos	1	electronica	EL2110	EL2114	1	LUN	09:30	11:20
+electronica	4	EL2111	laboratorio de circuitos eléctricos	1	electronica	EL2110	EL2114	2	LUN	07:30	09:20
+electronica	4	EL2111	laboratorio de circuitos eléctricos	1	electronica	EL2110	EL2114	3	MIE	13:00	14:50
+electronica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113;FI2103	-	1	MIE	09:30	11:20
+electronica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113;FI2103	-	1	VIE	09:30	11:20
+electronica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113;FI2103	-	2	JUE	13:00	14:50
+electronica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113;FI2103	-	2	MAR	13:00	14:50
+electronica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113;FI2103	-	3	MIE	07:30	09:20
+electronica	4	EL2114	circuitos eléctricos en corriente alterna	4	electronica	EL2113;FI2103	-	3	VIE	07:30	09:20
+electronica	4	EL2207	elementos activos	4	electronica	EL2113	EL2114	1	JUE	15:00	16:50
+electronica	4	EL2207	elementos activos	4	electronica	EL2113	EL2114	1	MAR	15:00	16:50
+electronica	4	EL2207	elementos activos	4	electronica	EL2113	EL2114	2	JUE	07:30	09:20
+electronica	4	EL2207	elementos activos	4	electronica	EL2113	EL2114	2	MAR	07:30	09:20
+electronica	4	EL2207	elementos activos	4	electronica	EL2113	EL2114	3	MIE	15:00	16:50
+electronica	4	EL2207	elementos activos	4	electronica	EL2113	EL2114	3	VIE	15:00	16:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	1	JUE	09:30	11:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	1	MAR	09:30	11:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	2	JUE	09:30	11:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	2	MAR	09:30	11:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	3	JUE	13:00	14:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	3	MAR	13:00	14:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	4	JUE	15:00	16:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	4	MAR	15:00	16:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	5	JUE	17:00	18:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	5	MAR	17:00	18:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	6	MIE	07:30	09:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	6	VIE	07:30	09:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	7	MIE	09:30	11:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	7	VIE	09:30	11:20
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	8	MIE	13:00	14:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	8	VIE	13:00	14:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	9	MIE	15:00	16:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	9	VIE	15:00	16:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	10	JUE	13:00	14:50
+fisica	4	FI2103	física general iii	3	ciencias_naturales	FI1101	-	10	MAR	13:00	14:50
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	1	LUN	07:30	11:20
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	2	VIE	07:30	11:20
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	3	MAR	07:30	11:20
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	4	MAR	13:00	16:50
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	4	MIE	07:30	11:20
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	5	MAR	17:00	20:50
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	7	JUE	07:30	11:20
+materiales	5	CM3207	métodos numéricos para ingeniería	3	matematicas	CA3125	MA2105	8	JUE	13:00	16:50
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	1	LUN	09:30	12:20
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	2	JUE	09:30	12:20
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	3	VIE	09:30	12:20
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	4	MIE	09:30	12:20
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	5	LUN	18:00	20:50
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	5	MAR	13:00	15:50
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	6	JUE	09:30	12:20
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	7	MIE	18:00	20:50
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	8	LUN	18:00	20:50
+sociales	5	CS3404	seminario de ética para la ingeniería	2	optativas	CS2303	-	9	MAR	09:30	12:20
+electronica	5	EL3212	circuitos discretos	4	electronica	EL2114;EL2207	EL3215	1	MIE	09:30	11:20
+electronica	5	EL3212	circuitos discretos	4	electronica	EL2114;EL2207	EL3215	1	VIE	09:30	11:20
+electronica	5	EL3212	circuitos discretos	4	electronica	EL2114;EL2207	EL3215	2	MIE	07:30	09:20
+electronica	5	EL3212	circuitos discretos	4	electronica	EL2114;EL2207	EL3215	2	VIE	07:30	09:20
+electronica	5	EL3215	laboratorio de electrónica analógica	1	electronica	EL2111	EL3212	1	JUE	09:30	11:20
+electronica	5	EL3215	laboratorio de electrónica analógica	1	electronica	EL2111	EL3212	2	JUE	13:00	14:50
+electronica	5	EL3307	diseño lógico	4	computadores	CA3125;EL2207	-	1	JUE	07:30	09:20
+electronica	5	EL3307	diseño lógico	4	computadores	CA3125;EL2207	-	1	MAR	07:30	09:20
+electronica	5	EL3307	diseño lógico	4	computadores	CA3125;EL2207	-	2	JUE	15:00	16:50
+electronica	5	EL3307	diseño lógico	4	computadores	CA3125;EL2207	-	2	MAR	15:00	16:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	1	JUE	07:30	09:20
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	1	MAR	07:30	09:20
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	2	MIE	13:00	14:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	2	VIE	13:00	14:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	3	JUE	09:30	11:20
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	3	MAR	09:30	11:20
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	4	SAB	07:30	11:20
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	5	MIE	15:00	16:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	5	VIE	15:00	16:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	6	JUE	17:00	18:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	6	MAR	17:00	18:50
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	7	MIE	07:30	09:20
+matematica	5	MA2105	ecuaciones diferenciales	4	matematicas	MA1103	-	7	VIE	07:30	09:20
+electronica	6	EL3216	circuitos integrados analógicos	3	electronica	EL3212	-	1	JUE	07:30	09:20
+electronica	6	EL3216	circuitos integrados analógicos	3	electronica	EL3212	-	1	MAR	07:30	09:20
+electronica	6	EL3310	diseño de sistemas digitales	4	computadores	EL3307	-	1	JUE	17:00	18:50
+electronica	6	EL3310	diseño de sistemas digitales	4	computadores	EL3307	-	1	MAR	17:00	18:50
+electronica	6	EL3310	diseño de sistemas digitales	4	computadores	EL3307	-	2	LUN	17:00	18:50
+electronica	6	EL3310	diseño de sistemas digitales	4	computadores	EL3307	-	2	MIE	17:00	18:50
+electronica	6	EL4513	teoría electromagnética i	4	ciencias_naturales	FI1102;MA2104	-	1	MIE	15:00	16:50
+electronica	6	EL4513	teoría electromagnética i	4	ciencias_naturales	FI1102;MA2104	-	1	VIE	15:00	16:50
+electronica	6	EL4513	teoría electromagnética i	4	ciencias_naturales	FI1102;MA2104	-	2	JUE	13:00	14:50
+electronica	6	EL4513	teoría electromagnética i	4	ciencias_naturales	FI1102;MA2104	-	2	MAR	13:00	14:50
+electronica	6	EL4703	señales y sistemas	4	electronica	EL2114;MA2105	EL4513	1	MIE	13:00	14:50
+electronica	6	EL4703	señales y sistemas	4	electronica	EL2114;MA2105	EL4513	1	VIE	13:00	14:50
+electronica	6	EL4703	señales y sistemas	4	electronica	EL2114;MA2105	EL4513	2	JUE	09:30	11:20
+electronica	6	EL4703	señales y sistemas	4	electronica	EL2114;MA2105	EL4513	2	MAR	09:30	11:20
+produccion_industrial	6	PI5516	ingeniería económica	3	optativas	EL4702	-	1	MIE	17:00	20:50
+produccion_industrial	6	PI5516	ingeniería económica	3	optativas	EL4702	-	2	VIE	17:00	20:50
+electronica	7	EL3217	taller de diseño analógico	2	electronica	EL3215;EL3216	-	1	MIE	13:00	16:50
+electronica	7	EL3313	taller de diseño digital	3	electronica	EL3215;EL3310	-	1	JUE	13:00	14:50
+electronica	7	EL3313	taller de diseño digital	3	electronica	EL3215;EL3310	-	1	MAR	13:00	14:50
+electronica	7	EL4201	procesamiento electrónico de potencia	3	electronica	EL3216;EL4513	EL3217	1	JUE	09:30	11:20
+electronica	7	EL4201	procesamiento electrónico de potencia	3	electronica	EL3216;EL4513	EL3217	1	MAR	09:30	11:20
+electronica	7	EL4419	análisis y control de sistemas lineales	3	electronica	EL4703	-	1	LUN	09:30	11:20
+electronica	7	EL4419	análisis y control de sistemas lineales	3	electronica	EL4703	-	1	MIE	09:30	11:20
+electronica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	1	JUE	15:00	16:50
+electronica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	1	MAR	15:00	16:50
+electronica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	2	JUE	07:30	09:20
+electronica	7	EL4514	teoría electromagnética II	4	electronica	EL4513;EL4702	-	2	MAR	07:30	09:20
+produccion_industrial	7	PI3512	dirección de personal	3	comunicacion	CS2303;PI3308	-	1	MIE	07:30	11:20
+electronica	8	EL4314	arquitectura de computadores I	4	computadores	EL3313	-	1	JUE	15:00	16:50
+electronica	8	EL4314	arquitectura de computadores I	4	computadores	EL3313	-	1	MAR	15:00	16:50
+electronica	8	EL4607	normalización técnica (estándares industriales)	3	electronica	PI5516;SO4604	-	1	MIE	13:00	14:50
+electronica	8	EL4607	normalización técnica (estándares industriales)	3	electronica	PI5516;SO4604	-	1	VIE	13:00	14:50
+electronica	8	EL5408	control automático	4	electronica	EL4419	-	1	JUE	07:30	11:20
+electronica	8	EL5409	laboratorio de control automático	2	electronica	EL3217	EL5408	1	MAR	07:30	11:20
+electronica	8	EL5409	laboratorio de control automático	2	electronica	EL3217	EL5408	2	LUN	07:30	11:20
+electronica	8	EL5409	laboratorio de control automático	2	electronica	EL3217	EL5408	3	MIE	07:30	11:20
+electronica	8	EL5513	comunicaciones eléctricas I	4	electronica	EL4514;EL4703	-	1	JUE	13:00	14:50
+electronica	8	EL5513	comunicaciones eléctricas I	4	electronica	EL4514;EL4703	-	1	MAR	13:00	14:50

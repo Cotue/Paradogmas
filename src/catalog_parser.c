@@ -1,20 +1,36 @@
+
 #include "catalog_parser.h"
 #include "validator.h"
+#include "career_mapping.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+/*
+ * Convierte los campos de requisitos y correquisitos
+ * en listas de códigos.
+ */
 static Status parse_code_list(CodeList *list, const char *field) {
-    if (!field || *field == '\0') return ERROR_INVALID_FORMAT;
-    if (strcmp(field, EMPTY_FIELD) == 0) return SUCCESS;
-
-    size_t len = strlen(field);
-    if (field[0] == ';' || field[len - 1] == ';' || strstr(field, ";;"))
+    if (!field || *field == '\0')
         return ERROR_INVALID_FORMAT;
 
+    if (strcmp(field, EMPTY_FIELD) == 0)
+        return SUCCESS;
+
+    size_t len = strlen(field);
+
+    if (field[0] == ';' ||
+        field[len - 1] == ';' ||
+        strstr(field, ";;")) {
+        return ERROR_INVALID_FORMAT;
+    }
+
     char *copy = malloc(len + 1);
-    if (!copy) return ERROR_MEMORY;
+
+    if (!copy)
+        return ERROR_MEMORY;
+
     strcpy(copy, field);
 
     char *start = copy;
@@ -24,6 +40,11 @@ static Status parse_code_list(CodeList *list, const char *field) {
 
         if (delim)
             *delim = '\0';
+
+        if (strpbrk(start, ", ")) {
+            free(copy);
+            return ERROR_INVALID_FORMAT;
+        }
 
         if (!code_list_add(list, start)) {
             free(copy);
@@ -37,41 +58,131 @@ static Status parse_code_list(CodeList *list, const char *field) {
     return SUCCESS;
 }
 
+/*
+ * Comprueba que dos listas de códigos tengan
+ * los mismos elementos.
+ */
 static int code_list_equals(const CodeList *a, const CodeList *b) {
-    if (a->count != b->count) return 0;
+    if (a->count != b->count)
+        return 0;
 
     for (size_t i = 0; i < a->count; i++) {
-        int count_a = 0, count_b = 0;
+        int count_a = 0;
+        int count_b = 0;
 
         for (size_t j = 0; j < a->count; j++) {
-            if (strcmp(a->items[j], a->items[i]) == 0) count_a++;
-            if (strcmp(b->items[j], a->items[i]) == 0) count_b++;
+            if (strcmp(a->items[j], a->items[i]) == 0)
+                count_a++;
+
+            if (strcmp(b->items[j], a->items[i]) == 0)
+                count_b++;
         }
 
-        if (count_a != count_b) return 0;
+        if (count_a != count_b)
+            return 0;
     }
 
     return 1;
 }
 
-static int valid_header(char **c, int count) {
+/*
+ * Valida el encabezado del TSV de 12 columnas.
+ */
+static int valid_header(char **columns, int count) {
     static const char *expected[] = {
-        "carrera", "semestre", "codigo", "nombre", "creditos",
-        "requisitos", "correquisitos", "grupo", "dia", "inicio", "fin"
+        "carrera",
+        "semestre",
+        "codigo",
+        "nombre",
+        "creditos",
+        "area",
+        "requisitos",
+        "correquisitos",
+        "grupo",
+        "dia",
+        "inicio",
+        "fin"
     };
 
-    if (count != 11) return 0;
+    if (count != 12)
+        return 0;
 
-    for (int i = 0; i < 11; i++)
-        if (strcmp(c[i], expected[i]) != 0)
+    for (int i = 0; i < 12; i++) {
+        if (strcmp(columns[i], expected[i]) != 0)
             return 0;
+    }
 
     return 1;
 }
 
-Status parse_catalog(const char *filepath, Catalog *catalog) {
+/*
+ * Asigna la identidad del plan de estudios al catálogo.
+ * Esta Informacion ya no se obtiene del TSV.
+ */
+static Status set_catalog_plan(Catalog *catalog, const char *plan_code) {
+    const char *plan_name;
+
+    if (strcmp(plan_code, "IC") == 0) {
+        plan_name = "Ingeniería en Computadores";
+    } else if (strcmp(plan_code, "IE") == 0) {
+        plan_name = "Ingeniería Electrónica";
+    } else {
+        return ERROR_INVALID_FORMAT;
+    }
+
+    char *code_copy = malloc(strlen(plan_code) + 1);
+    char *name_copy = malloc(strlen(plan_name) + 1);
+
+    if (!code_copy || !name_copy) {
+        free(code_copy);
+        free(name_copy);
+        return ERROR_MEMORY;
+    }
+
+    strcpy(code_copy, plan_code);
+    strcpy(name_copy, plan_name);
+
+    free(catalog->career_code);
+    free(catalog->career_name);
+
+    catalog->career_code = code_copy;
+    catalog->career_name = name_copy;
+
+    return SUCCESS;
+}
+
+/*
+ * Lee el TSV y construye el catálogo.
+ *
+ * plan_code identifica el plan completo:
+ * IC = Ingeniería en Computadores
+ * IE = Ingeniería Electrónica
+ */
+Status parse_catalog(
+    const char *filepath,
+    Catalog *catalog,
+    const char *plan_code
+) {
+    if (!filepath || !catalog || !plan_code) {
+        return ERROR_INVALID_FORMAT;
+    }
+
+    if (strcmp(plan_code, "IC") != 0 &&
+        strcmp(plan_code, "IE") != 0) {
+        return ERROR_INVALID_FORMAT;
+    }
+
     FILE *file = fopen(filepath, "r");
-    if (!file) return ERROR_FILE_NOT_FOUND;
+
+    if (!file)
+        return ERROR_FILE_NOT_FOUND;
+
+    Status plan_status = set_catalog_plan(catalog, plan_code);
+
+    if (plan_status != SUCCESS) {
+        fclose(file);
+        return plan_status;
+    }
 
     char line[MAX_LINE_LENGTH];
     int line_number = 0;
@@ -79,6 +190,7 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
 
     while (fgets(line, sizeof(line), file)) {
         line_number++;
+
         line[strcspn(line, "\r\n")] = '\0';
 
         if (*line == '\0')
@@ -104,9 +216,16 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
             }
         }
 
+        /*
+         * Validar encabezado.
+         */
         if (!header_parsed) {
             if (!valid_header(columns, col_count)) {
-                printf("Error: Encabezado TSV inválido en línea %d.\n", line_number);
+                printf(
+                    "Error: Encabezado TSV inválido en línea %d.\n",
+                    line_number
+                );
+
                 fclose(file);
                 catalog_free(catalog);
                 return ERROR_INVALID_FORMAT;
@@ -116,55 +235,91 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
             continue;
         }
 
+        /*
+         * Validar cantidad de columnas.
+         */
         if (validate_column_count(col_count) != SUCCESS) {
-            printf("Error: Cantidad de columnas incorrecta en línea %d.\n", line_number);
+            printf(
+                "Error: Cantidad de columnas incorrecta en línea %d.\n",
+                line_number
+            );
+
             fclose(file);
             catalog_free(catalog);
             return ERROR_INVALID_FORMAT;
         }
 
+        /*
+         * Extraer las 12 columnas.
+         */
         const char *career = columns[0];
         const char *semester_str = columns[1];
         const char *code = columns[2];
         const char *name = columns[3];
         const char *credits_str = columns[4];
-        const char *req_str = columns[5];
-        const char *coreq_str = columns[6];
-        const char *group_str = columns[7];
-        const char *day_str = columns[8];
-        const char *start_str = columns[9];
-        const char *end_str = columns[10];
+        const char *area = columns[5];
+        const char *req_str = columns[6];
+        const char *coreq_str = columns[7];
+        const char *group_str = columns[8];
+        const char *day_str = columns[9];
+        const char *start_str = columns[10];
+        const char *end_str = columns[11];
 
-        if (!career || *career == '\0' ||
-            strcmp(career, EMPTY_FIELD) == 0 ||
-            strlen(career) >= MAX_CAREER_CODE_LENGTH) {
+        /*
+         * Validar procedencia académica.
+         * La escuela declarada debe coincidir con
+         * el prefijo del código del curso.
+         */
+        const char *expected_career =
+            get_career_from_course_code(code);
+
+        if (!career || !expected_career ||
+            strcmp(career, expected_career) != 0) {
+
+            printf(
+                "Error: Procedencia acadamica invalida "
+                "para el curso %s en linea %d.\n",
+                code ? code : "desconocido",
+                line_number
+            );
+
             fclose(file);
             catalog_free(catalog);
             return ERROR_INVALID_FORMAT;
         }
 
-        if (!catalog->career_code) {
-            catalog->career_code = malloc(strlen(career) + 1);
+        /*
+         * Validar formato del área.
+         */
+        if (validate_area_format(area) != SUCCESS) {
+            printf(
+                "Error: Area invalida para el curso %s "
+                "en línea %d.\n",
+                code,
+                line_number
+            );
 
-            if (!catalog->career_code) {
-                fclose(file);
-                catalog_free(catalog);
-                return ERROR_MEMORY;
-            }
-
-            strcpy(catalog->career_code, career);
-        } else if (strcmp(catalog->career_code, career) != 0) {
             fclose(file);
             catalog_free(catalog);
             return ERROR_INVALID_FORMAT;
         }
 
+        /*
+         * Validaciones existentes del catálogo.
+         */
         if (validate_course_identity(code, name) != SUCCESS ||
             validate_day_format(day_str) != SUCCESS ||
             validate_time_format(start_str, end_str) != SUCCESS ||
             validate_semester_format(semester_str) != SUCCESS ||
             validate_credits_format(credits_str) != SUCCESS ||
             validate_group_format(group_str) != SUCCESS) {
+
+            printf(
+                "Error: Datos inválidos para el curso %s "
+                "en línea %d.\n",
+                code,
+                line_number
+            );
 
             fclose(file);
             catalog_free(catalog);
@@ -178,16 +333,31 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
         Day day = parse_day_string(day_str);
 
         int sh, sm, eh, em;
+
         sscanf(start_str, "%d:%d", &sh, &sm);
         sscanf(end_str, "%d:%d", &eh, &em);
 
         int start_minutes = sh * 60 + sm;
         int end_minutes = eh * 60 + em;
 
+        /*
+         * Buscar si el curso ya existe.
+         */
         Course *course = find_course_by_code(catalog, code);
 
         if (!course) {
-            course = catalog_add_course(catalog, code, name, credits, semester);
+            /*
+             * Crear curso con carrera y área.
+             */
+            course = catalog_add_course(
+                catalog,
+                code,
+                name,
+                career,
+                area,
+                credits,
+                semester
+            );
 
             if (!course) {
                 fclose(file);
@@ -195,8 +365,15 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
                 return ERROR_MEMORY;
             }
 
-            Status r1 = parse_code_list(&course->requirements, req_str);
-            Status r2 = parse_code_list(&course->corequisites, coreq_str);
+            Status r1 = parse_code_list(
+                &course->requirements,
+                req_str
+            );
+
+            Status r2 = parse_code_list(
+                &course->corequisites,
+                coreq_str
+            );
 
             if (r1 != SUCCESS || r2 != SUCCESS) {
                 fclose(file);
@@ -205,7 +382,13 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
             }
 
         } else {
-            CodeList temp_req, temp_coreq;
+            /*
+             * Verificar que todas las apariciones
+             * del mismo curso tengan datos consistentes.
+             */
+            CodeList temp_req;
+            CodeList temp_coreq;
+
             code_list_init(&temp_req);
             code_list_init(&temp_coreq);
 
@@ -215,8 +398,10 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
             if (r1 != SUCCESS || r2 != SUCCESS) {
                 code_list_free(&temp_req);
                 code_list_free(&temp_coreq);
+
                 fclose(file);
                 catalog_free(catalog);
+
                 return r1 != SUCCESS ? r1 : r2;
             }
 
@@ -224,20 +409,41 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
                 course->semester != semester ||
                 course->credits != credits ||
                 strcmp(course->name, name) != 0 ||
-                !code_list_equals(&course->requirements, &temp_req) ||
-                !code_list_equals(&course->corequisites, &temp_coreq);
+                strcmp(course->career, career) != 0 ||
+                strcmp(course->area, area) != 0 ||
+                !code_list_equals(
+                    &course->requirements,
+                    &temp_req
+                ) ||
+                !code_list_equals(
+                    &course->corequisites,
+                    &temp_coreq
+                );
 
             code_list_free(&temp_req);
             code_list_free(&temp_coreq);
 
             if (contradiction) {
+                printf(
+                    "Error: Informacion inconsistente "
+                    "para el curso %s en línea %d.\n",
+                    code,
+                    line_number
+                );
+
                 fclose(file);
                 catalog_free(catalog);
                 return ERROR_INVALID_FORMAT;
             }
         }
 
-        Group *group = find_group_by_number(course, group_number);
+        /*
+         * Buscar o crear el grupo.
+         */
+        Group *group = find_group_by_number(
+            course,
+            group_number
+        );
 
         if (!group) {
             group = course_add_group(course, group_number);
@@ -249,7 +455,16 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
             }
         }
 
-        if (!group_add_schedule(group, day, start_minutes, end_minutes)) {
+        /*
+         * Agregar horario al grupo.
+         */
+        if (!group_add_schedule(
+                group,
+                day,
+                start_minutes,
+                end_minutes
+            )) {
+
             fclose(file);
             catalog_free(catalog);
             return ERROR_MEMORY;
@@ -257,5 +472,11 @@ Status parse_catalog(const char *filepath, Catalog *catalog) {
     }
 
     fclose(file);
+
+    if (!header_parsed) {
+        catalog_free(catalog);
+        return ERROR_INVALID_FORMAT;
+    }
+
     return SUCCESS;
 }
