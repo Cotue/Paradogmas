@@ -1,6 +1,3 @@
-// tests/test_serializer.c
-// Compilar: gcc -std=c11 -Wall -Wextra -Wpedantic -Iinclude tests/test_serializer.c src/serializer.c src/models/catalog.c src/models/course.c src/models/group.c src/models/schedule.c src/models/code_list.c -o test_serializer
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -89,6 +86,7 @@ static int test_valid_serialization(void) {
 
             if (res == SUCCESS && json &&
                 strstr(json, "\"schemaVersion\": \"3.0\"") &&
+                strstr(json, "\"plan\": {") &&
                 strstr(json, "\"codigo\": \"IC\"") &&
                 strstr(json, "\"carrera\": \"computadores\"") &&
                 strstr(json, "\"area\": \"computadores\"") &&

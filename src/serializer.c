@@ -58,7 +58,7 @@ Status serialize_catalog_to_json(const Catalog *catalog, const char *filepath) {
     // Encabezado principal del archivo JSON (Schema Version 3.0)
     fprintf(file, "{\n");
     fprintf(file, "  \"schemaVersion\": \"%s\",\n", OUTPUT_SCHEMA_VERSION); // Debe evaluar a "3.0"
-    fprintf(file, "  \"carrera\": {\n");
+    fprintf(file, "  \"plan\": {\n");
     fprintf(file, "    \"codigo\": \"%s\",\n", catalog->career_code ? catalog->career_code : "IC");
     fprintf(file, "    \"nombre\": \"%s\"\n", catalog->career_name ? catalog->career_name : "Ingeniería en Computadores");
     fprintf(file, "  },\n");
